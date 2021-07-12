@@ -26,10 +26,10 @@ export default function SpaManicurePedicure({ blackBtnTxt }) {
               våre kunder mot potensielle risikoer som kan føre til infeksjon.
             </h2>
             <div className="flex justify-center col-span-2 flex justify-center mt-20">
-              <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-56 mr-6 lg:mr-10 py-1 lg:py-2 bg-black/90 text-white text-sm lg:text-lg hover:bg-white hover:text-black/90 rounded shadow-lg">
+              <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-72 mr-6 lg:mr-10 py-1 lg:py-2 bg-black/90 text-white text-sm lg:text-lg hover:bg-white hover:text-black/90 rounded shadow-lg">
                 <Link href="/pricelist">Prisliste</Link>
               </button>
-              <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-56 py-1 lg:py-2 bg-white text-sm lg:text-lg hover:bg-black/90 hover:text-white rounded shadow-lg">
+              <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-72 py-1 lg:py-2 bg-white text-sm lg:text-lg hover:bg-black/90 hover:text-white rounded shadow-lg">
                 <Link href="/bookTime">Bestill time</Link>
               </button>
             </div>

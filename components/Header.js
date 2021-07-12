@@ -31,30 +31,30 @@ export default function Header() {
         className={
           click
             ? " absolute lg:relative items-center bg-white flex flex-col h-screen w-full top-10 left-0 text-2xl montserrat pt-28"
-            : "hidden lg:flex absolute lg:relative montserrat space-x-10 font-medium text-lg mt-5"
+            : "hidden lg:flex absolute lg:relative montserrat font-normal space-x-10 text-lg mt-5"
         }
       >
-        <span className="relative dropdown cursor-pointer opacity-70 hover:opacity-100 font-medium py-3">
+        <span className="relative dropdown cursor-pointer opacity-70 hover:opacity-100 py-3">
           <span>Behandlinger</span>
-          <div className="dropdown-content">
-            <span className="link cursor-pointer opacity-70 hover:opacity-100 text-sm font-medium py-3 transform hover:scale-105 transition duration-300 ease-in-out">
+          <div className="dropdown-content border border-gray-00 rounded -ml-14 lg:-ml-20">
+            <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
               <Link href="/spa-manicure-pedicure">SPA Manikyr og Pedikyr</Link>
             </span>
-            <span className="link cursor-pointer opacity-70 hover:opacity-100 text-sm font-medium py-3 transform hover:scale-105 transition duration-300 ease-in-out">
+            <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
               <Link href="/waxing">Voksing</Link>
             </span>
-            <span className="link -mb-1 cursor-pointer opacity-70 hover:opacity-100 text-sm font-medium py-3 transform hover:scale-105 transition duration-300 ease-in-out">
+            <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
               <Link href="/paraffin">Paraffinbehandlinger</Link>
             </span>
           </div>
         </span>
-        <span className="cursor-pointer opacity-70 hover:opacity-100 font-medium py-3 transform hover:scale-105 transition duration-300 ease-in-out">
+        <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
           <Link href="/pricelist">Prisliste</Link>
         </span>
-        <span className="cursor-pointer opacity-70 hover:opacity-100 font-medium py-3 transform hover:scale-105 transition duration-300 ease-in-out">
+        <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
           <Link href="/season-ticket">Klippekort</Link>
         </span>
-        <span className="cursor-pointer opacity-70 hover:opacity-100 font-medium py-3 transform hover:scale-105 transition duration-300 ease-in-out">
+        <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
           <Link href="/contact">Kontakt</Link>
         </span>
         <button className="border border-black/90 w-36 lg:w-44 bg-black/90 text-white text-lg hover:bg-white hover:text-black/90 rounded shadow-lg py-3">
