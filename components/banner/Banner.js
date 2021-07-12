@@ -17,6 +17,8 @@ export default function Banner() {
             title="SPA Manikyr og Pedikyr"
             text="Spa-manikyrene og pedikyrene våre er unikt designet for å fjerne død huden gjennom massering med peeling og fuktighetsgivende, og neglebåndsbehandlinger."
             // text="Our spa manicures and pedicures are uniquely designed to remove the dead skin through massaging, exfoliation, moisturizing and cuticle treatments."
+            blackBtnTxt="Less mer"
+            linkto="spa-manicure-pedicure"
           />
         </div>
       </div>
@@ -34,6 +36,8 @@ export default function Banner() {
             title="Voksing"
             text="Lurer du på hvilken type voksing som passer til ditt hår og din hudtype? Vi anbefaler deg den mest effektive og passende voksypen gjennom gratis konsultasjon for våre kunder."
             // text="Wondering which type of waxing suits your hair and skin type? We recommend the effective and suitable wax type through free consultation for our customers."
+            blackBtnTxt="Less mer"
+            linkto="waxing"
           />
         </div>
       </div>
@@ -52,6 +56,9 @@ export default function Banner() {
             title="Paraffin behandlinger"
             text="Den terapeutiske varmebehandlingen slapper av såre, slitne hender og føtter, stimulerer blodsirkulasjonen og gir mye mer effektiv massasjeopplevelse."
             // text="The therapeutic heat treatment relaxes sore, tired hands and feet, stimulates blood circulation and allows for much more effective massage experience."
+            buttonBlack="Less mer"
+            blackBtnTxt="Less mer"
+            linkto="paraffin"
           />
         </div>
       </div>
