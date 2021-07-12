@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Banner from "../components/banner/Banner";
 import InfoCovid from "../components/InfoCovid";
-// import Carousel from "../components/carousel";
+import Carousel from "../components/carousel";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       </Head>
       <Header />
       <InfoCovid />
+      <Carousel />
       <Banner />
       <Footer />
     </div>
