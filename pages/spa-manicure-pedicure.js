@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import SpaManicurePedicure from "../components/treatments/SpaManicurePedicure";
 
 export default function spaManicurePedicure() {
   return (
@@ -11,7 +12,7 @@ export default function spaManicurePedicure() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      Spa
+      <SpaManicurePedicure />
       <Footer />
     </div>
   );

@@ -21,7 +21,7 @@ export default function BannerCard({ text, title, blackBtnTxt, linkto }) {
           {blackBtnTxt}
         </button>
         <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-56 py-1 lg:py-2 bg-white text-sm lg:text-lg hover:bg-black/90 hover:text-white rounded shadow-lg">
-          Bestill tid
+          Bestill time
         </button>
       </div>
     </div>
