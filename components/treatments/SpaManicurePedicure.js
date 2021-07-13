@@ -10,7 +10,7 @@ export default function SpaManicurePedicure({ blackBtnTxt }) {
             <h1 className="lora text-center text-5xl lora mt-4 mb-14">
               SPA Manicure and Pedicure
             </h1>
-            <h2 className="text-lg lg:text-xl opacity-60 poppins font-light">
+            <h2 className="text-lg lg:text-xl opacity-70 poppins font-light">
               Rene og godt vedlikeholdte hender og ben gir et godt inntrykk.
               Spa-manikyrene og pedikyrene våre er unikt designet for å fjerne
               død huden gjennom massering med peeling og fuktighetsgivende, og
@@ -25,7 +25,7 @@ export default function SpaManicurePedicure({ blackBtnTxt }) {
               utstyret vårt i varmluftsterilisator ved 250 grader for å beskytte
               våre kunder mot potensielle risikoer som kan føre til infeksjon.
             </h2>
-            <div className="flex justify-center col-span-2 flex justify-center mt-20">
+            <div className="flex justify-center col-span-2 mt-20">
               <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-72 mr-6 lg:mr-10 py-1 lg:py-2 bg-black/90 text-white text-sm lg:text-lg hover:bg-white hover:text-black/90 rounded shadow-lg">
                 <Link href="/pricelist">Prisliste</Link>
               </button>

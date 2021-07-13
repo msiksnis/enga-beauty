@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Waxing from "../components/treatments/Waxing";
 
 export default function waxing() {
   return (
@@ -11,7 +12,7 @@ export default function waxing() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      Waxing
+      <Waxing />
       <Footer />
     </div>
   );

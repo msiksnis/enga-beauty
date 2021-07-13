@@ -13,7 +13,7 @@ export default function Header() {
   const closeMobMenu = () => setClick(false);
 
   return (
-    <header className="flex justify-between h-auto pl-6 pr-4 lg:px-20 items-center mt-6 lg:mt-10">
+    <header className="flex justify-between h-auto pl-6 pr-4 lg:px-20 items-center mt-6 lg:mt-10 sticky z-30">
       <div className="cursor-pointer">
         <h1 className="flex text-3xl lg:text-5xl font-bold tracking-widest lora opacity-90">
           <Link href="/">ENGA BEAUTY</Link>
@@ -30,7 +30,7 @@ export default function Header() {
       <nav
         className={
           click
-            ? " absolute lg:relative items-center bg-white flex flex-col h-screen w-full top-10 left-0 text-2xl montserrat pt-28"
+            ? "absolute lg:relative items-center bg-white flex flex-col h-screen w-full top-10 left-0 text-2xl montserrat pt-28"
             : "hidden lg:flex absolute lg:relative montserrat font-normal space-x-10 text-lg mt-5"
         }
       >
