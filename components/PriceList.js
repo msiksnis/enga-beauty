@@ -70,7 +70,7 @@ export default function PriceList() {
           <p className="montserrat text-sm border-b border-gray-200">
             Mykgjørende saltbløt, nærende oljer, aromatisk oljemassasje, varm
             stein, varmt håndkle, skrubbeeksfoliering, parafinmaske, trim og
-            neglebåndsbrudgom + shellac med underlag og topcoat 599kr
+            neglebåndsbrudgom + shellac med base og topcoat
           </p>
           <Table treatment="Hotstone / terapi pedikyr" price="699" />
           <p className="montserrat text-sm border-b border-gray-200">
