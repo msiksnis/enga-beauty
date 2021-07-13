@@ -58,7 +58,13 @@ export default function Header() {
           <Link href="/contact">Kontakt</Link>
         </span>
         <button className="border border-black/90 w-36 lg:w-44 bg-black/90 text-white text-lg hover:bg-white hover:text-black/90 rounded shadow-lg py-3">
-          <Link href="/bookTime">Bestill time</Link>
+          <Link
+            href="https://app.squarespacescheduling.com/schedule.php?owner=23545601"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bestill time
+          </Link>
         </button>
       </nav>
     </header>
