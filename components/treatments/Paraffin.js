@@ -1,25 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Waxing({ blackBtnTxt }) {
+export default function Paraffin({ blackBtnTxt }) {
   return (
     <div className="mt-4 lg:mt-10 border-t border-gray-200 pt-14 lg:pt-20 lg:pb-40">
       <h1 className="text-center text-4xl lg:text-5xl lora mb-6 lg:mb-14">
-        Voksing
+        Paraffinbehandlinger
       </h1>
       <h2 className="text-lg lg:text-xl opacity-70 poppins font-light mx-6 lg:mx-40">
-        Lurer du på hvilken type voksing som passer til ditt hår og din hudtype?
-        Vi anbefaler deg den mest effektive og passende voksypen gjennom gratis
-        konsultasjon for våre kunder. Hvis du er redd for smerte for voksing av
-        følsomme områder som bikini og underarm, er voksing fra Hollywood Hotpot
-        perfekt for deg. Varmen fra voksen åpner porene og fremmer hydrering av
-        huden som resulterer i færre inngrodde hår, mindre brudd og derfor
-        lengre perioder med vekst. ALLE hår i området vil være borte. Hvis du
-        har tykkere hår med mindre følsom hud anbefaler vi våre kunder å velge
-        stripevoks til din brasilianske / bikini voksing. Det vil raskt fjerne
-        hår utenfor og over bikinilinjen, men også perfekt for store områder som
-        rygg, armer, mage, lår og ben. Det tar mindre enn halvparten av tiden å
-        lage en Hollywood-voks.
+        Paraffinvoksbehandling er utmerket alene eller i kombinasjon med manikyr
+        eller pedikyr. Den terapeutiske varmebehandlingen slapper av såre,
+        slitne hender og føtter, stimulerer blodsirkulasjonen og gir mye mer
+        effektiv massasjeopplevelse. Vi prøver vårt beste for å gi kundene våre
+        en fantastisk opplevelse og la dem føle seg usedvanlig bortskjemt etter
+        alle typer parafinbehandlinger.
       </h2>
       <div className="flex justify-center mb-10 lg:mb-14">
         <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-72 mr-6 lg:mr-10 py-1 lg:py-2 bg-black/90 text-white text-sm lg:text-lg hover:bg-white hover:text-black/90 rounded shadow-lg">
@@ -32,8 +26,8 @@ export default function Waxing({ blackBtnTxt }) {
       <div className="grid gird-cols-1 lg:grid-cols-3 gap-3 lg:mx-40 mt-6">
         <div className="">
           <Image
-            className="object-cover"
-            src="/images/waxing/waxing1.jpg"
+            className="object-cover object-top"
+            src="/images/paraffin/Paraffin3.jpg"
             width={1000}
             height={600}
           />
@@ -41,7 +35,7 @@ export default function Waxing({ blackBtnTxt }) {
         <div className="">
           <Image
             className="object-cover"
-            src="/images/waxing/waxing4.jpg"
+            src="/images/paraffin/Paraffin1.jpg"
             width={1000}
             height={600}
           />
@@ -49,7 +43,7 @@ export default function Waxing({ blackBtnTxt }) {
         <div className="">
           <Image
             className="object-cover"
-            src="/images/waxing/waxing3.jpg"
+            src="/images/paraffin/Paraffin6.jpg"
             width={1000}
             height={600}
           />

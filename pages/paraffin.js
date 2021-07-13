@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Paraffin from "../components/treatments/Paraffin";
 
 export default function paraffin() {
   return (
@@ -11,7 +12,7 @@ export default function paraffin() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      Parraffin
+      <Paraffin />
       <Footer />
     </div>
   );
