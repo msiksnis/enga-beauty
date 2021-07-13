@@ -7,7 +7,7 @@ export default function Banner() {
       <div className="flex justify-center flex-col lg:flex-row-reverse">
         <Image
           className="object-cover"
-          src="/images/ManicureAndPedicure.jpg"
+          src="/images/pedicure-2.jpg"
           width={720}
           height={500}
         />
@@ -48,7 +48,7 @@ export default function Banner() {
         />
         <div className="flex items-center justify-center lg:w-1/2 bg-[#FCFAFA]">
           <BannerCard
-            title="Paraffin behandlinger"
+            title="Parafin behandlinger"
             text="Den terapeutiske varmebehandlingen slapper av såre, slitne hender og føtter, stimulerer blodsirkulasjonen og gir mye mer effektiv massasjeopplevelse."
             // text="The therapeutic heat treatment relaxes sore, tired hands and feet, stimulates blood circulation and allows for much more effective massage experience."
             blackBtnTxt="Less mer"

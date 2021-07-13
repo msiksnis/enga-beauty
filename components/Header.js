@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="flex justify-between h-auto pl-6 pr-4 lg:px-20 items-center mt-6 lg:mt-10 sticky z-30">
       <div className="cursor-pointer">
-        <h1 className="flex text-3xl lg:text-5xl font-bold tracking-widest lora opacity-90">
+        <h1 className="flex text-3xl lg:text-5xl font-thin tracking-[0.12em] lora opacity-90">
           <Link href="/">ENGA BEAUTY</Link>
         </h1>
       </div>
@@ -38,13 +38,13 @@ export default function Header() {
           <span>Behandlinger</span>
           <div className="dropdown-content border border-gray-00 rounded -ml-14 lg:-ml-20">
             <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
-              <Link href="/spa-manicure-pedicure">SPA Manikyr og Pedikyr</Link>
+              <Link href="/spa-manicure-pedicure">SPA manikyr og pedikyr</Link>
             </span>
             <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
               <Link href="/waxing">Voksing</Link>
             </span>
             <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
-              <Link href="/paraffin">Paraffinbehandlinger</Link>
+              <Link href="/paraffin">Parafinbehandlinger</Link>
             </span>
           </div>
         </span>
