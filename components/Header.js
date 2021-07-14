@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import BookNow from "./buttons/BookNow";
 
 export default function Header() {
   const router = useRouter();
@@ -57,15 +58,7 @@ export default function Header() {
         <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
           <Link href="/contact">Kontakt</Link>
         </span>
-        <button className="border border-black/90 w-36 lg:w-44 bg-black/90 text-white text-lg hover:bg-white hover:text-black/90 rounded shadow-lg py-3">
-          <Link
-            href="https://app.squarespacescheduling.com/schedule.php?owner=23545601"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Bestill time
-          </Link>
-        </button>
+        <BookNow />
       </nav>
     </header>
   );

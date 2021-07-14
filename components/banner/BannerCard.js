@@ -21,7 +21,13 @@ export default function BannerCard({ text, title, blackBtnTxt, linkto }) {
           {blackBtnTxt}
         </button>
         <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-56 py-1 lg:py-2 bg-white text-sm lg:text-lg hover:bg-black/90 hover:text-white rounded shadow-lg">
-          Bestill time
+          <a
+            href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bestill time
+          </a>
         </button>
       </div>
     </div>
