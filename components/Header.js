@@ -56,7 +56,7 @@ export default function Header() {
           <Link href="/season-ticket">Klippekort</Link>
         </span>
         <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
-          <Link href="/contact">Kontakt</Link>
+          <Link href="/">Kontakt</Link>
         </span>
         <BookNow />
       </nav>
