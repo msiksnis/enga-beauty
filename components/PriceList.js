@@ -40,9 +40,12 @@ export default function PriceList() {
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
           <Table treatment="Fjerning av shellac" price="250" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
-          <Table treatment="Shellac/ gelish med mini manikyr" price="500" />
+          <Table treatment="Shellac / gelish med mini manikyr" price="500" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
-          <Table treatment="Ensfarget shellac/gelish med design" price="700" />
+          <Table
+            treatment="Ensfarget shellac / gelish med design"
+            price="700"
+          />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
           <Table treatment="Parafinbehandling" price="250" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
@@ -177,7 +180,7 @@ export default function PriceList() {
             Voksing Dame
           </h3>
           <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-4 mb-1 font-medium border-b border-gray-200">
-            HOT POT WAXING
+            HOT POT VOKSING DAME
           </h4>
           <Table treatment="Brasiliansk Hot Pot voksing" price="600" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60">
@@ -186,7 +189,7 @@ export default function PriceList() {
           <Table treatment="Armhuler" price="150" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
           <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-6 mb-1 font-medium border-b border-gray-200">
-            STRIP VOKSING
+            STRIP VOKSING DAME
           </h4>
           <Table treatment="Bikinilinje" price="280" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
@@ -210,7 +213,7 @@ export default function PriceList() {
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
 
           <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-6 mb-1 font-medium border-b border-gray-200">
-            KOMBO VOKSING (HOT POT + STRIP)
+            KOMBO VOKSING DAME (HOT POT + STRIP)
           </h4>
           <Table treatment="Bikinilinje + lår" price="500" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
@@ -272,7 +275,7 @@ export default function PriceList() {
           </h3>
 
           <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-4 mb-1 font-medium border-b border-gray-200">
-            HOT POT VOKSING
+            HOT POT VOKSING HERRE
           </h4>
           <Table treatment="Bryn" price="200" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
@@ -282,7 +285,7 @@ export default function PriceList() {
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
 
           <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-6 mb-1 font-medium border-b border-gray-200">
-            STRIP VOKSING
+            STRIP VOKSING HERRE
           </h4>
           <Table treatment="Rygg" price="400" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
