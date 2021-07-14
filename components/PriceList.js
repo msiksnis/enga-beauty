@@ -250,7 +250,7 @@ export default function PriceList() {
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
           <Table treatment="Braziliansk + legger" price="600" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
-          <Table treatment="Brazilian +lår" price="700" />
+          <Table treatment="Brazilian + lår" price="700" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
           <Table treatment="Brazilian + legger og lår" price="800" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
@@ -261,8 +261,6 @@ export default function PriceList() {
           <Table treatment="Bryn med forming" price="200" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
           <Table treatment="Kun ansikt" price="400" />
-          <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
-          <Table treatment="Nese" price="150" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>
           <Table treatment="Overleppe" price="100" />
           <p className="montserrat text-sm border-b border-gray-200 mx-6 lg:mx-0 opacity-60"></p>

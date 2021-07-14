@@ -11,24 +11,24 @@ export default function Footer() {
       </h1>
       <div className="lg:grid grid-cols-2 lg:mx-20">
         <div className="flex flex-col lg:h-[450px] h-[500px]  ">
-          <div className="flex justify-center lg:justify-start lg:ml-0 mb-4 space-x-10 lg:space-x-20">
+          <div className="flex justify-center lg:justify-start mx-6 lg:ml-0 mb-4 space-x-10 lg:space-x-20">
             <div className="">
               <p className="font-semibold">Du finner oss her:</p>
               <p className="">Bygdøy allé 10</p>
               <p className="mb-4">0262 Oslo</p>
             </div>
             <div className="">
-              <div className="flex">
+              <div className="flex flex-col lg:flex-row">
                 <p className="font-semibold">Telefon:</p>
-                <p className="ml-2">+47 45 84 50 04</p>
+                <p className="lg:ml-2 pb-3 lg:pb-1">+47 45 84 50 04</p>
               </div>
-              <div className="flex mb-1">
+              <div className="flex flex-col lg:flex-row">
                 <p className="font-semibold">Email:</p>
                 <a
                   href="mailto:info@engabeauty.no"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="ml-2"
+                  className="lg:ml-2 pb-3 lg:pb-1"
                 >
                   info@engabeauty.no
                 </a>
