@@ -6,7 +6,7 @@ export default function BannerCard({ text, title, blackBtnTxt, linkto }) {
       <h1 className="w-2/3 text-3xl lg:text-5xl mb-4 lg:mb-6 text-center playfair font-semibold opacity-90 uppercase">
         {title}
       </h1>
-      <h2 className="w-2/3 text-lg lg:text-xl text-center opacity-60 poppins font-light">
+      <h2 className="w-2/3 text-lg lg:text-xl text-center text-black/60 poppins font-light">
         {text}
       </h2>
       <div className="flex">

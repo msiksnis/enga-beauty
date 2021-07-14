@@ -14,7 +14,7 @@ export default function Header() {
   const closeMobMenu = () => setClick(false);
 
   return (
-    <header className="flex justify-between h-auto pl-6 pr-4 lg:px-20 items-center mt-6 lg:mt-10 sticky z-30">
+    <header className="flex justify-between h-auto pl-6 pr-4 md:px-10 lg:px-20 items-center mt-6 lg:mt-10 sticky z-30">
       <div className="cursor-pointer">
         <h1 className="flex text-3xl lg:text-5xl font-thin tracking-[0.12em] lora opacity-90">
           <Link href="/">ENGA BEAUTY</Link>
@@ -55,11 +55,12 @@ export default function Header() {
         <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
           <Link href="/season-ticket">Klippekort</Link>
         </span>
-        <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
-          <Link href="/">Kontakt</Link>
-        </span>
         <BookNow />
       </nav>
     </header>
   );
 }
+
+// <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
+//   <Link href="/">Kontakt</Link>
+// </span>

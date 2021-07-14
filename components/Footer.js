@@ -4,14 +4,14 @@ import SocialIcons from "./SocialIcons";
 
 export default function Footer() {
   return (
-    <div className="mt-28 pb-10 pt-14 bg-gray-100 h-auto">
+    <div className="mt-28 pb-10 pt-14 bg-gray-100 h-auto poppins">
       <h1 className="flex flex-col items-center justify-center text-2xl lg:text-4xl font-bold tracking-widest lora opacity-90 mb-20">
         <Link href="/">ENGA BEAUTY</Link>
         <SocialIcons />
       </h1>
       <div className="lg:grid grid-cols-2 lg:mx-20">
         <div className="flex flex-col lg:h-[450px] h-[500px]  ">
-          <div className="flex justify-center lg:justify-start mx-6 lg:ml-0 mb-4 space-x-10 lg:space-x-20">
+          <div className="flex justify-between lg:justify-start mx-6 lg:ml-0 mb-4 space-x-10 lg:space-x-20">
             <div className="">
               <p className="font-semibold">Du finner oss her:</p>
               <p className="">Bygdøy allé 10</p>
@@ -20,7 +20,7 @@ export default function Footer() {
             <div className="">
               <div className="flex flex-col lg:flex-row">
                 <p className="font-semibold">Telefon:</p>
-                <p className="lg:ml-2 pb-3 lg:pb-1">+47 45 84 50 04</p>
+                <p className="lg:ml-2 pb-3 lg:pb-0">+47 45 84 50 04</p>
               </div>
               <div className="flex flex-col lg:flex-row">
                 <p className="font-semibold">Email:</p>

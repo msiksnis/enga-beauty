@@ -14,7 +14,7 @@ export default function Banner() {
         <div className="flex items-center justify-center lg:w-1/2 bg-[#FCFAFA]">
           <BannerCard
             title="SPA Manikyr og Pedikyr"
-            text="Spa-manikyrene og pedikyrene våre er unikt designet for å fjerne død huden gjennom massering med peeling og fuktighetsgivende, og neglebåndsbehandlinger."
+            text="Spa manikyr og pedikyr er unikt designet for å fjerne død hud ved hjelp av peeling, fuktighetsgivende massasje og neglebåndsbehandling."
             blackBtnTxt="Less mer"
             linkto="spa-manicure-pedicure"
           />
