@@ -51,33 +51,21 @@ export default function Footer() {
 
       <div className="w-full flex flex-col items-center mt-6">
         <div className="mt-20 text-xs opacity-70 flex flex-col items-center">
-          <p>© 2021 All Rights Reserved</p>
-          <p>
-            Made by{" "}
-            <a
-              href="mailto:marty@devmarty.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-100"
-            >
-              devmarty
-            </a>
-          </p>
+          <p>© 2021 ENGA BEAUTY</p>
         </div>
       </div>
     </div>
   );
 }
 
-// <h1 className="text-lg montserrat">Sign up for newsletter.</h1>
-//         <div className="flex mt-4">
-//           <input
-//             className="shadow-md appearance-none border border-black w-36 lg:w-64 pl-3 mr-6 lg:mr-10 rounded leading-tight focus:outline-none focus:shadow-outline h-10"
-//             id="username"
-//             type="text"
-//             placeholder="Email Address"
-//           />
-//           <button className="border border-black w-36 lg:w-64 bg-black/90 text-white text-sm lg:text-lg hover:bg-white hover:text-black/90 rounded shadow-md h-10">
-//             Subscribe
-//           </button>
-//         </div>
+// <p>
+//   Made by{" "}
+//   <a
+//     href="mailto:marty@devmarty.com"
+//     target="_blank"
+//     rel="noopener noreferrer"
+//     className="hover:opacity-100"
+//   >
+//     devmarty
+//   </a>
+// </p>

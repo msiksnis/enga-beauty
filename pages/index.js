@@ -3,8 +3,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Banner from "../components/banner/Banner";
 import InfoCovid from "../components/InfoCovid";
-import ImageSlider from "../components/slider/ImageSlider";
-import { SliderData } from "../components/slider/SliderData";
+// import ImageSlider from "../components/slider/ImageSlider";
+// import { SliderData } from "../components/slider/SliderData";
 
 export default function Home() {
   return (
@@ -16,9 +16,10 @@ export default function Home() {
       </Head>
       <Header />
       <InfoCovid />
-      <ImageSlider slides={SliderData} />
       <Banner />
       <Footer />
     </div>
   );
 }
+
+// <ImageSlider slides={SliderData} />

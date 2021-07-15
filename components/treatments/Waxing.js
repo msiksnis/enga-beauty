@@ -39,22 +39,6 @@ export default function Waxing({ blackBtnTxt }) {
         <div className="">
           <Image
             className="object-cover"
-            src="/images/waxing/waxing1.jpg"
-            width={1000}
-            height={600}
-          />
-        </div>
-        <div className="">
-          <Image
-            className="object-cover"
-            src="/images/waxing/waxing4.jpg"
-            width={1000}
-            height={600}
-          />
-        </div>
-        <div className="">
-          <Image
-            className="object-cover"
             src="/images/waxing/waxing3.jpg"
             width={1000}
             height={600}

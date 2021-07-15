@@ -44,22 +44,6 @@ export default function SpaManicurePedicure({ blackBtnTxt }) {
             height={600}
           />
         </div>
-        <div className="">
-          <Image
-            className="object-cover"
-            src="/images/spa-manicure-pedicure/spapedicure.jpg"
-            width={1000}
-            height={600}
-          />
-        </div>
-        <div className="">
-          <Image
-            className="object-cover"
-            src="/images/spa-manicure-pedicure/1918035.jpg"
-            width={1000}
-            height={600}
-          />
-        </div>
       </div>
     </div>
   );
