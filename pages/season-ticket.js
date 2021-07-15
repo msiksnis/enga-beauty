@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Klippekort from "../components/Klippekort";
 
 export default function seasonTicket() {
   return (
@@ -11,9 +12,7 @@ export default function seasonTicket() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="flex justify-center items-center h-[500px] text-5xl">
-        Vil være tilgjengelig veldig snart!
-      </div>
+      <Klippekort />
       <Footer />
     </div>
   );
