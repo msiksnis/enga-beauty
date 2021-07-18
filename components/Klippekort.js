@@ -7,8 +7,8 @@ export default function Klippekort() {
         Vi har klippekort på alle vår behandlinger og varigheten på alle
         klippekortene er 1 år.
       </h1>
-      <div className="lg:grid grid-cols-2 gap-20 mt-10 lg:mt-20">
-        <div className="">
+      <div className="lg:grid grid-cols-2 gap-10 mt-10 lg:mt-20">
+        <div className="bg-[#FCFAFA] pt-2 lg:px-6 lg:py-0 lg:pb-6">
           <h4 className="flex justify-center lg:justify-start text-xl ml-6 lg:ml-0 montserrat mt-6 mb-6 font-medium border-b border-gray-200 md:mx-10 lg:mx-0">
             HÅNDPLEIE DAME
           </h4>
@@ -43,7 +43,7 @@ export default function Klippekort() {
             </p>
           </div>
         </div>
-        <div className="">
+        <div className="bg-[#FCFAFA] pt-2 lg:px-6 lg:py-0 lg:pb-6">
           <h4 className="flex justify-center lg:justify-start text-xl ml-6 lg:ml-0 montserrat mt-6 mb-6 font-medium border-b border-gray-200 md:mx-10 lg:mx-0">
             HÅNDPLEIE HERRE
           </h4>
@@ -65,9 +65,9 @@ export default function Klippekort() {
           </div>
         </div>
       </div>
-      <div className="lg:grid grid-cols-2 gap-20 lg:mt-10">
-        <div className="">
-          <h4 className="flex justify-center lg:justify-start text-xl ml-6 lg:ml-0 montserrat text-lg mt-6 mb-6 font-medium border-b border-gray-200 md:mx-10 lg:mx-0">
+      <div className="lg:grid grid-cols-2 gap-10 lg:mt-10">
+        <div className="bg-[#FCFAFA] pt-2 lg:px-6 lg:py-0 lg:pb-6">
+          <h4 className="flex justify-center lg:justify-start text-xl ml-6 lg:ml-0 montserrat mt-6 mb-6 font-medium border-b border-gray-200 md:mx-10 lg:mx-0">
             FOTPLEIE DAME
           </h4>
           <div className="text-lg">
@@ -103,8 +103,8 @@ export default function Klippekort() {
             </p>
           </div>
         </div>
-        <div className="">
-          <h4 className="flex justify-center lg:justify-start text-xl ml-6 lg:ml-0 montserrat text-lg mt-6 mb-6 font-medium border-b border-gray-200 md:mx-10 lg:mx-0">
+        <div className="bg-[#FCFAFA] pt-2 lg:px-6 lg:py-0 lg:pb-6">
+          <h4 className="flex justify-center lg:justify-start text-xl ml-6 lg:ml-0 montserrat mt-6 mb-6 font-medium border-b border-gray-200 md:mx-10 lg:mx-0">
             FOTPLEIE HERRE
           </h4>
           <div className="text-lg">
@@ -140,7 +140,7 @@ export default function Klippekort() {
             </p>
           </div>
         </div>
-        <div className="">
+        <div className="bg-[#FCFAFA] pt-2 lg:px-6 lg:py-0 lg:pb-6">
           <h4 className="flex justify-center lg:justify-start text-xl ml-6 lg:ml-0 montserrat mt-6 font-medium md:mx-10 lg:mx-0">
             Voksing
           </h4>
