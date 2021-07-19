@@ -6,7 +6,7 @@ import InfoCovid from "../components/InfoCovid";
 // import ImageSlider from "../components/slider/ImageSlider";
 // import { SliderData } from "../components/slider/SliderData";
 
-export default function Home() {
+export default function IndexPage() {
   return (
     <div className="selection:bg-[gold]">
       <Head>

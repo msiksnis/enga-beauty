@@ -21,7 +21,7 @@ export default function ImageSlider({ slides }) {
   }
 
   return (
-    <div className="relative hidden lg:flex justify-center items-center mx-20 mb-20">
+    <div className="relative lg:flex justify-center items-center mx-20 mb-20">
       <IoIosArrowBack
         onClick={prevSlide}
         className="absolute top-[50%] left-8 text-3xl text-black  z-10 cursor-pointer opacity-50 hover:opacity-90"

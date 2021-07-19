@@ -15,7 +15,7 @@ export default function Banner() {
           <BannerCard
             title="SPA Manikyr og Pedikyr"
             text="Spa manikyr og pedikyr er unikt designet for å fjerne død hud ved hjelp av peeling, fuktighetsgivende massasje og neglebåndsbehandling."
-            blackBtnTxt="Less mer"
+            blackBtnTxt="Les mer"
             linkto="spa-manicure-pedicure"
           />
         </div>
@@ -32,7 +32,7 @@ export default function Banner() {
           <BannerCard
             title="Voksing"
             text="Lurer du på hvilken type voksing som passer til ditt hår og din hudtype? Vi anbefaler deg den mest effektive og passende voksypen gjennom gratis konsultasjon for våre kunder."
-            blackBtnTxt="Less mer"
+            blackBtnTxt="Les mer"
             linkto="waxing"
           />
         </div>
@@ -51,7 +51,7 @@ export default function Banner() {
             title="Parafin behandlinger"
             text="Den terapeutiske varmebehandlingen slapper av såre, slitne hender og føtter, stimulerer blodsirkulasjonen og gir mye mer effektiv massasjeopplevelse."
             // text="The therapeutic heat treatment relaxes sore, tired hands and feet, stimulates blood circulation and allows for much more effective massage experience."
-            blackBtnTxt="Less mer"
+            blackBtnTxt="Les mer"
             linkto="paraffin"
           />
         </div>

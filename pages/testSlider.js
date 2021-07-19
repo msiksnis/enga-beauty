@@ -1,10 +1,11 @@
-import ImageSlider from "../components/slider/ImageSlider";
-import { SliderData } from "../components/slider/SliderData";
+import TestHeader from "../components/test/TestHeader";
+import Banner from "../components/banner/Banner";
 
 export default function testSlider() {
   return (
     <div>
-      <ImageSlider slides={SliderData} />
+      <TestHeader />
+      <Banner />
     </div>
   );
 }
