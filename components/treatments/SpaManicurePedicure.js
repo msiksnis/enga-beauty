@@ -5,7 +5,7 @@ export default function SpaManicurePedicure({ blackBtnTxt }) {
   return (
     <div className="mt-4 lg:mt-10 border-t border-gray-200 pt-14 lg:pt-20 lg:pb-40">
       <h1 className="text-center text-4xl lg:text-5xl lora mb-6 lg:mb-14">
-        SPA Manicure and Pedicure
+        SPA Manikyr og Pedikyr
       </h1>
       <h2 className="text-lg lg:text-xl opacity-70 poppins font-light mx-6 lg:mx-40">
         Rene og godt vedlikeholdte hender og ben gir et godt inntrykk. Spa

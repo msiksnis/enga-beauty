@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import BookNow from "../buttons/BookNow";
 import { BiChevronDown } from "react-icons/bi";
+import BurgerHamber from "./BurgerHamber";
 
 export default function Header() {
   const router = useRouter();
@@ -16,7 +17,7 @@ export default function Header() {
 
   return (
     <div className="flex items-center lg:mx-20 lg:mt-10 sticky z-30 border-b mb-10 pb-6">
-      <button className="inline-block lg:hidden focus:outline-none">
+      <button className="flex lg:hidden focus:outline-none">
         {click === false && (
           <MenuIcon className="h-8 opacity-75 " onClick={handleClick} />
         )}
@@ -28,8 +29,8 @@ export default function Header() {
         <nav
           className={
             click
-              ? "absolute lg:relative items-center bg-white flex flex-col h-screen w-full top-10 left-0 text-2xl montserrat pt-28"
-              : "hidden lg:flex absolute lg:relative montserrat font-normal space-x-5 text-lg mt-5"
+              ? ""
+              : "hidden lg:flex lg:relative montserrat font-normal space-x-5 text-lg mt-5"
           }
         >
           <span className="relative dropdown cursor-pointer opacity-70 hover:opacity-100 py-3">
@@ -57,7 +58,7 @@ export default function Header() {
         </nav>
       </div>
       <div className="flex  justify-center  w-1/3">
-        <h1 className="flex text-3xl lg:text-5xl font-thin tracking-[0.1em] lora opacity-90">
+        <h1 className="hidden lg:flex text-3xl lg:text-5xl font-thin tracking-[0.1em] lora opacity-90">
           <Link href="/">ENGA BEAUTY</Link>
         </h1>
       </div>
