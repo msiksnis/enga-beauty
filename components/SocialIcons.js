@@ -4,7 +4,7 @@ export default function SocialIcons() {
   return (
     <div className="flex mt-4 space-x-6">
       <a
-        href="https://instagram.com/"
+        href="https://www.instagram.com/enga_beauty_ba10/"
         target="_blank"
         rel="noopener noreferrer"
         className="transform hover:scale-110 transition duration-300 ease-in-out"
