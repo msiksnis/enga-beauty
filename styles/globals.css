@@ -140,8 +140,8 @@
   }
 
   .instagram-item {
-    max-width: 250px;
-    max-height: 250px;
+    width: 250px;
+    height: 250px;
     display: block;
     position: relative;
   }
@@ -162,6 +162,28 @@
       grid-gap: 10px;
       justify-content: center;
       flex-wrap: wrap;
+    }
+    .instagram-item {
+      width: 200px;
+      height: 200px;
+      display: block;
+      position: relative;
+    }
+  }
+
+  @media (max-width: 399px) {
+    .instagram-gallery {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 5px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .instagram-item {
+      width: 180px;
+      height: 180px;
+      display: block;
+      position: relative;
     }
   }
 
