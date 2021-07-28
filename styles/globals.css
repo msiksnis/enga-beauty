@@ -130,4 +130,48 @@
   .menu-btn.open .burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
   }
+
+  .instagram-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .instagram-item {
+    max-width: 250px;
+    max-height: 250px;
+    display: block;
+    position: relative;
+  }
+  .instagram-item:hover {
+    opacity: 0.6;
+  }
+
+  .instagram-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 480px) {
+    .instagram-gallery {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .instagram-gallery {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
 }
