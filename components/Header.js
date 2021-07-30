@@ -14,7 +14,7 @@ export default function Header({ children }) {
   const closeMobMenu = () => setClick(false);
 
   return (
-    <div>
+    <div id="top">
       <header className="flex justify-between h-auto pl-6 pr-4 md:px-10 lg:px-20 items-center mt-6 lg:mt-10 sticky z-30">
         <div className="cursor-pointer">
           <h1 className="flex text-3xl lg:text-5xl font-thin tracking-[0.12em] lora opacity-90">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Table from "./Table";
+import ToTop from "../components/ToTop";
 
 export default function PriceList() {
   return (
@@ -309,6 +310,7 @@ export default function PriceList() {
           </div>
         </div>
       </div>
+      <ToTop />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function InstaFeed() {
           >
             <div className="flex">
               <p className="font-extralight italic poppins">#</p>
-              <p className="font-normal italic poppins">engabeauty</p>
+              <p className="font-normal italic poppins">EngaBeauty</p>
             </div>
           </a>
         </h1>
