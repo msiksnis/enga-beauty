@@ -4,7 +4,7 @@ import BannerCard from "./BannerCard";
 
 export default function Banner() {
   return (
-    <div className="flex flex-col lg:space-y-6 lg:px-20 mt-32">
+    <div className="flex flex-col lg:space-y-6 lg:px-20 mt-8">
       <div className="flex justify-center flex-col lg:flex-row-reverse">
         <Image
           className="object-cover"

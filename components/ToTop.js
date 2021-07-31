@@ -19,7 +19,7 @@ export default function ToTop() {
   });
 
   return (
-    <div>
+    <div className="hidden lg:inline">
       <Link to="top" spy={true} smooth={true} offset={0} duration={500}>
         <div
           className={
