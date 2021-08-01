@@ -3,8 +3,18 @@ import Link from "next/link";
 
 export default function Paraffin({ blackBtnTxt }) {
   return (
-    <div className="mt-4 lg:mt-10 border-t border-gray-200 pt-14 lg:pt-20 lg:pb-40">
-      <h1 className="text-center text-4xl lg:text-5xl lora mb-6 lg:mb-14">
+    <div className="mt-4 lg:mt-10 border-t border-gray-200 lg:pt-10 lg:pb-40">
+      <div className="flex justify-center lg:mx-40 mt-6">
+        <div className="">
+          <Image
+            className="object-cover"
+            src="/images/paraffin/Paraffin1.jpg"
+            width={1000}
+            height={600}
+          />
+        </div>
+      </div>
+      <h1 className="text-center text-4xl lg:text-5xl lora mb-6 lg:mb-14 lg:mt-10">
         Paraffinbehandlinger
       </h1>
       <h2 className="text-lg lg:text-xl opacity-70 poppins font-light mx-6 lg:mx-40">
@@ -28,32 +38,6 @@ export default function Paraffin({ blackBtnTxt }) {
             Bestill time
           </a>
         </button>
-      </div>
-      <div className="grid gird-cols-1 lg:grid-cols-3 gap-3 lg:mx-40 mt-6">
-        <div className="">
-          <Image
-            className="object-cover object-top"
-            src="/images/paraffin/Paraffin3.jpg"
-            width={1000}
-            height={600}
-          />
-        </div>
-        <div className="">
-          <Image
-            className="object-cover"
-            src="/images/paraffin/Paraffin1.jpg"
-            width={1000}
-            height={600}
-          />
-        </div>
-        <div className="">
-          <Image
-            className="object-cover"
-            src="/images/paraffin/Paraffin6.jpg"
-            width={1000}
-            height={600}
-          />
-        </div>
       </div>
     </div>
   );

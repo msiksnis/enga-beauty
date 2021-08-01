@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Banner from "../components/banner/Banner";
 import InfoCovid from "../components/InfoCovid";
 import InstaFeed from "../components/InstaFeed";
+import BannerTwo from "../components/banner/BannerTwo";
 // import ImageSlider from "../components/slider/ImageSlider";
 // import { SliderData } from "../components/slider/SliderData";
 
@@ -17,7 +18,7 @@ export default function IndexPage() {
       </Head>
       <Header />
       <InfoCovid />
-      <Banner />
+      <BannerTwo />
       <InstaFeed />
       <Footer />
     </div>

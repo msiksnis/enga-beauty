@@ -13,7 +13,7 @@ export default function PriceList() {
           <div className="mb-2">
             <Image
               className="object-cover"
-              src="/images/Handpleie.jpg"
+              src="/images/pics/jesse-donoghoe.jpg"
               width={1000}
               height={600}
             />
@@ -68,7 +68,7 @@ export default function PriceList() {
           <div className="mb-2">
             <Image
               className="object-cover"
-              src="/images/Fotpleie.jpg"
+              src="/images/pics/foot.JPG"
               width={1000}
               height={600}
             />
@@ -176,7 +176,7 @@ export default function PriceList() {
           <div className="mb-2">
             <Image
               className="object-cover"
-              src="/images/waxing.jpg"
+              src="/images/pics/vaks.jpg"
               width={1000}
               height={600}
             />
