@@ -6,7 +6,6 @@ export default function Footer() {
   return (
     <div className="mt-28 pb-10 pt-14 bg-gray-100 h-auto poppins">
       <h1 className="flex flex-col items-center justify-center text-2xl lg:text-4xl font-thin tracking-[0.10em] lora opacity-90 mb-20">
-        <Link href="/">ENGA BEAUTY</Link>
         <SocialIcons />
       </h1>
       <div className="lg:grid grid-cols-2 lg:mx-20">
