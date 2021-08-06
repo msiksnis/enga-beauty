@@ -43,11 +43,11 @@ export default function MobileHeader() {
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <div className="flex">
+    <div className="flex fixed top-0 left-0 w-full z-20 bg-white pb-2 shadow">
       <Modal open={openModal} onClose={() => setOpenModal(false)}>
         <div style={modalStyle} className={classes.paper}>
           <div className="h-screen">
-            <div className="flex flex-col items-center w-full pt-4 px-4">
+            <div className="flex flex-col items-center w-full pt-2 shadow px-4 pb-2">
               <div className="flex justify-between w-full items-center">
                 <Link href="/">
                   <Image
@@ -64,7 +64,6 @@ export default function MobileHeader() {
                   <HiX />
                 </div>
               </div>
-              <div className="border-b border-gray-200 w-full pt-2"></div>
             </div>
             <div className="flex flex-col h-3/4 justify-between">
               <div className="mt-14 mx-4 space-y-3">
@@ -73,23 +72,23 @@ export default function MobileHeader() {
                     SPA manikyr og pedikyr
                   </Link>
                 </div>
-                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                {/*<div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
                   <Link href="/spa-manicure-pedicure">Kunstnegler</Link>
+  </div>*/}
+                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                  <Link href="/paraffin">Parafinbehandlinger</Link>
                 </div>
                 <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
-                  <Link href="/spa-manicure-pedicure">Parafinbehandlinger</Link>
+                  <Link href="/waxing">Voksing</Link>
                 </div>
                 <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
-                  <Link href="/spa-manicure-pedicure">Voksing</Link>
+                  <Link href="/pricelist">Prisliste</Link>
                 </div>
                 <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
-                  Prisliste
+                  <Link href="/season-ticket">Klippekort</Link>
                 </div>
                 <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
-                  Klippekort
-                </div>
-                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
-                  Gavekort
+                  <Link href="/giftcard">Gavekort</Link>
                 </div>
                 <div className="flex justify-center pt-10">
                   <button className="border border-black/90 w-56 lg:w-52 bg-black/90 text-white text-lg hover:bg-white hover:text-black/90 rounded shadow-lg py-2">
@@ -118,7 +117,7 @@ export default function MobileHeader() {
           </div>
         </div>
       </Modal>
-      <div className="flex justify-between items-center w-full mt-4 px-4">
+      <div className="flex justify-between items-center w-full mt-2 px-4">
         <Link href="/">
           <Image
             className="object-contain"

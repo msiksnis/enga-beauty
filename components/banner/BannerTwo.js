@@ -3,7 +3,7 @@ import ToTop from "../ToTop";
 
 export default function BannerTwo() {
   return (
-    <div>
+    <div className="mt-28 lg:mt-52">
       <ToTop />
       <h1 className="text-3xl lg:text-5xl flex justify-center montserrat mb-6 mt-10 lg:mb-10 lg:mt-14 uppercase">
         Vær sunn og pen
