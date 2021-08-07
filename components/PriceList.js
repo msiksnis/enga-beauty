@@ -4,7 +4,7 @@ import ToTop from "../components/ToTop";
 
 export default function PriceList() {
   return (
-    <div className="mt-5 lg:mt-10 lg:pt-20 lg:mx-20 border-t border-gray-100">
+    <div className="mt-10 lg:mt-24 lg:pt-20 lg:mx-20 border-t border-gray-100">
       <div className="flex flex-col lg:flex-row lg:justify-around lg:space-x-6">
         <div className="w-full  mt-10">
           <h2 className="flex lg:justify-center ml-6 md:ml-10 lg:ml-0 montserrat text-2xl mb-4 font-medium">
@@ -13,7 +13,7 @@ export default function PriceList() {
           <div className="mb-2">
             <Image
               className="object-cover"
-              src="/images/pics/jesse-donoghoe.jpg"
+              src="/images/pics/Hands2.jpg"
               width={1000}
               height={600}
             />
@@ -68,7 +68,7 @@ export default function PriceList() {
           <div className="mb-2">
             <Image
               className="object-cover"
-              src="/images/pics/foot.JPG"
+              src="/images/pics/foot1.JPG"
               width={1000}
               height={600}
             />
@@ -176,7 +176,7 @@ export default function PriceList() {
           <div className="mb-2">
             <Image
               className="object-cover"
-              src="/images/pics/vaks.jpg"
+              src="/images/pics/vaks1.jpg"
               width={1000}
               height={600}
             />

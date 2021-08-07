@@ -2,7 +2,7 @@ import Table from "./Table";
 
 export default function Klippekort() {
   return (
-    <div className="flex flex-col justify-center montserrat font-light lg:mx-20 pt-10 mt-5 lg:pt-20 lg:mt-20 border-t border-gray-100">
+    <div className="flex flex-col justify-center montserrat font-light lg:mx-20 mt-24 lg:mt-60">
       <h1 className="text-xl lg:text-3xl font-medium text-center mx-10 lg:mx-40">
         Vi har klippekort på alle våre behandlinger og varigheten på alle
         klippekortene er 1 år.

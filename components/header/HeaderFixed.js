@@ -27,20 +27,24 @@ export default function HeaderFixed() {
           headerSize ? "hidden" : "flex w-full fixed top-0 bg-white z-50"
         }
       >
-        <div className="flex justify-center items-end w-full">
-          <Image
-            className="object-contain"
-            src="/LOGO-ONE.png"
-            width={400}
-            height={100}
-          />
+        <div className="flex justify-center items-end w-full cursor-pointer">
+          <Link href="/">
+            <Image
+              className="object-contain"
+              src="/LOGO-ONE.png"
+              width={400}
+              height={100}
+            />
+          </Link>
           <div className=""></div>
         </div>
       </div>
       <div
         id="2"
         className={
-          headerSize ? "hidden" : "fixed w-full z-10 top-0 mt-24 bg-white"
+          headerSize
+            ? "hidden"
+            : "fixed w-full z-10 top-0 mt-24 bg-white shadow-md pb-4"
         }
       >
         <div className="flex h-14 justify-between px-20 items-end pb-2 w-full">
@@ -90,7 +94,7 @@ export default function HeaderFixed() {
       >
         <div className="flex h-11 justify-between px-4 items-end pb-2 w-full shadow-md">
           <div className="flex items-center">
-            <div className="pr-20 -mb-2">
+            <div className="pr-20 -mb-2 cursor-pointer">
               <Link href="/">
                 <Image
                   className="object-contain"
