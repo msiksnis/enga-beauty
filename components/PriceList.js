@@ -68,7 +68,7 @@ export default function PriceList() {
           <div className="mb-2">
             <Image
               className="object-cover"
-              src="/images/pics/foot1.JPG"
+              src="/images/pics/foot1.jpg"
               width={1000}
               height={600}
             />
