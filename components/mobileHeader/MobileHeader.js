@@ -3,7 +3,6 @@ import Modal from "@material-ui/core/Modal";
 import { makeStyles } from "@material-ui/core/styles";
 import { HiMenu, HiX } from "react-icons/hi";
 import Link from "next/link";
-import BookNow from "../buttons/BookNow";
 import Image from "next/image";
 
 function getModalStyle() {
@@ -67,7 +66,10 @@ export default function MobileHeader() {
             </div>
             <div className="flex flex-col h-3/4 justify-between">
               <div className="mt-14 mx-4 space-y-3">
-                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                <div
+                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  onClick={() => setOpenModal(false)}
+                >
                   <Link href="/spa-manicure-pedicure">
                     SPA manikyr og pedikyr
                   </Link>
@@ -75,19 +77,34 @@ export default function MobileHeader() {
                 {/*<div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
                   <Link href="/spa-manicure-pedicure">Kunstnegler</Link>
   </div>*/}
-                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                <div
+                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  onClick={() => setOpenModal(false)}
+                >
                   <Link href="/paraffin">Parafinbehandlinger</Link>
                 </div>
-                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                <div
+                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  onClick={() => setOpenModal(false)}
+                >
                   <Link href="/waxing">Voksing</Link>
                 </div>
-                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                <div
+                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  onClick={() => setOpenModal(false)}
+                >
                   <Link href="/pricelist">Prisliste</Link>
                 </div>
-                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                <div
+                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  onClick={() => setOpenModal(false)}
+                >
                   <Link href="/season-ticket">Klippekort</Link>
                 </div>
-                <div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                <div
+                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  onClick={() => setOpenModal(false)}
+                >
                   <Link href="/giftcard">Gavekort</Link>
                 </div>
                 <div className="flex justify-center pt-10">
