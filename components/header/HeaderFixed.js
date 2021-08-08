@@ -83,7 +83,13 @@ export default function HeaderFixed() {
               className="text-xs poppins border border-black px-6 py-1 rounded text-white
           bg-black hover:text-black hover:bg-white"
             >
-              Bestill Time
+              <a
+                href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bestill time
+              </a>
             </button>
           </div>
         </div>
@@ -141,7 +147,13 @@ export default function HeaderFixed() {
               className="text-xs poppins border border-black px-6 py-1 rounded text-white
           bg-black hover:text-black hover:bg-white"
             >
-              Bestill Time
+              <a
+                href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Bestill time
+              </a>
             </button>
           </div>
         </div>
