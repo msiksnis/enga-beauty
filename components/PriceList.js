@@ -66,14 +66,14 @@ export default function PriceList() {
             <Table treatment="Reparasjon av en negl" price="70" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
 
-            {/*<h3 className="flex ml-6 md:mx-10 lg:ml-0 montserrat text-xl mt-12 mb-6 font-medium">
+            <h3 className="flex ml-6 md:mx-10 lg:ml-0 montserrat text-xl mt-12 mb-6 font-medium">
               Håndpleie Herre
             </h3>
 
             <Table treatment="Mini manikyr" price="300" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
             <Table treatment="Spa manikyr" price="450" />
-  <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>*/}
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
           </div>
         </div>
         <div className="w-full  mt-10">
