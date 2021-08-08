@@ -43,7 +43,7 @@ export default function Klippekort() {
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 1000kr)
             </p>
-            <Table treatment="Parafin behandling 8 klipp" price="1500" />
+            <Table treatment="Parafinbehandling 8 klipp" price="1500" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 500kr)
             </p>
@@ -66,7 +66,7 @@ export default function Klippekort() {
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 600kr)
             </p>
-            <Table treatment="Parafin behandling 8 klipp" price="1500" />
+            <Table treatment="Parafinbehandling 8 klipp" price="1500" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 500kr)
             </p>
@@ -106,7 +106,7 @@ export default function Klippekort() {
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 1000kr)
             </p>
-            <Table treatment="Parafin behandling 10 klipp" price="2500" />
+            <Table treatment="Parafinbehandling 10 klipp" price="2500" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2"></p>
 
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 mt-4 mb-14 lg:mb-0">
@@ -143,7 +143,7 @@ export default function Klippekort() {
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 1000kr)
             </p>
-            <Table treatment="Parafin behandling 10 klipp" price="2500" />
+            <Table treatment="Parafinbehandling 10 klipp" price="2500" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2"></p>
 
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 mt-4 mb-14 lg:mb-0">
