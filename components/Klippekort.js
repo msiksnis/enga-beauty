@@ -13,30 +13,40 @@ export default function Klippekort() {
             HÅNDPLEIE DAME
           </h4>
           <div className="text-lg">
+            <Table treatment="Spa manikyr 8 klipp" price="3600" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 800kr)
+            </p>
             <Table
-              treatment="Shellac / Gelish ensfarget med mini manikyr 8 klipp"
+              treatment="Shellack / Gellack ensfarget med mini manikyr 8 klipp"
               price="3500"
             />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 500kr)
             </p>
             <Table
-              treatment="Ensfarget shellac / gelish med design 8 klipp"
+              treatment="Shellack / Gellack med mini manikyr og design 8 klipp"
               price="4600"
             />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 1000kr)
             </p>
-            <Table treatment="Gelenegler nytt sett 8 klipp" price="5400" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <Table treatment="Gelenegler påfyll 8 klipp" price="4500" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 1500kr)
+            </p>
+            <Table treatment="Akrylnegler påfyll 8 klipp" price="4000" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 1200kr)
+            </p>
+            <Table treatment="PolyGele negler påfyll 8 klipp" price="4600" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 1000kr)
             </p>
-            <Table treatment="Spa manikyr 8 klipp" price="3400" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
-              (du sparer 600kr)
+            <Table treatment="Parafin behandling 8 klipp" price="1500" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 500kr)
             </p>
-            <Table treatment="Parafin behandling 10 klipp" price="2000" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 mt-4 mb-14 lg:mb-0">
               *ved kjøp av dette tilbudet tilsvarer det kun 200kr pr parafinbad
               behandlinger
@@ -49,15 +59,17 @@ export default function Klippekort() {
           </h4>
           <div className="text-lg">
             <Table treatment="Mini manikyr 8 klipp" price="2000" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 400kr)
             </p>
             <Table treatment="Spa manikyr 8 klipp" price="3000" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 600kr)
             </p>
-            <Table treatment="Parafin behandling 10 klipp" price="2000" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <Table treatment="Parafin behandling 8 klipp" price="1500" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 500kr)
+            </p>
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 mt-4 mb-14 lg:mb-0">
               *ved kjøp av dette tilbudet tilsvarer det kun 200kr pr parafinbad
               behandlinger
@@ -72,30 +84,30 @@ export default function Klippekort() {
           </h4>
           <div className="text-lg">
             <Table treatment="Mini pedikyr 5 klipp" price="2000" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 500kr)
             </p>
             <Table treatment="SPA pedikyr 5 klipp" price="2400" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 600kr)
             </p>
             <Table treatment="Helt pedikyr 5 klipp" price="2800" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 700kr)
             </p>
             <Table
-              treatment="Dyp fuktighetsgivende  pedikyr 5 klipp"
+              treatment="Dyp fuktighetsgivende pedikyr 5 klipp"
               price="3100"
             />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 900kr)
             </p>
             <Table treatment="Luksus signatur pedikyr 5 klipp" price="3500" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 1000kr)
             </p>
             <Table treatment="Parafin behandling 10 klipp" price="2500" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2"></p>
 
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 mt-4 mb-14 lg:mb-0">
               *ved kjøp av dette tilbudet tilsvarer det kun 250kr pr parafinbad
@@ -108,31 +120,31 @@ export default function Klippekort() {
             FOTPLEIE HERRE
           </h4>
           <div className="text-lg">
-            <Table treatment="Mini pedikyr 5 klipp" price="1800" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
-              (du sparer 450kr)
+            <Table treatment="Mini pedikyr 5 klipp" price="2000" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 500kr)
             </p>
-            <Table treatment="SPA pedikyr 5 klipp" price="2200" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
-              (du sparer 550kr)
+            <Table treatment="SPA pedikyr 5 klipp" price="2750" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 500kr)
             </p>
-            <Table treatment="Helt pedikyr 5 klipp" price="2600" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
-              (du sparer 650kr)
+            <Table treatment="Helt deluxe pedikyr 5 klipp" price="3050" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 700kr)
             </p>
             <Table
-              treatment="Dyp fuktighetsgivende  pedikyr 5 klipp"
-              price="2950"
+              treatment="Dyp fuktighetsgivende pedikyr 5 klipp"
+              price="3350"
             />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
-              (du sparer 800kr)
-            </p>
-            <Table treatment="Luksus signatur pedikyr 5 klipp" price="3350" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60">
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
               (du sparer 900kr)
             </p>
+            <Table treatment="Luksus signatur pedikyr 5 klipp" price="3750" />
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
+              (du sparer 1000kr)
+            </p>
             <Table treatment="Parafin behandling 10 klipp" price="2500" />
-            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2"></p>
 
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 mt-4 mb-14 lg:mb-0">
               *ved kjøp av dette tilbudet tilsvarer det kun 250kr pr parafinbad
@@ -147,13 +159,13 @@ export default function Klippekort() {
           <p className="flex justify-center lg:justify-start montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 mb-6 opacity-60">
             Gyldig for alle typer voksing:
           </p>
-          <div className="font-normal poppins border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 mt-2">
+          <div className="font-normal poppins border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 mt-2 py-2">
             8 klipp / behandlinger - neste behandlinger 40%
           </div>
-          <div className="font-normal poppins border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 mt-2">
+          <div className="font-normal poppins border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 mt-2 py-2">
             5 klipp / behandlinger- neste behandlinger 30%
           </div>
-          <div className="font-normal poppins border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 mt-2">
+          <div className="font-normal poppins border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 mt-2 py-2">
             3 klipp / behandlinger- neste behandlinger 20%
           </div>
           <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>

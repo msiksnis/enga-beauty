@@ -20,14 +20,14 @@ export default function InstaFeed() {
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
             accessToken="IGQVJYakFEZA29NQkJvazc5NVc1UmQyVWU1bkZA3MmE5MXdOQW83cVRGUzRZAVUx0RHVkU0tjdXZAhdjRDVzlhVXRQVEIweHN0UDZAHOW05VnpmbEllM05BU0VaeHZAkNkZArV0ZAWSkxPek9HVUtpc1pDMUNJawZDZD"
-            count={16}
+            count={20}
           />
         </div>
         <div className="md:hidden">
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
             accessToken="IGQVJYakFEZA29NQkJvazc5NVc1UmQyVWU1bkZA3MmE5MXdOQW83cVRGUzRZAVUx0RHVkU0tjdXZAhdjRDVzlhVXRQVEIweHN0UDZAHOW05VnpmbEllM05BU0VaeHZAkNkZArV0ZAWSkxPek9HVUtpc1pDMUNJawZDZD"
-            count={8}
+            count={12}
           />
         </div>
       </div>
