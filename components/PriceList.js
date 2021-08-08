@@ -23,42 +23,57 @@ export default function PriceList() {
               Håndpleie Dame
             </h3>
 
-            <Table treatment="Mini manikyr" price="350" />
+            <Table treatment="Mini manikyr" price="400" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Spa manikyr" price="500" />
+            <Table treatment="Spa manikyr" price="550" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Etterbehandling akryl en farge" price="700" />
+            <Table treatment="Gelenegler nytt sett" price="850" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Etterbehandling akryl ombre" price="800" />
+            <Table treatment="Gelenegler påfyll" price="750" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Etterbehandling akryl med shellac" price="900" />
+            <Table treatment="Akrylnegler  nytt sett" price="750" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Etterbehandling gele" price="800" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Etterfyll gele med shellac" price="700" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Fjerning av shellac" price="250" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Shellac / gelish med mini manikyr" price="500" />
+            <Table treatment="Aklrylnegler påfyll" price="650" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
             <Table
-              treatment="Ensfarget shellac / gelish med design"
+              treatment="PolyGele negler (Polygel) nytt sett"
+              price="800"
+            />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <Table treatment="PolyGele negler påfyll" price="700" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <Table treatment="PolyGele negler på en neglebiter" price="850" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <Table
+              treatment="Shellack / Gellack med mini manikyr"
+              price="500"
+            />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <Table
+              treatment="Shellack / Gellack med med mini manikyr og design"
               price="700"
             />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Parafinbehandling" price="250" />
+            <Table treatment="Fjerning av shellack / gellack" price="150" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
-            <Table treatment="Reparasjon av en negl" price="80" />
+            <Table treatment="Fjerning av gelenegler" price="250" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <Table
+              treatment="Parafinbehandling med varmt håndklepakning"
+              price="250"
+            />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+            <Table treatment="Reparasjon av en negl" price="70" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
 
-            <h3 className="flex ml-6 md:mx-10 lg:ml-0 montserrat text-xl mt-12 mb-6 font-medium">
+            {/*<h3 className="flex ml-6 md:mx-10 lg:ml-0 montserrat text-xl mt-12 mb-6 font-medium">
               Håndpleie Herre
             </h3>
 
             <Table treatment="Mini manikyr" price="300" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
             <Table treatment="Spa manikyr" price="450" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>
+  <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60"></p>*/}
           </div>
         </div>
         <div className="w-full  mt-10">
