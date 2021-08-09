@@ -3,8 +3,6 @@ import Header from "../components/Header";
 import HeaderFixed from "../components/header/HeaderFixed";
 import MobileHeader from "../components/mobileHeader/MobileHeader";
 import Footer from "../components/Footer";
-import Banner from "../components/banner/Banner";
-import InfoCovid from "../components/InfoCovid";
 import InstaFeed from "../components/InstaFeed";
 import BannerTwo from "../components/banner/BannerTwo";
 // import ImageSlider from "../components/slider/ImageSlider";
