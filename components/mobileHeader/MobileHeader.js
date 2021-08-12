@@ -66,47 +66,57 @@ export default function MobileHeader() {
             </div>
             <div className="flex flex-col h-3/4 justify-between">
               <div className="mt-14 mx-4 space-y-3">
-                <div
-                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
-                  onClick={() => setOpenModal(false)}
-                >
-                  <Link href="/spa-manicure-pedicure">
+                <Link href="/spa-manicure-pedicure">
+                  <div
+                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    onClick={() => setOpenModal(false)}
+                  >
                     SPA manikyr og pedikyr
-                  </Link>
-                </div>
+                  </div>
+                </Link>
                 {/*<div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
                   <Link href="/spa-manicure-pedicure">Kunstnegler</Link>
-  </div>*/}
-                <div
-                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
-                  onClick={() => setOpenModal(false)}
-                >
-                  <Link href="/paraffin">Parafinbehandlinger</Link>
-                </div>
-                <div
-                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
-                  onClick={() => setOpenModal(false)}
-                >
-                  <Link href="/waxing">Voksing</Link>
-                </div>
-                <div
-                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
-                  onClick={() => setOpenModal(false)}
-                >
-                  <Link href="/pricelist">Prisliste</Link>
-                </div>
-                <div
-                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
-                  onClick={() => setOpenModal(false)}
-                >
-                  <Link href="/season-ticket">Klippekort</Link>
-                </div>
-                <div
-                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
-                  onClick={() => setOpenModal(false)}
-                >
-                  <Link href="/giftcard">Gavekort</Link>
-                </div>
+                </div>*/}
+                <Link href="/paraffin">
+                  <div
+                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    onClick={() => setOpenModal(false)}
+                  >
+                    Parafinbehandlinger
+                  </div>
+                </Link>
+                <Link href="/waxing">
+                  <div
+                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    onClick={() => setOpenModal(false)}
+                  >
+                    Voksing
+                  </div>
+                </Link>
+                <Link href="/pricelist">
+                  <div
+                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    onClick={() => setOpenModal(false)}
+                  >
+                    Prisliste
+                  </div>
+                </Link>
+                <Link href="/season-ticket">
+                  <div
+                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    onClick={() => setOpenModal(false)}
+                  >
+                    Klippekort
+                  </div>
+                </Link>
+                <Link href="/giftcard">
+                  <div
+                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    onClick={() => setOpenModal(false)}
+                  >
+                    Gavekort
+                  </div>
+                </Link>
                 <div className="flex justify-center pt-10">
                   <button className="border border-black/90 w-56 lg:w-52 bg-black/90 text-white text-lg hover:bg-white hover:text-black/90 rounded shadow-lg py-2">
                     <a
