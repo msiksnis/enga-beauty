@@ -8,7 +8,7 @@ export default function Waxing({ blackBtnTxt }) {
         <div className="lg:mt-10 mb-4">
           <Image
             className="object-cover"
-            src="/images/pics/vaks1.jpg"
+            src="/images/waxing/waxing5.jpg"
             width={700}
             height={850}
           />

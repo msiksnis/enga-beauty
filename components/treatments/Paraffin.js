@@ -8,9 +8,9 @@ export default function Paraffin({ blackBtnTxt }) {
         <div className="lg:mt-10 mb-4">
           <Image
             className="object-cover object-top"
-            src="/images/paraffin/Paraffin1.jpg"
+            src="/images/pics/Spahand.jpg"
             width={700}
-            height={700}
+            height={900}
           />
         </div>
       </div>

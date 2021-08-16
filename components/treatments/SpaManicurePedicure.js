@@ -8,7 +8,7 @@ export default function SpaManicurePedicure({ blackBtnTxt }) {
         <div className="lg:mt-10 mb-4">
           <Image
             className="object-cover"
-            src="/images/pics/Spahand.jpg"
+            src="/images/spa-manicure-pedicure/spa.jpeg"
             width={700}
             height={900}
           />
