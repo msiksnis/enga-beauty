@@ -89,15 +89,15 @@ export default function PriceList() {
             <h3 className="flex ml-6 md:mx-10 lg:ml-0 montserrat text-xl mb-6 font-medium">
               Fotpleie Dame
             </h3>
-            <Table treatment="Mini pedikyr" price="500" />
+            <Table treatment="Mini pedikyr" price="600" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="SPA pedikyr" price="600" />
+            <Table treatment="SPA pedikyr" price="800" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Helt deluxe pedikyr" price="700" />
+            <Table treatment="Helt deluxe pedikyr" price="1000" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Dyp fuktighetsgivende pedikyr" price="800" />
+            <Table treatment="Dyp fuktighetsgivende pedikyr" price="1200" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Luksuriøs signatur pedikyr" price="900" />
+            <Table treatment="Luksuriøs signatur pedikyr" price="1400" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
             <Table treatment="Ensfarget shellack / gellack tær" price="500" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
