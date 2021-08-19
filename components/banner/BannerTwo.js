@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BannerTwo() {
   return (
-    <div className="mt-14 lg:mt-32 lg:mx-40">
+    <div className="mt-14 lg:mt-32 lg:mx-0">
       <ToTop />
       <div className="flex justify-center">
         <Link href="/">

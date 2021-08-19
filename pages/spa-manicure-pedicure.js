@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import SpaManicurePedicure from "../components/treatments/SpaManicurePedicure";
 import HeaderFixed from "../components/header/HeaderFixed";
 import MobileHeader from "../components/mobileHeader/MobileHeader";
+import NewHeader from "../components/test/NewHeader";
 
 export default function spaManicurePedicure() {
   return (
@@ -13,7 +14,7 @@ export default function spaManicurePedicure() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="hidden lg:inline">
-        <HeaderFixed />
+        <NewHeader />
       </div>
       <div className="lg:hidden">
         <MobileHeader />

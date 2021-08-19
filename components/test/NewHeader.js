@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FiInstagram, FiFacebook } from "react-icons/fi";
 import Image from "next/image";
 
-export default function HeaderFixed() {
+export default function NewHeader() {
   const [headerSize, setHeaderSize] = useState(false);
 
   const switchHeader = () => {

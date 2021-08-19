@@ -5,6 +5,7 @@ import MobileHeader from "../components/mobileHeader/MobileHeader";
 import Footer from "../components/Footer";
 import InstaFeed from "../components/InstaFeed";
 import BannerTwo from "../components/banner/BannerTwo";
+import NewHeader from "../components/test/NewHeader";
 // import ImageSlider from "../components/slider/ImageSlider";
 // import { SliderData } from "../components/slider/SliderData";
 
@@ -17,7 +18,7 @@ export default function IndexPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="hidden lg:inline">
-        <HeaderFixed />
+        <NewHeader />
       </div>
       <div className="lg:hidden">
         <MobileHeader />

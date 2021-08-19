@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import HeaderFixed from "../components/header/HeaderFixed";
 import MobileHeader from "../components/mobileHeader/MobileHeader";
 import PriceList from "../components/PriceList";
+import NewHeader from "../components/test/NewHeader";
 
 export default function pricelist() {
   return (
@@ -13,7 +14,7 @@ export default function pricelist() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="hidden lg:inline">
-        <HeaderFixed />
+        <NewHeader />
       </div>
       <div className="lg:hidden">
         <MobileHeader />
