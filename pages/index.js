@@ -3,7 +3,7 @@ import MobileHeader from "../components/mobileHeader/MobileHeader";
 import Footer from "../components/Footer";
 import InstaFeed from "../components/InstaFeed";
 import BannerTwo from "../components/banner/BannerTwo";
-import NewHeader from "../components/test/NewHeader";
+import NewHeader from "../components/header/NewHeader";
 // import ImageSlider from "../components/slider/ImageSlider";
 // import { SliderData } from "../components/slider/SliderData";
 

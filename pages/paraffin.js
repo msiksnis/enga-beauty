@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Paraffin from "../components/treatments/Paraffin";
 import HeaderFixed from "../components/header/HeaderFixed";
 import MobileHeader from "../components/mobileHeader/MobileHeader";
-import NewHeader from "../components/test/NewHeader";
+import NewHeader from "../components/header/NewHeader";
 
 export default function paraffin() {
   return (
