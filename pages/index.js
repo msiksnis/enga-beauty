@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Header from "../components/Header";
-import HeaderFixed from "../components/header/HeaderFixed";
 import MobileHeader from "../components/mobileHeader/MobileHeader";
 import Footer from "../components/Footer";
 import InstaFeed from "../components/InstaFeed";
