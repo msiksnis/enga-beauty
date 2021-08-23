@@ -27,7 +27,7 @@ export default function NewHeader() {
           headerSize ? "hidden" : "flex w-full fixed top-0 bg-white z-50"
         }
       >
-        <div className="flex justify-between items-center w-full cursor-pointer border-b border-gray-200">
+        <div className="flex justify-between items-center w-full border-b border-gray-200">
           <div className="flex space-x-4 text-xl ml-10 w-44">
             <div className="opacity-70 hover:opacity-100 hover:scale-110">
               <a
@@ -50,7 +50,7 @@ export default function NewHeader() {
               </a>
             </div>
           </div>
-          <div className="-mb-1">
+          <div className="-mb-1 cursor-pointer">
             <Link href="/">
               <Image
                 className="object-contain"
@@ -63,7 +63,7 @@ export default function NewHeader() {
           <div className="flex justify-end mr-10 w-44">
             <button
               className="text-md uppercase poppins border border-black px-10 py-2 rounded text-black
-          bg-white hover:text-white hover:bg-black"
+          bg-white hover:text-white hover:bg-black transition duration-200 ease-in-out"
             >
               <a
                 href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
@@ -166,7 +166,7 @@ export default function NewHeader() {
     </div>*/}
             <button
               className="text-sm uppercase poppins border border-black px-9 py-2 rounded text-white
-          bg-black hover:text-black hover:bg-white"
+          bg-black hover:text-black hover:bg-white transition duration-200 ease-in-out"
             >
               <a
                 href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"

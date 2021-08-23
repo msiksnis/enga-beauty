@@ -33,10 +33,10 @@ export default function Waxing({ blackBtnTxt }) {
           Det tar mindre enn halvparten av tiden å lage en Hollywood-voks.
         </h2>
         <div className="flex justify-center mb-10 lg:mb-14">
-          <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-72 mr-6 lg:mr-10 py-1 lg:py-2 bg-black/90 text-white text-sm lg:text-lg hover:bg-white hover:text-black/90 rounded shadow-lg">
+          <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-72 mr-6 lg:mr-10 py-1 lg:py-2 bg-black/90 text-white text-sm lg:text-lg hover:bg-white hover:text-black/90 rounded shadow-lg transition duration-200 ease-in-out">
             <Link href="/pricelist">Prisliste</Link>
           </button>
-          <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-72 py-1 lg:py-2 bg-white text-sm lg:text-lg hover:bg-black/90 hover:text-white rounded shadow-lg">
+          <button className="mt-6 lg:mt-10 border border-black w-36 lg:w-72 py-1 lg:py-2 bg-white text-sm lg:text-lg hover:bg-black/90 hover:text-white rounded shadow-lg transition duration-200 ease-in-out">
             <a
               href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
               target="_blank"
