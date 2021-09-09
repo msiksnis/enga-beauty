@@ -1,9 +1,45 @@
+import Image from "next/image";
+
 export default function Gavekort() {
   return (
-    <div className="flex justify-center items-center h-[500px] lg:mx-20 mt-24 lg:mt-60">
-      <h1 className="flex text-2xl lg:text-3xl lora">
-        Gavekort kommer snart <p className="ml-2 animate-bounce">🥳</p>
+    <div className="flex flex-col justify-center mx-6 lg:mx-20 mt-24 lg:h-[650px]">
+      <h1 className="flex text-center justify-center text-2xl lg:text-3xl lora mt-6 lg:mt-0">
+        I salongen vår kan du kjøpe et gavekort!
       </h1>
+      <div className="flex flex-col lg:flex-row w-full justify-between mt-10">
+        <div className="flex justify-center lg:mx-2">
+          <Image
+            className="object-contain"
+            src="/images/gavekort/gavekort1.jpg"
+            width={300}
+            height={250}
+          />
+        </div>
+        <div className="flex justify-center lg:mx-2">
+          <Image
+            className="object-contain"
+            src="/images/gavekort/gavekort2.jpg"
+            width={300}
+            height={250}
+          />
+        </div>
+        <div className="flex justify-center lg:mx-2">
+          <Image
+            className="object-contain"
+            src="/images/gavekort/gavekort3.jpg"
+            width={300}
+            height={250}
+          />
+        </div>
+        <div className="flex justify-center lg:mx-2">
+          <Image
+            className="object-contain"
+            src="/images/gavekort/gavekort4.jpg"
+            width={300}
+            height={250}
+          />
+        </div>
+      </div>
     </div>
   );
 }
