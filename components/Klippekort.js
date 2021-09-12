@@ -83,28 +83,28 @@ export default function Klippekort() {
             FOTPLEIE DAME
           </h4>
           <div className="text-lg">
-            <Table treatment="Mini pedikyr 5 klipp" price="2000" />
+            <Table treatment="Mini pedikyr 6 klipp" price="2400" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 500kr)
+              (du sparer 1200kr)
             </p>
-            <Table treatment="SPA pedikyr 5 klipp" price="2400" />
+            <Table treatment="SPA pedikyr 6 klipp" price="3200" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 600kr)
+              (du sparer 1600kr)
             </p>
-            <Table treatment="Helt pedikyr 5 klipp" price="2800" />
+            <Table treatment="Helt pedikyr 6 klipp" price="4000" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 700kr)
+              (du sparer 2000kr)
             </p>
             <Table
-              treatment="Dyp fuktighetsgivende pedikyr 5 klipp"
-              price="3100"
+              treatment="Dyp fuktighetsgivende pedikyr 6 klipp"
+              price="4800"
             />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 900kr)
+              (du sparer 2400kr)
             </p>
-            <Table treatment="Luksus signatur pedikyr 5 klipp" price="3500" />
+            <Table treatment="Luksus signatur pedikyr 6 klipp" price="5600" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 1000kr)
+              (du sparer 2800kr)
             </p>
             <Table treatment="Parafinbehandling 10 klipp" price="2500" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2"></p>
@@ -120,28 +120,28 @@ export default function Klippekort() {
             FOTPLEIE HERRE
           </h4>
           <div className="text-lg">
-            <Table treatment="Mini pedikyr 5 klipp" price="2000" />
+            <Table treatment="Mini pedikyr 6 klipp" price="2800" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 500kr)
+              (du sparer 1400kr)
             </p>
-            <Table treatment="SPA pedikyr 5 klipp" price="2750" />
+            <Table treatment="SPA pedikyr 6 klipp" price="3600" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 500kr)
+              (du sparer 1800kr)
             </p>
-            <Table treatment="Helt deluxe pedikyr 5 klipp" price="3050" />
+            <Table treatment="Helt deluxe pedikyr 6 klipp" price="4400" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 700kr)
+              (du sparer 2200kr)
             </p>
             <Table
-              treatment="Dyp fuktighetsgivende pedikyr 5 klipp"
-              price="3350"
+              treatment="Dyp fuktighetsgivende pedikyr 6 klipp"
+              price="5200"
             />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 900kr)
+              (du sparer 2600kr)
             </p>
-            <Table treatment="Luksus signatur pedikyr 5 klipp" price="3750" />
+            <Table treatment="Luksus signatur pedikyr 6 klipp" price="6000" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2">
-              (du sparer 1000kr)
+              (du sparer 3000kr)
             </p>
             <Table treatment="Parafinbehandling 10 klipp" price="2500" />
             <p className="montserrat text-md border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 pb-2"></p>
