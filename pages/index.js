@@ -25,5 +25,3 @@ export default function IndexPage() {
     </div>
   );
 }
-
-// <ImageSlider slides={SliderData} />

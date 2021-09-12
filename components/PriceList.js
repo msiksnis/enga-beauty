@@ -119,15 +119,15 @@ export default function PriceList() {
               Fotpleie Herre
             </h3>
 
-            <Table treatment="Mini pedikyr" price="500" />
+            <Table treatment="Mini pedikyr" price="700" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Spa pedikyr" price="650" />
+            <Table treatment="Spa pedikyr" price="900" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Helt deluxe pedikyr" price="750" />
+            <Table treatment="Helt deluxe pedikyr" price="1100" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Dyp fuktighetsgivende pedikyr" price="850" />
+            <Table treatment="Dyp fuktighetsgivende pedikyr" price="1300" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Luksuriøs signatur pedikyr" price="950" />
+            <Table treatment="Luksuriøs signatur pedikyr" price="1500" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
             <Table treatment="Parafinbehandling" price="300" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
