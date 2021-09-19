@@ -148,95 +148,64 @@ export default function PriceList() {
           </div>
           <div className="bg-[#FCFAFA] pt-1 lg:pt-4 pb-4 lg:px-2">
             <h3 className="flex ml-6 md:mx-10 lg:ml-0 montserrat text-xl mb-6 font-medium">
-              Voksing Dame
+              Voksing av kropp
             </h3>
             <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mb-1 font-medium border-b border-gray-200 md:mx-10">
-              HOT POT VOKSING DAME
+              KOMBO VOKSING (HOTPOT + STRIP)
             </h4>
-            <Table treatment="Brasiliansk Hot Pot voksing" price="600" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1">
-              (Første gang hos oss 500kr)
-            </p>
-            <Table treatment="Armhuler" price="150" />
+            <Table treatment="Legger" price="350" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-6 mb-1 font-medium border-b border-gray-200 md:mx-10">
-              STRIP VOKSING DAME
-            </h4>
-            <Table treatment="Bikinilinje" price="280" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Bikini Pluss" price="400" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1">
-              (Innen 5 uke hos oss 320kr)
-            </p>
-            <Table treatment="Hele armer" price="300" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Halv armer" price="150" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Hele ryggen" price="250" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Hender + fingre" price="100" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Lår" price="300" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Legger" price="250" />
+            <Table treatment="Lår" price="350" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
             <Table treatment="Tær" price="100" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-
+            <Table treatment="Bikinilinje (American)" price="250" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Full Bikini Classic" price="300" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Full Bikini Extended" price="400" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Hollywood" price="600" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Brasiliansk full" price="500" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Brasiliansk mini" price="400" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Armer hel" price="300" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Armer halv" price="200" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Armhuler" price="250" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Hele ryggen" price="300" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Halv ryggen" price="200" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+            <Table treatment="Rygg + mage" price="550" />
+            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
             <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-6 mb-1 font-medium border-b border-gray-200 md:mx-10">
-              KOMBO VOKSING DAME (HOT POT + STRIP)
+              BRASILIANSK GRAVID / SENSITIV
             </h4>
-            <Table treatment="Bikinilinje + lår" price="500" />
+            <Table treatment="Brasiliansk full" price="500" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Bikinilinje + hele ben" price="600" />
+            <Table treatment="Brasiliansk + legger" price="600" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Bikini Pluss + legger" price="500" />
+            <Table treatment="Brasilianks + lår" price="700" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Bikini + legger" price="400" />
+            <Table treatment="Braisiliansk + legger og lår" price="800" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Brasiliansk voks + lår" price="700" />
+            <Table treatment="Full Bikini Classic" price="400" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Brasiliansk voks + legg" price="600" />
+            <Table treatment="Full Bikini Extended" price="500" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Legg + lår" price="450" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Mage" price="200" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Rumpe" price="200" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-
-            <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-6 mb-1 font-medium border-b border-gray-200 md:mx-10">
-              BRAZILIANSK SENSITIV
-            </h4>
-            <Table treatment="Bikinilinje" price="250" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Bikini plus strip" price="300" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-
-            <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-6 mb-1 font-medium border-b border-gray-200 md:mx-10">
-              BRAZILIANSK GRAVID
-            </h4>
-            <Table treatment="Braziliansk" price="600" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Bikini" price="450" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Bikini Pluss" price="500" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Braziliansk + legger" price="600" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Brazilian + lår" price="700" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Brazilian + legger og lår" price="800" />
-            <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-
             <h4 className="flex ml-6 lg:ml-0 montserrat text-lg mt-6 mb-1 font-medium border-b border-gray-200 md:mx-10">
               VOKSING AV ANSIKT
             </h4>
             <Table treatment="Bryn med forming" price="200" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Kun ansikt" price="400" />
+            <Table treatment="Overleppe" price="150" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
-            <Table treatment="Overleppe" price="100" />
+            <Table treatment="Hake" price="200" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
             <Table treatment="Kinn" price="150" />
             <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
