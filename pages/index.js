@@ -20,7 +20,6 @@ export default function IndexPage() {
         <MobileHeader />
       </div>
       <BannerTwo />
-      <InstaFeed />
       <Footer />
     </div>
   );
