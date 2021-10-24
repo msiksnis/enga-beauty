@@ -10,6 +10,7 @@
   "dependencies": {
     "@heroicons/react": "^1.0.1",
     "@material-ui/core": "^4.12.2",
+    "framer-motion": "^4.1.17",
     "instagram-gallery": "^1.2.4",
     "next": "11.0.1",
     "nprogress": "^0.2.0",
@@ -19,7 +20,11 @@
     "react-google-maps": "^9.4.5",
     "react-icons": "^4.2.0",
     "react-ig-feed": "^1.0.4",
-    "react-scroll": "^1.8.3"
+    "react-parallax": "^3.3.0",
+    "react-router-dom": "^5.3.0",
+    "react-scroll": "^1.8.3",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",

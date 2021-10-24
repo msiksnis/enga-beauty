@@ -82,7 +82,7 @@
   .active {
     opacity: 1;
     transition-duration: 1s;
-    /* transform: scale(1.08); */
+    transform: scale(1.08);
   }
 
   .menu-btn {
@@ -211,5 +211,10 @@
       justify-content: center;
       flex-wrap: wrap;
     }
+  }
+
+  .sliderBg {
+    /* background-image: url("https://media0.giphy.com/media/b846nuotC8uUiDWzGu/giphy.gif?cid=790b761195b8deb3dcec6618b4ddcc96ade0bd1dc3fcb072&rid=giphy.gif&ct=g"); */
+    background-image: url("https://static.wixstatic.com/media/3814a6_0a0ae0ed2d6c4c4eb20dc1d5244f22b3~mv2.gif");
   }
 }

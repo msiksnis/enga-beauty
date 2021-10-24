@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Modal from "@material-ui/core/Modal";
 import { makeStyles } from "@material-ui/core/styles";
-import { HiMenu, HiX } from "react-icons/hi";
+import { HiMenuAlt3, HiX } from "react-icons/hi";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -90,15 +90,35 @@ export default function MobileHeader() {
                     className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
                     onClick={() => setOpenModal(false)}
                   >
-                    Voksing
+                    Hårfjerning
                   </div>
                 </Link>
+                <div
+                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  // onClick={() => setOpenModal(false)}
+                >
+                  Microblading
+                </div>
+                <div
+                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  // onClick={() => setOpenModal(false)}
+                >
+                  Vipper & Bryn
+                </div>
                 <Link href="/pricelist">
                   <div
                     className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
                     onClick={() => setOpenModal(false)}
                   >
                     Prisliste
+                  </div>
+                </Link>
+                <Link href="/shop">
+                  <div
+                    className="hidden uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    onClick={() => setOpenModal(false)}
+                  >
+                    Shop
                   </div>
                 </Link>
                 <Link href="/season-ticket">
@@ -154,7 +174,7 @@ export default function MobileHeader() {
           />
         </Link>
         <div className="text-3xl opacity-90" onClick={() => setOpenModal(true)}>
-          <HiMenu />
+          <HiMenuAlt3 />
         </div>
       </div>
     </div>

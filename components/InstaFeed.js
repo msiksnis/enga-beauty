@@ -19,14 +19,14 @@ export default function InstaFeed() {
         <div className="hidden md:flex">
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
-            accessToken="IGQVJYakFEZA29NQkJvazc5NVc1UmQyVWU1bkZA3MmE5MXdOQW83cVRGUzRZAVUx0RHVkU0tjdXZAhdjRDVzlhVXRQVEIweHN0UDZAHOW05VnpmbEllM05BU0VaeHZAkNkZArV0ZAWSkxPek9HVUtpc1pDMUNJawZDZD"
+            accessToken="IGQVJVMllTblZAVVEpsMDZAhdmxlMzdMdXZAkY2xwR0JRMkdzSHJlMzliN09GOTdqVlRISzhDN1owYVphVmVBd3JDSVRzdlVsMXVsTGVOeHpQTHMwNkpNYklyUzJvcXEyTUtjY1JIektlTk1KTGx0TFIwQQZDZD"
             count={20}
           />
         </div>
         <div className="md:hidden">
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
-            accessToken="IGQVJYakFEZA29NQkJvazc5NVc1UmQyVWU1bkZA3MmE5MXdOQW83cVRGUzRZAVUx0RHVkU0tjdXZAhdjRDVzlhVXRQVEIweHN0UDZAHOW05VnpmbEllM05BU0VaeHZAkNkZArV0ZAWSkxPek9HVUtpc1pDMUNJawZDZD"
+            accessToken="IGQVJVMllTblZAVVEpsMDZAhdmxlMzdMdXZAkY2xwR0JRMkdzSHJlMzliN09GOTdqVlRISzhDN1owYVphVmVBd3JDSVRzdlVsMXVsTGVOeHpQTHMwNkpNYklyUzJvcXEyTUtjY1JIektlTk1KTGx0TFIwQQZDZD"
             count={12}
           />
         </div>

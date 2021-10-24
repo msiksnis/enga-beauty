@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ToTop from "../ToTop";
-import Link from "next/link";
 
 export default function BannerTwo() {
   return (

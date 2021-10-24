@@ -1,23 +1,28 @@
 import MobileHeader from "../components/mobileHeader/MobileHeader";
-import TestHeader from "../components/test/TestHeader";
-import Banner from "../components/banner/Banner";
+import ImageSlider from "../components/slider/ImageSlider";
+import SliderData from "../components/slider/SliderData";
 import InfoCovid from "../components/InfoCovid";
 import InstaFeed from "../components/InstaFeed";
 import Footer from "../components/Footer";
+import Carousel from "../components/Carousel";
+import NewHeader from "../components/header/NewHeader";
+import TestimonialsTwo from "../components/testimonial/TestimonialsTwo";
+import { Data } from "../components/testimonial/TestimonialData";
 
 export default function testSlider() {
   return (
     <div>
       <div className="hidden lg:inline">
-        <TestHeader />
+        <NewHeader />
       </div>
       <div className="lg:hidden">
         <MobileHeader />
       </div>
       <InfoCovid />
-      <Banner />
-      <InstaFeed />
+      <Carousel />
+      <TestimonialsTwo slides={Data} />
       <Footer />
     </div>
   );
 }
+// <ImageSlider slides={SliderData} />
