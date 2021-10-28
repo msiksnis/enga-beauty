@@ -5,7 +5,7 @@ export default function XLParaffin() {
   return (
     <div className="mt-40 h-[600px] pt-20">
       <div className="">
-        <div className="flex bg-[#FEF7F7]">
+        <div className="flex bg-[#FFFAF6]">
           <div className="flex w-3/5 flex-col pt-14 pb-14 pl-20">
             <div className="flex justify-center text-4xl">
               Parafinbehandlinger
