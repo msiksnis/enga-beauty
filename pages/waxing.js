@@ -4,6 +4,7 @@ import Waxing from "../components/treatments/Waxing";
 import HeaderFixed from "../components/header/HeaderFixed";
 import MobileHeader from "../components/mobileHeader/MobileHeader";
 import NewHeader from "../components/header/NewHeader";
+import XLWaxing from "../components/treatments/XLWaxing";
 
 export default function waxing() {
   return (
@@ -19,7 +20,12 @@ export default function waxing() {
       <div className="lg:hidden">
         <MobileHeader />
       </div>
-      <Waxing />
+      <div className="xl:hidden">
+        <Waxing />
+      </div>
+      <div className="hidden xl:inline">
+        <XLWaxing />
+      </div>
       <Footer />
     </div>
   );

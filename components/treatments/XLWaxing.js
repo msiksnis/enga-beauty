@@ -1,22 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function XLParaffin() {
+export default function XLWaxing() {
   return (
-    <div className="mt-40 h-[600px] pt-20">
+    <div className="mt-40 pt-20">
       <div className="">
         <div className="flex bg-[#FEF7F7]">
           <div className="flex w-3/5 flex-col pt-14 pb-14 pl-20">
-            <div className="flex justify-center text-4xl">
-              Parafinbehandlinger
-            </div>
+            <div className="flex justify-center text-4xl">Voksing</div>
             <div className="mt-10 text-xl font-light tracking-wide opacity-80 ">
-              Paraffinvoksbehandling er utmerket alene eller i kombinasjon med
-              manikyr eller pedikyr. Den terapeutiske varmebehandlingen slapper
-              av såre, slitne hender og føtter, stimulerer blodsirkulasjonen og
-              gir mye mer effektiv massasjeopplevelse. Vi prøver vårt beste for
-              å gi kundene våre en fantastisk opplevelse og la dem føle seg
-              usedvanlig bortskjemt etter alle typer parafinbehandlinger.
+              Lurer du på hvilken type voksing som passer til ditt hår og din
+              hudtype? Vi anbefaler deg den mest effektive og passende voksypen
+              gjennom gratis konsultasjon for våre kunder. Hvis du er redd for
+              smerte for voksing av følsomme områder som bikini og underarm, er
+              voksing fra Hollywood Hotpot perfekt for deg. Varmen fra voksen
+              åpner porene og fremmer hydrering av huden som resulterer i færre
+              inngrodde hår, mindre brudd og derfor lengre perioder med vekst.
+              ALLE hår i området vil være borte. Hvis du har tykkere hår med
+              mindre følsom hud anbefaler vi våre kunder å velge stripevoks til
+              din brasilianske / bikini voksing. Det vil raskt fjerne hår
+              utenfor og over bikinilinjen, men også perfekt for store områder
+              som rygg, armer, mage, lår og ben. Det tar mindre enn halvparten
+              av tiden å lage en Hollywood-voks.
             </div>
           </div>
         </div>
@@ -44,7 +49,7 @@ export default function XLParaffin() {
         <div className="absolute top-44 right-20 h-[550px] w-[400px] shadow">
           <Image
             className="object-cover object-top"
-            src="/images/pics/Spahand.jpg"
+            src="/images/waxing/waxing5.jpg"
             width={400}
             height={550}
           />

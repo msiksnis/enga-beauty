@@ -5,7 +5,7 @@ export default function Paraffin() {
   return (
     <div className="lg:flex flex-row-reverse mt-24 lg:mt-56 w-full lg:px-20">
       <div className="lg:w-1/3">
-        <div className="lg:mt-10 mb-4">
+        <div className="lg:mt-10 mb-4 shadow h-[513px] w-[400px]">
           <Image
             className="object-cover object-top"
             src="/images/pics/Spahand.jpg"

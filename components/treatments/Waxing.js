@@ -1,21 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Waxing({ blackBtnTxt }) {
+export default function Waxing() {
   return (
-    <div className="lg:flex mt-24 lg:mt-56 w-full lg:px-20">
+    <div className="lg:flex flex-row-reverse mt-24 lg:mt-40 w-full lg:px-20">
       <div className="lg:w-1/3">
-        <div className="lg:mt-10 mb-4">
+        <div className="lg:mt-10 mb-4 shadow-md h-[513px] w-[400px]">
           <Image
             className="object-cover"
             src="/images/waxing/waxing5.jpg"
             width={700}
-            height={850}
+            height={900}
           />
         </div>
       </div>
       <div className="lg:w-2/3">
-        <h1 className="text-center text-4xl lg:text-5xl lora mb-6 lg:mb-14 lg:mt-10">
+        <h1 className="text-center text-4xl lg:text-4xl poppins mb-6 lg:mb-14 lg:mt-10">
           Voksing
         </h1>
         <h2 className="text-lg lg:text-xl opacity-70 poppins font-light mx-6 lg:pl-10">

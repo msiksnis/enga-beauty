@@ -3,7 +3,7 @@ import ToTop from "../ToTop";
 
 export default function BannerTwo() {
   return (
-    <div className="lg:mt-36 lg:mx-20">
+    <div className="lg:mt-40 lg:mx-20">
       <ToTop />
       <div className="hidden lg:flex justify-center">
         <Image

@@ -1,22 +1,35 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function XLParaffin() {
+export default function XLSpaManicurePedicure() {
   return (
-    <div className="mt-40 h-[600px] pt-20">
+    <div className="mt-40 pt-20">
       <div className="">
         <div className="flex bg-[#FEF7F7]">
           <div className="flex w-3/5 flex-col pt-14 pb-14 pl-20">
             <div className="flex justify-center text-4xl">
-              Parafinbehandlinger
+              SPA Manikyr og Pedikyr
             </div>
             <div className="mt-10 text-xl font-light tracking-wide opacity-80 ">
-              Paraffinvoksbehandling er utmerket alene eller i kombinasjon med
-              manikyr eller pedikyr. Den terapeutiske varmebehandlingen slapper
-              av såre, slitne hender og føtter, stimulerer blodsirkulasjonen og
-              gir mye mer effektiv massasjeopplevelse. Vi prøver vårt beste for
-              å gi kundene våre en fantastisk opplevelse og la dem føle seg
-              usedvanlig bortskjemt etter alle typer parafinbehandlinger.
+              <p>
+                Hos oss kan du velge mellom 3 typer luksuspedikyr eller 2
+                forskjellige mini-og spa pedikyrer. Spa- og pedikyrer fokuserer
+                mer på å fjerne død hud og ta vare på neglebånd og negleseng
+                etter et deilig boblende massasjefotbad.
+              </p>
+              <br />
+              <p>
+                Våre unikt utformede 3 luksuspedikyrer fokusere på velvære ved å
+                gi aromamassasje med varme steiner. Massasje med varme steiner
+                lindrer muskelspenninger og stivhet samtidig forbedrer
+                blodsirkulasjon. Basalt stein er en type vulkansk stein som
+                beholder varmen. Massasje av benmuskulaturen, føtter og tær med
+                denne steinen forbedrer dine kardiovaskulære reaksjoner og gir
+                deg en luksuriøs komfort under massasjen. Etter massasjen vil
+                føttene bli behandlet i et parafinvoksbad som fukter huden dypt.
+                Parafinvoks er en terapeutisk behandling som er mykgjørende og
+                helbredende mot sprukken og tørr hud.
+              </p>
             </div>
           </div>
         </div>
@@ -44,7 +57,7 @@ export default function XLParaffin() {
         <div className="absolute top-44 right-20 h-[550px] w-[400px] shadow">
           <Image
             className="object-cover object-top"
-            src="/images/pics/Spahand.jpg"
+            src="/images/spa-manicure-pedicure/spa.jpeg"
             width={400}
             height={550}
           />

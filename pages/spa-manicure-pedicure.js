@@ -4,6 +4,7 @@ import SpaManicurePedicure from "../components/treatments/SpaManicurePedicure";
 import HeaderFixed from "../components/header/HeaderFixed";
 import MobileHeader from "../components/mobileHeader/MobileHeader";
 import NewHeader from "../components/header/NewHeader";
+import XLSpaManicurePedicure from "../components/treatments/XLSpaManicurePedicure";
 
 export default function spaManicurePedicure() {
   return (
@@ -19,7 +20,12 @@ export default function spaManicurePedicure() {
       <div className="lg:hidden">
         <MobileHeader />
       </div>
-      <SpaManicurePedicure />
+      <div className="xl:hidden">
+        <SpaManicurePedicure />
+      </div>
+      <div className="hidden xl:inline">
+        <XLSpaManicurePedicure />
+      </div>
       <Footer />
     </div>
   );
