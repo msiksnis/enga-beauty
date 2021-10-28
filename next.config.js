@@ -6,4 +6,12 @@ module.exports = {
       "lh3.googleusercontent.com",
     ],
   },
+  experimental: {
+    urlImports: [
+      "https://framer.com/m/",
+      "https://framerusercontent.com/",
+      "https://ga.jspm.io/",
+      "https://jspm.dev/",
+    ],
+  },
 };

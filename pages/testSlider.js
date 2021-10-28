@@ -8,6 +8,8 @@ import Carousel from "../components/Carousel";
 import NewHeader from "../components/header/NewHeader";
 import TestimonialsTwo from "../components/testimonial/TestimonialsTwo";
 import { Data } from "../components/testimonial/TestimonialData";
+import FramerComponents from "../components/test/FramerComponents";
+import XLParaffin from "../components/treatments/XLParaffin";
 
 export default function testSlider() {
   return (
@@ -18,8 +20,9 @@ export default function testSlider() {
       <div className="lg:hidden">
         <MobileHeader />
       </div>
-      <InfoCovid />
+      <XLParaffin />
       <Carousel />
+      <FramerComponents />
       <TestimonialsTwo slides={Data} />
       <Footer />
     </div>

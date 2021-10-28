@@ -12,7 +12,6 @@ export default function HeaderFixed() {
     } else {
       setHeaderSize(false);
     }
-    console.log(switchHeader);
   };
 
   useEffect(() => {

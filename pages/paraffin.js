@@ -4,6 +4,7 @@ import Paraffin from "../components/treatments/Paraffin";
 import HeaderFixed from "../components/header/HeaderFixed";
 import MobileHeader from "../components/mobileHeader/MobileHeader";
 import NewHeader from "../components/header/NewHeader";
+import XLParaffin from "../components/treatments/XLParaffin";
 
 export default function paraffin() {
   return (
@@ -19,7 +20,12 @@ export default function paraffin() {
       <div className="lg:hidden">
         <MobileHeader />
       </div>
-      <Paraffin />
+      <div className="xl:hidden">
+        <Paraffin />
+      </div>
+      <div className="hidden xl:inline">
+        <XLParaffin />
+      </div>
       <Footer />
     </div>
   );

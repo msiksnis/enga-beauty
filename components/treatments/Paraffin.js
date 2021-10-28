@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Paraffin({ blackBtnTxt }) {
+export default function Paraffin() {
   return (
     <div className="lg:flex flex-row-reverse mt-24 lg:mt-56 w-full lg:px-20">
       <div className="lg:w-1/3">
@@ -15,7 +15,7 @@ export default function Paraffin({ blackBtnTxt }) {
         </div>
       </div>
       <div className="lg:w-2/3">
-        <h1 className="text-center text-4xl lg:text-5xl lora mb-6 lg:mb-14 lg:mt-10">
+        <h1 className="text-center text-3xl lg:text-4xl poppins mb-6 lg:mb-14 lg:mt-20">
           Parafinbehandlinger
         </h1>
         <h2 className="text-lg lg:text-xl opacity-70 poppins font-light mx-6 lg:pr-10">

@@ -12,7 +12,6 @@ export default function HeaderTwo() {
     } else {
       setHeaderSize(false);
     }
-    console.log(switchHeader);
   };
 
   useEffect(() => {
