@@ -8,8 +8,6 @@ import Carousel from "../components/Carousel";
 import NewHeader from "../components/header/NewHeader";
 import TestimonialsTwo from "../components/testimonial/TestimonialsTwo";
 import { Data } from "../components/testimonial/TestimonialData";
-import FramerComponents from "../components/test/FramerComponents";
-import XLSpaManicurePedicure from "../components/treatments/XLSpaManicurePedicure";
 
 export default function testSlider() {
   return (
@@ -20,12 +18,10 @@ export default function testSlider() {
       <div className="lg:hidden">
         <MobileHeader />
       </div>
-      <XLSpaManicurePedicure />
-      <Carousel />
-      <FramerComponents />
-      <TestimonialsTwo slides={Data} />
+      <div className="hidden">
+        <TestimonialsTwo slides={Data} />
+      </div>
       <Footer />
     </div>
   );
 }
-// <ImageSlider slides={SliderData} />

@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import InstaFeed from "../components/InstaFeed";
 import BannerTwo from "../components/banner/BannerTwo";
 import NewHeader from "../components/header/NewHeader";
+import WorkWithUs from "../components/banner/WorkWithUs";
 
 export default function IndexPage() {
   return (
@@ -19,7 +20,10 @@ export default function IndexPage() {
       <div className="lg:hidden">
         <MobileHeader />
       </div>
-      <BannerTwo />
+      <div className="hidden">
+        <BannerTwo />
+      </div>
+      <WorkWithUs />
       <InstaFeed />
       <Footer />
     </div>
