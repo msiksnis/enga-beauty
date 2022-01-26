@@ -24,15 +24,8 @@ const useStyles = makeStyles((theme) => ({
     width: `${width}vw`,
     height: `${height}vh`,
     backgroundColor: "#fff",
-    // opacity: 0.96,
-    // backgroundColor: theme.palette.background.paper,
-    // border: "1px solid #000",
     outline: 0,
-    // backdropFilter: `${filter}`,
-    // borderRadius: 10,
     boxShadow: theme.shadows[5],
-    // padding: theme.spacing(2, 4, 3),
-    // overflow: "scroll",
   },
 }));
 
@@ -180,35 +173,3 @@ export default function MobileHeader() {
     </div>
   );
 }
-
-// <h1 className="flex text-2xl font-thin  lora opacity-90">
-//                   <Link href="/">ENGA BEAUTY</Link>
-//                 </h1>
-
-// <div className="flex flex-col text-2xl items-center mt-20">
-//                 <span className="relative dropdown cursor-pointer opacity-70 hover:opacity-100 py-3">
-//                   <span>Behandlinger</span>
-//                   <div className="dropdown-content ml-[-60px] py-3 bg-white z-10 rounded-xl">
-//                     <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
-//                       <Link href="/spa-manicure-pedicure">
-//                         SPA manikyr og pedikyr
-//                       </Link>
-//                     </span>
-//                     <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
-//                       <Link href="/waxing">Voksing</Link>
-//                     </span>
-//                     <span className="cursor-pointer opacity-70 hover:opacity-100 text-xl lg:text-lg py-1 transform hover:scale-105 transition duration-300 ease-in-out">
-//                       <Link href="/paraffin">Parafinbehandlinger</Link>
-//                     </span>
-//                   </div>
-//                 </span>
-//                 <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
-//                   <Link href="/pricelist">Prisliste</Link>
-//                 </span>
-//                 <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
-//                   <Link href="/season-ticket">Klippekort</Link>
-//                 </span>
-//                 <div className="mt-5">
-//                   <BookNow />
-//                 </div>
-//               </div>

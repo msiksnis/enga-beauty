@@ -5,6 +5,7 @@ import InstaFeed from "../components/InstaFeed";
 import BannerTwo from "../components/banner/BannerTwo";
 import NewHeader from "../components/header/NewHeader";
 import WorkWithUs from "../components/banner/WorkWithUs";
+import InstagramFeed from "../components/widgets/InstagramFeed";
 
 export default function IndexPage() {
   return (
@@ -24,7 +25,7 @@ export default function IndexPage() {
         <BannerTwo />
       </div>
       <WorkWithUs />
-      <InstaFeed />
+      <InstagramFeed />
       <Footer />
     </div>
   );

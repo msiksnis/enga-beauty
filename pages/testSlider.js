@@ -18,7 +18,7 @@ export default function testSlider() {
       <div className="lg:hidden">
         <MobileHeader />
       </div>
-      <div className="hidden">
+      <div className="">
         <TestimonialsTwo slides={Data} />
       </div>
       <Footer />

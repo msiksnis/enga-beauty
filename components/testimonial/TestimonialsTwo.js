@@ -4,9 +4,11 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import Dots from "./Dots";
 
 export default function TestimonialsTwo({ slides, autoPlay }) {
+  console.log("scsdcsscd", Data);
   const [current, setCurrent] = useState(0);
 
   const length = slides.length;
+  console.log("this is the length!!!!", length);
 
   const autoPlayRef = useRef();
 
