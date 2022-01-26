@@ -21,10 +21,10 @@ export default function IndexPage() {
       <div className="lg:hidden">
         <MobileHeader />
       </div>
-      <div className="hidden">
+      <div className="">
         <BannerTwo />
       </div>
-      <WorkWithUs />
+      {/* <WorkWithUs /> */}
       <InstagramFeed />
       <Footer />
     </div>
