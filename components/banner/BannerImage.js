@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function BannerImage() {
   return (
-    <div className="h-screen w-full">
+    <div className="w-full h-screen">
       <Image
         className="object-cover"
         src="/images/Banner_Manicure_Pedicure.jpg"

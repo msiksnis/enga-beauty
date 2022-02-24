@@ -29,7 +29,7 @@ export default function HeaderTwo() {
               : "flex flex-col w-full fixed top-0 bg-white z-50"
           }
         >
-          <div className="flex justify-center items-end w-full">
+          <div className="flex items-end justify-center w-full">
             <Image
               className="object-contain"
               src="/LOGO-ONE.png"
@@ -38,35 +38,32 @@ export default function HeaderTwo() {
             />
             <div className=""></div>
           </div>
-          <div className="flex h-14 justify-between px-20 items-end pb-2 w-full">
-            <div className="space-x-6 poppins opacity-70">
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+          <div className="h-14 flex items-end justify-between w-full px-20 pb-2">
+            <div className="poppins opacity-70 space-x-6">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Behandlinger
               </span>
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Prisliste
               </span>
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Klippekort
               </span>
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Gavekort
               </span>
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Kjøp
               </span>
             </div>
             <div className="flex items-center">
-              <span className="text-xs poppins opacity-70 mr-6 cursor-pointer hover:opacity-100">
+              <span className="poppins opacity-70 hover:opacity-100 mr-6 text-xs cursor-pointer">
                 SIGN IN
               </span>
-              <div className="mr-6 opacity-70 text-xl cursor-pointer">
+              <div className="opacity-70 mr-6 text-xl cursor-pointer">
                 <HiOutlineShoppingBag />
               </div>
-              <button
-                className="text-xs poppins border border-black px-6 py-1 rounded text-white
-          bg-black hover:text-black hover:bg-white"
-              >
+              <button className="poppins hover:text-black hover:bg-white px-6 py-1 text-xs text-white bg-black border border-black rounded">
                 Bestill Time
               </button>
             </div>
@@ -76,7 +73,7 @@ export default function HeaderTwo() {
       <div
         className={headerSize ? "fixed w-full z-10 top-0 bg-white" : "hidden"}
       >
-        <div className="flex h-11 justify-between px-4 items-end pb-2 w-full shadow-md">
+        <div className="h-11 flex items-end justify-between w-full px-4 pb-2 shadow-md">
           <div className="flex items-center w-2/3">
             <div className="pr-20 -mb-2">
               <Link href="/">
@@ -88,35 +85,32 @@ export default function HeaderTwo() {
                 />
               </Link>
             </div>
-            <div className="flex justify-start space-x-6 poppins opacity-70 text-sm mt-2">
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+            <div className="poppins opacity-70 flex justify-start mt-2 space-x-6 text-sm">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Behandlinger
               </span>
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Prisliste
               </span>
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Klippekort
               </span>
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Gavekort
               </span>
-              <span className="cursor-pointer hover:opacity-100 uppercase">
+              <span className="hover:opacity-100 uppercase cursor-pointer">
                 Kjøp
               </span>
             </div>
           </div>
           <div className="flex items-center justify-end w-1/3">
-            <span className="text-xs poppins opacity-70 mr-6 cursor-pointer hover:opacity-100">
+            <span className="poppins opacity-70 hover:opacity-100 mr-6 text-xs cursor-pointer">
               SIGN IN
             </span>
-            <div className="mr-6 opacity-70 text-xl cursor-pointer">
+            <div className="opacity-70 mr-6 text-xl cursor-pointer">
               <HiOutlineShoppingBag />
             </div>
-            <button
-              className="text-xs poppins border border-black px-6 py-1 rounded text-white
-          bg-black hover:text-black hover:bg-white"
-            >
+            <button className="poppins hover:text-black hover:bg-white px-6 py-1 text-xs text-white bg-black border border-black rounded">
               Bestill Time
             </button>
           </div>
@@ -124,8 +118,10 @@ export default function HeaderTwo() {
       </div>
     </div>
   );
+} 
+    </div>
+  );
 }
 
-// <h1 className="text-[2.5rem] font-thin tracking-[0.07em] lora opacity-90">
-//               <Link href="/">ENGA BEAUTY</Link>
-//             </h1>
+// <h1 className="text-[2.5rem] font-thin tracking-[0.07e ] lora opacity-90">
+//               <Link href="/ >ENGA BEAUTY</Link>

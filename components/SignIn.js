@@ -6,7 +6,7 @@ export default function SignIn({ setShowModal }) {
     <div>
       <Modal />
       <span
-        className="poppins opacity-70 mr-6 cursor-pointer hover:opacity-100"
+        className="poppins opacity-70 hover:opacity-100 mr-6 cursor-pointer"
         onClick={() => setShowModal(true)}
       >
         SIGN IN

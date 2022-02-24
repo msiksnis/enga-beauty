@@ -24,14 +24,14 @@ export default function Modal({ showModal, setShowModal }) {
     <AnimatePresence exitBeforeEnter>
       {showModal && (
         <motion.div
-          className="fixed top-0 left-0 w-full h-full bg-black/50 z-50"
+          className="bg-black/50 fixed top-0 left-0 z-50 w-full h-full"
           variants={backdrop}
           initial="hidden"
           animate="visible"
           exit="hidden"
         >
           <motion.div
-            className="w-1/3 bg-white h-auto my-0 mx-auto py-10 px-5 rounded-md text-center"
+            className="w-1/3 h-auto px-5 py-10 mx-auto my-0 text-center bg-white rounded-md"
             variants={modal}
           >
             <form>
@@ -39,13 +39,13 @@ export default function Modal({ showModal, setShowModal }) {
                 <HiX onClick={() => setShowModal(false)} />
               </div>
               <div>
-                <h1 className="text-2xl font-bold poppins">
+                <h1 className="poppins text-2xl font-bold">
                   Login to your account
                 </h1>
               </div>
               <div className="my-3">
                 <input
-                  className="px-4 w-full border-2 py-2 rounded-md text-sm outline-none poppins"
+                  className="poppins w-full px-4 py-2 text-sm border-2 rounded-md outline-none"
                   type="email"
                   name="email"
                   placeholder="email"
@@ -53,7 +53,7 @@ export default function Modal({ showModal, setShowModal }) {
               </div>
               <div className="mt-2 mb-4">
                 <input
-                  className="px-4 w-full border-2 py-2 rounded-md text-sm outline-none poppins"
+                  className="poppins w-full px-4 py-2 text-sm border-2 rounded-md outline-none"
                   type="password"
                   name="password"
                   placeholder="password"
@@ -61,7 +61,7 @@ export default function Modal({ showModal, setShowModal }) {
               </div>
               <div className="flex justify-between">
                 <div></div>
-                <span className="text-sm text-blue-700 hover:underline cursor-pointer poppins">
+                <span className="hover:underline poppins text-sm text-blue-700 cursor-pointer">
                   Forgot password?
                 </span>
               </div>
@@ -70,7 +70,7 @@ export default function Modal({ showModal, setShowModal }) {
                   Login now
                 </button>
                 <div className="">
-                  <button className="flex justify-center items-center mb-3 w-full bg-gray-900 hover:bg-gray-700 text-white py-2 rounded-md transition duration-100 poppins">
+                  <button className="hover:bg-gray-700 poppins flex items-center justify-center w-full py-2 mb-3 text-white transition duration-100 bg-gray-900 rounded-md">
                     <div className="flex mr-3">
                       <Image
                         className="object-contain"

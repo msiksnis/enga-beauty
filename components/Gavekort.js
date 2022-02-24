@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Gavekort() {
   return (
-    <div className="flex flex-col justify-center mx-6 lg:mx-20 mt-24 lg:h-[650px]">
-      <h1 className="flex text-center justify-center text-2xl lg:text-3xl poppins mt-6 lg:mt-0">
+    <div className="mx-6 mt-32 flex flex-col items-center md:mx-20 md:mt-44 lg:mt-52 lg:h-screen">
+      <h1 className="poppins flex justify-center pb-6 text-center text-2xl lg:mt-0 lg:text-3xl">
         Gavekortet har 6 måneder gyldighet og du kan velge ønsket beløp for
         gavekortet i salongen vår.
       </h1>
-      <div className="flex flex-col lg:flex-row w-full justify-between mt-10">
+      <div className="w-full justify-between md:grid md:grid-cols-2 lg:flex ">
         <div className="flex justify-center lg:mx-2">
           <Image
             className="object-contain"

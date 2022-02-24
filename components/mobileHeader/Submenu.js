@@ -48,20 +48,20 @@ export default function Submenu() {
     <div className="flex">
       <Modal open={openSubmenu} onClose={() => setOpenSubmenu(false)}>
         <div style={submenuStyle} className={classes.paper}>
-          <div className="flex flex-col items-center justify-center h-full opacity-70 hover:opacity-100 text-xl">
-            <div className="py-2 transform hover:scale-105 transition duration-300 ease-in-out">
+          <div className="opacity-70 hover:opacity-100 flex flex-col items-center justify-center h-full text-xl">
+            <div className="hover:scale-105 py-2 transition duration-300 ease-in-out transform">
               <Link href="/spa-manicure-pedicure">SPA manikyr og pedikyr</Link>
             </div>
-            <div className="py-2 transform hover:scale-105 transition duration-300 ease-in-out">
+            <div className="hover:scale-105 py-2 transition duration-300 ease-in-out transform">
               <Link href="/waxing">Voksing</Link>
             </div>
-            <div className="py-2 transform hover:scale-105 transition duration-300 ease-in-out">
+            <div className="hover:scale-105 py-2 transition duration-300 ease-in-out transform">
               <Link href="/paraffin">Parafinbehandlinger</Link>
             </div>
           </div>
         </div>
       </Modal>
-      <span className="cursor-pointer opacity-70 hover:opacity-100 py-3 transform hover:scale-105 transition duration-300 ease-in-out">
+      <span className="opacity-70 hover:opacity-100 hover:scale-105 py-3 transition duration-300 ease-in-out transform cursor-pointer">
         <div className="" onClick={() => setOpenSubmenu(true)}>
           Behandlinger
         </div>

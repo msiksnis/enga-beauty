@@ -17,12 +17,7 @@ const RegularMap = withScriptjs(
       defaultCenter={defaultCenter}
       defaultOptions={defaultOptions}
     >
-      <Marker
-        position={defaultCenter}
-        // icon={{
-        //   url: "/images/Tag.png",
-        // }}
-      />
+      <Marker position={defaultCenter} />
     </GoogleMap>
   ))
 );

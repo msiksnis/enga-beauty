@@ -7,7 +7,7 @@ export default function SocialIcons() {
         href="https://www.instagram.com/enga_beauty_ba10/"
         target="_blank"
         rel="noopener noreferrer"
-        className="transform hover:scale-110 transition duration-300 ease-in-out"
+        className="hover:scale-110 transition duration-300 ease-in-out transform"
       >
         <Image src="/images/social/instagram.png" width="30" height="30" />
       </a>
@@ -15,7 +15,7 @@ export default function SocialIcons() {
         href="https://facebook.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="transform hover:scale-110 transition duration-300 ease-in-out"
+        className="hover:scale-110 transition duration-300 ease-in-out transform"
       >
         <Image src="/images/social/facebook.png" width="30" height="30" />
       </a>
@@ -23,7 +23,7 @@ export default function SocialIcons() {
         href="https://tiktok.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="transform hover:scale-110 transition duration-300 ease-in-out"
+        className="hover:scale-110 transition duration-300 ease-in-out transform"
       >
         <Image src="/images/social/tiktok.png" width="32" height="32" />
       </a>

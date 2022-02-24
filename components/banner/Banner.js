@@ -4,8 +4,8 @@ import BannerCard from "./BannerCard";
 
 export default function Banner() {
   return (
-    <div className="flex flex-col lg:space-y-6 lg:px-20 mt-8">
-      <div className="flex justify-center flex-col lg:flex-row-reverse">
+    <div className="lg:space-y-6 lg:px-20 flex flex-col mt-8">
+      <div className="lg:flex-row-reverse flex flex-col justify-center">
         <Image
           className="object-cover"
           src="/images/pedicure-2.jpg"
@@ -22,7 +22,7 @@ export default function Banner() {
         </div>
       </div>
 
-      <div className="flex justify-center flex-col lg:flex-row">
+      <div className="lg:flex-row flex flex-col justify-center">
         <Image
           className="object-cover"
           src="/images/waxing.jpg"
@@ -39,7 +39,7 @@ export default function Banner() {
         </div>
       </div>
 
-      <div className="flex justify-center flex-col lg:flex-row-reverse">
+      <div className="lg:flex-row-reverse flex flex-col justify-center">
         <Image
           className="object-cover object-top"
           src="/images/paraffin.jpg"

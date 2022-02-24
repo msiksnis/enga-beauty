@@ -12,7 +12,7 @@ import { Data } from "../components/testimonial/TestimonialData";
 export default function testSlider() {
   return (
     <div>
-      <div className="hidden lg:inline">
+      <div className="lg:inline hidden">
         <NewHeader />
       </div>
       <div className="lg:hidden">

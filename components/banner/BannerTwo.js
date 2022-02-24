@@ -3,9 +3,9 @@ import ToTop from "../ToTop";
 
 export default function BannerTwo() {
   return (
-    <div className="lg:mt-40 lg:mx-20">
+    <div className="mt-28 md:mt-40 lg:px-20">
       <ToTop />
-      <div className="hidden lg:flex justify-center">
+      <div className="hidden justify-center md:flex">
         <Image
           className="object-cover"
           src="/images/Carousel1.jpg"
@@ -13,7 +13,7 @@ export default function BannerTwo() {
           height={950}
         />
       </div>
-      <div className="lg:hidden flex justify-center mt-20">
+      <div className="flex justify-center md:hidden">
         <Image
           className="object-cover"
           src="/images/Carousel1.jpg"

@@ -19,11 +19,11 @@ export default function ToTop() {
   };
 
   return (
-    <div className="hidden lg:inline">
+    <div className="lg:inline hidden">
       {toTop && (
         <button
           onClick={scrollToTop}
-          className="border border-gray-800 opacity-70 rounded-full p-1 cursor-pointer right-7 bottom-24 fixed"
+          className="opacity-70 right-7 bottom-24 fixed p-1 border border-gray-800 rounded-full cursor-pointer"
         >
           <VscChevronUp />
         </button>

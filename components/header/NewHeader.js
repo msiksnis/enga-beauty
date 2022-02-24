@@ -35,14 +35,14 @@ export default function NewHeader() {
           headerSize ? "hidden" : "flex w-full fixed top-0 bg-white z-20"
         }
       >
-        <div className="flex justify-between items-center w-full border-b border-gray-200">
-          <div className="flex space-x-4 text-xl ml-10 w-44">
+        <div className="flex items-center justify-between w-full border-b border-gray-200">
+          <div className="w-44 flex ml-10 space-x-4 text-xl">
             <div className="opacity-70 hover:opacity-100 hover:scale-110">
               <a
                 href="https://www.instagram.com/enga_beauty_ba10/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transform hover:scale-110 transition duration-300 ease-in-out"
+                className="hover:scale-110 transition duration-300 ease-in-out transform"
               >
                 <FiInstagram />
               </a>
@@ -52,7 +52,7 @@ export default function NewHeader() {
                 href="https://facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transform hover:scale-110 transition duration-300 ease-in-out"
+                className="hover:scale-110 transition duration-300 ease-in-out transform"
               >
                 <FiFacebook />
               </a>
@@ -68,11 +68,8 @@ export default function NewHeader() {
               />
             </Link>
           </div>
-          <div className="flex justify-end mr-10 w-44">
-            <button
-              className="text-md uppercase poppins border border-black px-10 py-2 rounded text-black
-          bg-white hover:text-white hover:bg-black transition duration-200 ease-in-out"
-            >
+          <div className="w-44 flex justify-end mr-10">
+            <button className="text-md poppins hover:text-white hover:bg-black px-10 py-2 text-black uppercase transition duration-200 ease-in-out bg-white border border-black rounded">
               <a
                 href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
                 target="_blank"
@@ -92,35 +89,35 @@ export default function NewHeader() {
             : "fixed w-full z-10 top-0 mt-20 bg-white shadow-md"
         }
       >
-        <div className="flex h-12 pt-2 justify-center items-center w-full px-10">
-          <div className="space-x-6 poppins">
+        <div className="flex items-center justify-center w-full h-12 px-10 pt-2">
+          <div className="poppins space-x-6">
             <DropdownTreatments />
             <DropdownPrice />
 
-            <span className="hidden cursor-pointer opacity-70 hover:opacity-100 uppercase">
+            <span className="opacity-70 hover:opacity-100 hidden uppercase cursor-pointer">
               <Link href="/shop">Shop</Link>
             </span>
             <DropdownGifts />
-            <span className="hidden cursor-pointer opacity-70 hover:opacity-100 uppercase">
+            <span className="opacity-70 hover:opacity-100 hidden uppercase cursor-pointer">
               <Link href="/">Sjønhettsbloggen</Link>
             </span>
-            <span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+            <span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
               <a
                 href="mailto:info@engabeauty.no"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="lg:ml-2 pb-3 lg:pb-1"
+                className="lg:ml-2 lg:pb-1 pb-3"
               >
                 Kontakt oss
               </a>
             </span>
-            {/*<span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">Kjøp</span>*/}
+            {/*<span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">Kjøp</span>*/}
           </div>
 
           {/* This is SignIn an Shopping Cart */}
           <div className="hidden justify-between items-center w-[110px]">
             <SignIn setShowModal={setShowModal} />
-            <div className="flex opacity-70 hover:opacity-100 hover:scale-110 text-2xl cursor-pointer">
+            <div className="opacity-70 hover:opacity-100 hover:scale-110 flex text-2xl cursor-pointer">
               <HiOutlineShoppingBag />
             </div>
           </div>
@@ -130,8 +127,8 @@ export default function NewHeader() {
         id="3"
         className={headerSize ? "fixed w-full z-10 top-0 bg-white" : "hidden"}
       >
-        <div className="flex h-14 justify-between px-4 items-center pb-2 w-full shadow-md">
-          <div className="-mb-3 cursor-pointer w-52">
+        <div className="h-14 flex items-center justify-between w-full px-4 pb-2 shadow-md">
+          <div className="w-52 -mb-3 cursor-pointer">
             <Link href="/">
               <Image
                 className="object-contain"
@@ -141,58 +138,55 @@ export default function NewHeader() {
               />
             </Link>
           </div>
-          <div className="flex space-x-5 poppins text-sm mt-2">
+          <div className="poppins flex mt-2 space-x-5 text-sm">
             <DropdownTreatments />
             <DropdownPrice />
             <DropdownGifts />
-            <span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+            <span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
               <a
                 href="mailto:info@engabeauty.no"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="lg:ml-2 pb-3 lg:pb-1"
+                className="lg:ml-2 lg:pb-1 pb-3"
               >
                 Kontakt oss
               </a>
             </span>
             {/* 
-              <span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+              <span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
                 <Link href="/spa-manicure-pedicure">SPA manikyr og pedikyr</Link>
               </span>
-              <span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+              <span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
                 <Link href="/paraffin">Parafinbehandlinger</Link>
               </span>
-              <span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+              <span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
                 <Link href="/waxing">Voksing</Link>
               </span>
-              <span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+              <span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
                 <Link href="/pricelist">Prisliste</Link>
               </span>
-              <span className="hidden cursor-pointer opacity-70 hover:opacity-100 uppercase">
+              <span className="opacity-70 hover:opacity-100 hidden uppercase cursor-pointer">
                 <Link href="/shop">Shop</Link>
               </span>
-              <span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+              <span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
                 <Link href="/season-ticket">Klippekort</Link>
               </span>
-              <span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+              <span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
                 <Link href="/giftcard">Gavekort</Link>
               </span>
             */}
-            {/*<span className="cursor-pointer opacity-70 hover:opacity-100 uppercase">
+            {/*<span className="opacity-70 hover:opacity-100 uppercase cursor-pointer">
                 Kjøp
         </span>*/}
           </div>
-          <div className="flex justify-end w-52 -mb-2">
-            {/*<span className="text-xs poppins opacity-70 mr-6 cursor-pointer hover:opacity-100">
+          <div className="w-52 flex justify-end -mb-2">
+            {/*<span className="poppins opacity-70 hover:opacity-100 mr-6 text-xs cursor-pointer">
               SIGN IN
             </span>
-            <div className="mr-6 opacity-70 text-xl cursor-pointer">
+            <div className="opacity-70 mr-6 text-xl cursor-pointer">
               <HiOutlineShoppingBag />
     </div>*/}
-            <button
-              className="text-sm uppercase poppins border border-black px-9 py-2 rounded text-white
-          bg-black hover:text-black hover:bg-white transition duration-200 ease-in-out"
-            >
+            <button className="poppins px-9 hover:text-black hover:bg-white py-2 text-sm text-white uppercase transition duration-200 ease-in-out bg-black border border-black rounded">
               <a
                 href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
                 target="_blank"

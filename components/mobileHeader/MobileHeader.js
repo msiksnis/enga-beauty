@@ -35,12 +35,12 @@ export default function MobileHeader() {
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <div className="flex fixed top-0 left-0 w-full z-20 bg-white pb-2 shadow">
+    <div className="fixed top-0 left-0 z-20 flex w-full pb-2 bg-white shadow">
       <Modal open={openModal} onClose={() => setOpenModal(false)}>
         <div style={modalStyle} className={classes.paper}>
           <div className="h-screen">
-            <div className="flex flex-col items-center w-full pt-2 shadow px-4 pb-2">
-              <div className="flex justify-between w-full items-center">
+            <div className="flex flex-col items-center w-full px-4 pt-2 pb-2 shadow">
+              <div className="flex items-center justify-between w-full">
                 <Link href="/">
                   <Image
                     className="object-contain"
@@ -50,29 +50,29 @@ export default function MobileHeader() {
                   />
                 </Link>
                 <div
-                  className="text-3xl opacity-90"
+                  className="opacity-90 text-3xl"
                   onClick={() => setOpenModal(false)}
                 >
                   <HiX />
                 </div>
               </div>
             </div>
-            <div className="flex flex-col h-3/4 justify-between">
+            <div className="h-3/4 flex flex-col justify-between">
               <div className="mt-14 mx-4 space-y-3">
                 <Link href="/spa-manicure-pedicure">
                   <div
-                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200"
                     onClick={() => setOpenModal(false)}
                   >
                     SPA manikyr og pedikyr
                   </div>
                 </Link>
-                {/*<div className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2">
+                {/*<div className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200">
                   <Link href="/spa-manicure-pedicure">Kunstnegler</Link>
                 </div>*/}
                 <Link href="/paraffin">
                   <div
-                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200"
                     onClick={() => setOpenModal(false)}
                   >
                     Parafinbehandlinger
@@ -80,27 +80,27 @@ export default function MobileHeader() {
                 </Link>
                 <Link href="/waxing">
                   <div
-                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200"
                     onClick={() => setOpenModal(false)}
                   >
                     Hårfjerning
                   </div>
                 </Link>
                 <div
-                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200"
                   // onClick={() => setOpenModal(false)}
                 >
                   Microblading
                 </div>
                 <div
-                  className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                  className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200"
                   // onClick={() => setOpenModal(false)}
                 >
                   Vipper & Bryn
                 </div>
                 <Link href="/pricelist">
                   <div
-                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200"
                     onClick={() => setOpenModal(false)}
                   >
                     Prisliste
@@ -108,7 +108,7 @@ export default function MobileHeader() {
                 </Link>
                 <Link href="/shop">
                   <div
-                    className="hidden uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    className="poppins hidden w-full pb-2 text-xl uppercase border-b border-gray-200"
                     onClick={() => setOpenModal(false)}
                   >
                     Shop
@@ -116,7 +116,7 @@ export default function MobileHeader() {
                 </Link>
                 <Link href="/season-ticket">
                   <div
-                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200"
                     onClick={() => setOpenModal(false)}
                   >
                     Klippekort
@@ -124,14 +124,14 @@ export default function MobileHeader() {
                 </Link>
                 <Link href="/giftcard">
                   <div
-                    className="uppercase poppins text-xl border-b border-gray-200 w-full pb-2"
+                    className="poppins w-full pb-2 text-xl uppercase border-b border-gray-200"
                     onClick={() => setOpenModal(false)}
                   >
                     Gavekort
                   </div>
                 </Link>
                 <div className="flex justify-center pt-10">
-                  <button className="border border-black/90 w-56 lg:w-52 bg-black/90 text-white text-lg hover:bg-white hover:text-black/90 rounded shadow-lg py-2">
+                  <button className="border-black/90 lg:w-52 bg-black/90 hover:bg-white hover:text-black/90 w-56 py-2 text-lg text-white border rounded shadow-lg">
                     <a
                       href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
                       target="_blank"
@@ -143,12 +143,12 @@ export default function MobileHeader() {
                 </div>
               </div>
               <div className="flex flex-col items-center">
-                <p className="text-xs opacity-70">Let's talk</p>
+                <p className="opacity-70 text-xs">Let's talk</p>
                 <a
                   href="mailto:info@engabeauty.no"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm opacity-70 hover:"
+                  className="opacity-70 hover: text-sm"
                 >
                   info@engabeauty.no
                 </a>
@@ -157,7 +157,7 @@ export default function MobileHeader() {
           </div>
         </div>
       </Modal>
-      <div className="flex justify-between items-center w-full mt-2 px-4">
+      <div className="flex items-center justify-between w-full px-4 mt-2">
         <Link href="/">
           <Image
             className="object-contain"
@@ -166,7 +166,7 @@ export default function MobileHeader() {
             height={45}
           />
         </Link>
-        <div className="text-3xl opacity-90" onClick={() => setOpenModal(true)}>
+        <div className="opacity-90 text-3xl" onClick={() => setOpenModal(true)}>
           <HiMenuAlt3 />
         </div>
       </div>

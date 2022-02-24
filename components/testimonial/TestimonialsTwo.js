@@ -50,16 +50,16 @@ export default function TestimonialsTwo({ slides, autoPlay }) {
           >
             {index === current && (
               <div className="w-full h-[400px] flex flex-col items-center justify-around px-6 lg:px-52">
-                <p className="flex items-center text-center h-3/5 poppins text-gray-700 font-medium lg:text-xl lg:font-normal">
+                <p className="h-3/5 poppins lg:text-xl lg:font-normal flex items-center font-medium text-center text-gray-700">
                   {slide.text}
                 </p>
-                <div className="flex items-center h-1/5 mb-14">
+                <div className="h-1/5 mb-14 flex items-center">
                   <img
                     src={slide.image}
                     alt=""
-                    className="w-20 h-20 rounded-full object-cover border-2 border-black/70"
+                    className="border-black/70 object-cover w-20 h-20 border-2 rounded-full"
                   />
-                  <h2 className="text-2xl bold poppins text-gray-500 ml-5">
+                  <h2 className="bold poppins ml-5 text-2xl text-gray-500">
                     {slide.name}
                   </h2>
                 </div>
@@ -68,7 +68,7 @@ export default function TestimonialsTwo({ slides, autoPlay }) {
           </div>
         );
       })}
-      <section className="hidden lg:inline">
+      <section className="lg:inline hidden">
         <IoIosArrowBack
           onClick={prevSlide}
           className="absolute top-[96.5%] lg:top-1/2 left-24 lg:left-12 text-2xl lg:text-3xl text-black z-10 cursor-pointer opacity-50 hover:opacity-90"

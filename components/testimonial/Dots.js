@@ -12,7 +12,7 @@ const Dot = ({ current }) => (
 
 export default function Dots({ slides, current }) {
   return (
-    <div className="absolute bottom-4 w-full flex items-center justify-center">
+    <div className="bottom-4 absolute flex items-center justify-center w-full">
       {Data.map((slide, index) => {
         return <Dot key={index} current={current === index} />;
       })}

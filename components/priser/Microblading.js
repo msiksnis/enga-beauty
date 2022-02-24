@@ -3,24 +3,24 @@ import Table from "../Table";
 
 export default function Microblading() {
   return (
-    <div className="flex flex-col items-center mt-32">
-      <div className="w-1/2 mt-10">
-        <h2 className="flex lg:justify-center ml-6 md:mx-10 lg:ml-0 montserrat text-2xl mb-4 font-medium">
+    <div className="mt-24 flex flex-col items-center md:mt-44">
+      <div className=" md:w-1/2">
+        <h2 className="montserrat mb-4 flex justify-center text-2xl font-medium md:mx-10">
           Tatovering
         </h2>
-        <div className="hidden mb-2">
+        <div className="mb-2">
           <Image
             className="object-cover"
-            src="/images/pics/vaks1.jpg"
+            src="/images/pics/microblading.jpg"
             width={1000}
             height={600}
           />
         </div>
-        <div className="bg-[#FCFAFA] pt-1 lg:pt-4 pb-4 lg:px-2">
+        <div className="bg-[#FCFAFA] pt-1 pb-4 lg:px-2 lg:pt-4">
           <Table treatment="Microblading" price="4000" />
-          <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+          <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table treatment="Powder brows" price="3500" />
-          <p className="montserrat text-sm border-b border-gray-200 md:mx-10 mx-6 lg:mx-0 opacity-60 py-1"></p>
+          <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
         </div>
       </div>
     </div>
