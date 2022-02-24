@@ -1,6 +1,8 @@
 import Head from "next/head";
 import BannerTwo from "../components/banner/BannerTwo";
-import InstagramFeed from "../components/widgets/InstagramFeed";
+import NewHeader from "../components/header/NewHeader";
+import WorkWithUs from "../components/banner/WorkWithUs";
+// import InstagramFeed from "../components/widgets/InstagramFeed";
 
 export default function IndexPage() {
   return (
@@ -12,7 +14,9 @@ export default function IndexPage() {
       </Head>
       <main>
         <BannerTwo />
-        <InstagramFeed />
+        {/* <WorkWithUs /> */}
+        {/* <InstagramFeed /> */}
+        <Footer />
       </main>
     </>
   );
