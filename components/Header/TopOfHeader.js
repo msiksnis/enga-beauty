@@ -25,7 +25,7 @@ export default function TopOfHeader() {
       </div>
       <div className="flex w-44 justify-end">
         <button
-          className="font-poppins rounded border border-black bg-black px-8 py-1.5 text-sm uppercase text-white transition duration-300
+          className="font-poppins rounded border border-black bg-white px-8 py-1.5 text-sm uppercase text-black transition duration-300
           ease-in-out hover:bg-black hover:text-white md:py-2 md:px-10 md:text-base"
         >
           <a
