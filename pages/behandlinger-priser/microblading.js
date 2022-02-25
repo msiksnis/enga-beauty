@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Microblading from "../../components/priser/Microblading";
+import Microblading from "../../components/Priser/Microblading";
 
 export default function MicrobladingPage() {
   return (

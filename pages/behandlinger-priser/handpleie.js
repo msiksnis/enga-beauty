@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Handpleie from "../../components/priser/Handpleie";
+import Handpleie from "../../components/Priser/Handpleie";
 
 export default function HandpleiePage() {
   return (

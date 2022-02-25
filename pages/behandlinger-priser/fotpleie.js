@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Fotpleie from "../../components/priser/Fotpleie";
+import Fotpleie from "../../components/Priser/Fotpleie";
 
 export default function FotpleiePage() {
   return (

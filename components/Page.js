@@ -1,5 +1,5 @@
 import Footer from "./Footer";
-import Header from "./Headers/Header";
+import Header from "./Header/Header";
 
 export default function Page({ children }) {
   return (
