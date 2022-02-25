@@ -87,10 +87,10 @@ export default function NavMenu({ toggle, isOpen }) {
               </motion.span>
             </a>
           </Link>
-          <Link href="behandlinger-priser/harfjerning">
+          <Link href="/behandlinger-priser/harfjerning">
             <a
               className={`w-[100%] py-1.5 pl-2 text-center uppercase ${
-                router.pathname === "behandlinger-priser/harfjerning"
+                router.pathname === "/behandlinger-priser/harfjerning"
                   ? "bg-gray-100 pl-2"
                   : ""
               }`}
@@ -116,10 +116,10 @@ export default function NavMenu({ toggle, isOpen }) {
               </motion.span>
             </a>
           </Link>
-          <Link href="behandlinger-priser/microblading">
+          <Link href="/behandlinger-priser/microblading">
             <a
               className={`w-[100%] py-1.5 pl-2 text-center uppercase ${
-                router.pathname === "behandlinger-priser/microblading"
+                router.pathname === "/behandlinger-priser/microblading"
                   ? "bg-gray-100 pl-2"
                   : ""
               }`}
