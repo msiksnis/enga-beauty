@@ -5,7 +5,7 @@ export default function BehandlingerPage() {
   return (
     <>
       <Head>
-        <title>Enga Beauty | Våre behandlinger</title>
+        <title>Enga Beauty | Våre Behandlinger</title>
       </Head>
       <VareBehandlinger />
     </>
