@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AllTreatments from "../components/AllTreatments/AllTreatments";
 import Banner from "../components/Banner/Banner";
 import InstagramFeed from "../components/widgets/InstagramFeed";
 
@@ -9,10 +10,9 @@ export default function IndexPage() {
         <title>Enga Beauty</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <Banner />
-        <InstagramFeed />
-      </main>
+      <Banner />
+      <AllTreatments />
+      <InstagramFeed />
     </>
   );
 }

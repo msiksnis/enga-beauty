@@ -10,14 +10,17 @@ export default function BottomOfHeader() {
         <DropdownTreatments />
         <DropdownGifts />
         <span className="cursor-pointer uppercase opacity-70 hover:opacity-100">
-          <a
+          {/* <a
             href="mailto:info@engabeauty.no"
             target="_blank"
             rel="noopener noreferrer"
             className="pb-3 lg:pb-1"
           >
             KONTAKT OSS
-          </a>
+          </a> */}
+          <Link href="/contact">
+            <span>KONTAKT OSS</span>
+          </Link>
         </span>
       </div>
     </div>

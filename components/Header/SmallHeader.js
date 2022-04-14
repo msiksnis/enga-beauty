@@ -23,21 +23,24 @@ export default function SmallHeader() {
         <DropdownTreatments />
         <DropdownGifts />
         <span className="cursor-pointer  uppercase opacity-70 hover:opacity-100">
-          <a
+          {/* <a
             href="mailto:info@engabeauty.no"
             target="_blank"
             rel="noopener noreferrer"
             className="pb-3 lg:pb-1"
           >
             KONTAKT OSS
-          </a>
+          </a> */}
+          <Link href="/contact">
+            <span>KONTAKT OSS</span>
+          </Link>
         </span>
       </div>
 
       <div className="-mb-2 flex w-48 justify-end lg:w-52">
         <button
-          className="font-poppins hover:(text-black bg-white) rounded border border-black bg-black px-9 py-2 text-xs
-          uppercase text-white transition duration-300 ease-in-out lg:text-sm"
+          className="font-poppins rounded border border-gray-900 bg-gray-900 px-9 py-2 text-xs uppercase text-white
+          transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 lg:text-sm"
         >
           <a
             href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"

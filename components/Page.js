@@ -1,12 +1,17 @@
 import Footer from "./Footer";
 import Header from "./Header/Header";
+import { useRouter } from "next/router";
 
 export default function Page({ children }) {
+  const router = useRouter();
+
   return (
     <>
       <Header />
       {children}
-      <Footer />
+      <div className={`${router.pathname === "/contact" ? "hidden" : ""}`}>
+        <Footer />
+      </div>
     </>
   );
 }

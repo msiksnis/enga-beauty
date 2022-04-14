@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import useLockBodyScroll from "../../../lib/ScrollLock";
 
 const variants = {
   show: {
@@ -228,11 +229,38 @@ export default function NavMenu({ toggle, isOpen }) {
               </motion.span>
             </a>
           </Link>
+          <Link href="/contact">
+            <a
+              className={`w-[100%] py-1.5 pl-2 text-center uppercase ${
+                router.pathname === "/contact" ? "bg-gray-100 pl-2" : ""
+              }`}
+              onClick={toggle}
+            >
+              <motion.span
+                className="font-medium tracking-[0.175em]"
+                initial={false}
+                animate={isOpen ? "show" : "hide"}
+                variants={{
+                  show: {
+                    ...variants.show,
+                    transition: { delay: 0.6, duration: 0.2 },
+                  },
+                  hide: {
+                    ...variants.hide,
+                    transition: { delay: 0.45, duration: 0.05 },
+                  },
+                }}
+                onClick={toggle}
+              >
+                Kontak Oss
+              </motion.span>
+            </a>
+          </Link>
         </div>
 
         <div className="mb-40 flex flex-col items-center justify-end">
           <motion.button
-            className="w-56 rounded border border-black/90 bg-black/90 py-2 text-lg uppercase text-white shadow-lg"
+            className="w-56 rounded border border-gray-900 bg-gray-900 py-2 text-lg uppercase text-white shadow-lg"
             initial={false}
             animate={isOpen ? "show" : "hide"}
             variants={{
@@ -257,7 +285,7 @@ export default function NavMenu({ toggle, isOpen }) {
           </motion.button>
           <div className="mt-14 flex flex-col items-center">
             <motion.p
-              className="text-xs opacity-70"
+              className="hidden text-xs opacity-70"
               initial={false}
               animate={isOpen ? "show" : "hide"}
               variants={{
@@ -277,7 +305,7 @@ export default function NavMenu({ toggle, isOpen }) {
               href="mailto:info@engabeauty.no"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover: text-sm opacity-70"
+              className="text-sm text-gray-700"
               initial={false}
               animate={isOpen ? "show" : "hide"}
               variants={{

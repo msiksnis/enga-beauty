@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@heroicons/react": "^1.0.1",
     "@material-ui/core": "^4.12.2",
+    "@react-google-maps/api": "^2.7.0",
     "framer": "^2.0.0-beta.13",
     "framer-motion": "^5.5.5",
     "instagram-gallery": "^1.2.4",

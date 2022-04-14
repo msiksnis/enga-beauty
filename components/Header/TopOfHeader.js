@@ -25,8 +25,8 @@ export default function TopOfHeader() {
       </div>
       <div className="flex w-44 justify-end">
         <button
-          className="font-poppins rounded border border-black bg-white px-8 py-1.5 text-sm uppercase text-black transition duration-300
-          ease-in-out hover:bg-black hover:text-white md:py-2 md:px-10 md:text-base"
+          className="font-poppins rounded border border-gray-900 bg-white px-8 py-1.5 text-sm uppercase text-gray-900 transition duration-300
+          ease-in-out hover:bg-gray-900 hover:text-white md:py-2 md:px-10 md:text-base"
         >
           <a
             href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
