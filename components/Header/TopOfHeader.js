@@ -33,7 +33,7 @@ export default function TopOfHeader() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Book Time
+            Bestill Time
           </a>
         </button>
       </div>

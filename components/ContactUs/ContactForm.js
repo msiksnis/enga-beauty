@@ -69,7 +69,7 @@ export default function ContactForm() {
           className="w-full rounded border border-gray-900 bg-gray-900 py-2 uppercase text-white transition-all duration-300 hover:bg-white hover:text-gray-900"
           type="submit"
         >
-          Send Message
+          Sende Melding
         </button>
       </div>
     </form>

@@ -10,7 +10,7 @@ export default function ContactUs() {
           <Image
             src="/images/ba-10-1.jpeg"
             width={770}
-            height={400}
+            height={500}
             className="object-cover object-bottom"
           />
         </div>
@@ -38,9 +38,6 @@ export default function ContactUs() {
       <div className="px-4 lg:px-20 xl:px-40">
         <div className="mt-20 flex grid-cols-12 flex-col-reverse md:grid">
           <div className="col-span-7">
-            <p className="font-lustria z-10 pb-4 text-center text-2xl capitalize text-gray-700 md:hidden">
-              Send Us a Message
-            </p>
             <ContactForm />
           </div>
           <div className="col-span-5 md:pl-20">

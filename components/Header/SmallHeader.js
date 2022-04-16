@@ -47,7 +47,7 @@ export default function SmallHeader() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Book Time
+            Bestill Time
           </a>
         </button>
       </div>
