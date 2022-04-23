@@ -5,7 +5,7 @@ export default function VareBehandlinger() {
   return (
     <div className="mt-44 grid gap-5 px-20 lg:grid-cols-2 xl:grid-cols-4 ">
       <div className="mb-10">
-        <h2 className="montserrat mb-4 flex justify-center text-2xl font-medium md:mx-10">
+        <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Fotpleie
         </h2>
         <div className="mb-2">
@@ -66,7 +66,7 @@ export default function VareBehandlinger() {
       </div>
 
       <div>
-        <h2 className="montserrat mb-4 flex justify-center text-2xl font-medium md:mx-10">
+        <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Håndpleie
         </h2>
         <div className="mb-2">
@@ -131,7 +131,7 @@ export default function VareBehandlinger() {
       </div>
 
       <div>
-        <h2 className="montserrat mb-4 flex justify-center text-2xl font-medium md:mx-10">
+        <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Hårfjerning
         </h2>
         <div className="mb-2">
@@ -209,7 +209,7 @@ export default function VareBehandlinger() {
       </div>
 
       <div>
-        <h2 className="montserrat mb-4 flex justify-center text-2xl font-medium md:mx-10">
+        <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Vipper & Bryn
         </h2>
         <div className="mb-2">
@@ -254,7 +254,7 @@ export default function VareBehandlinger() {
       </div>
 
       {/* <div>
-        <h2 className="montserrat mb-4 flex justify-center text-2xl font-medium md:mx-10">
+        <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Tatovering
         </h2>
         <div className="mb-2">

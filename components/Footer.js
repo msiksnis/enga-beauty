@@ -4,30 +4,30 @@ import SocialIcons from "./SocialIcons";
 
 export default function Footer() {
   return (
-    <div className="mt-28 pt-14 poppins h-auto pb-10 bg-gray-100">
-      <h1 className="flex flex-col items-center justify-center text-2xl lg:text-4xl font-thin tracking-[0.10em] lora opacity-90 mb-20">
+    <div className="poppins mt-28 h-auto bg-gray-100 pt-14 pb-10">
+      <h1 className="lora mb-20 flex flex-col items-center justify-center text-2xl font-thin tracking-[0.10em] opacity-90 lg:text-4xl">
         <SocialIcons />
       </h1>
-      <div className="lg:grid lg:mx-20 grid-cols-2">
-        <div className="flex flex-col lg:h-[450px] h-[500px]  ">
-          <div className="lg:justify-start lg:ml-0 lg:space-x-20 flex justify-between mx-6 mb-4 space-x-10">
+      <div className="grid-cols-2 lg:mx-20 lg:grid">
+        <div className="flex h-[500px] flex-col lg:h-[450px]  ">
+          <div className="mx-6 mb-4 flex justify-between space-x-10 lg:ml-0 lg:justify-start lg:space-x-20">
             <div className="">
               <p className="font-semibold">Du finner oss her:</p>
               <p className="">Bygdøy allé 10</p>
               <p className="mb-4">0262 Oslo</p>
             </div>
             <div className="">
-              <div className="lg:flex-row flex flex-col">
+              <div className="flex flex-col lg:flex-row">
                 <p className="font-semibold">Telefon:</p>
-                <p className="lg:ml-2 lg:pb-0 pb-3">+47 45 84 50 04</p>
+                <p className="pb-3 lg:ml-2 lg:pb-0">+47 45 84 50 04</p>
               </div>
-              <div className="lg:flex-row flex flex-col">
+              <div className="flex flex-col lg:flex-row">
                 <p className="font-semibold">Email:</p>
                 <a
                   href="mailto:info@engabeauty.no"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="lg:ml-2 lg:pb-1 pb-3"
+                  className="pb-3 lg:ml-2 lg:pb-1"
                 >
                   info@engabeauty.no
                 </a>
@@ -39,7 +39,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mb-14 flex flex-col items-center ml-6">
+        <div className="mb-14 ml-6 flex flex-col items-center">
           <div>
             <p className="mb-3 text-lg font-semibold">Åpningstider</p>
             <p className="">Man - Fre: 09:00 - 21:00</p>
@@ -48,23 +48,11 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center w-full mt-6">
-        <div className="opacity-70 flex flex-col items-center mt-20 text-xs">
+      <div className="mt-6 flex w-full flex-col items-center">
+        <div className="mt-20 flex flex-col items-center text-xs opacity-70">
           <p>© 2021 ENGA BEAUTY</p>
         </div>
       </div>
     </div>
   );
 }
-
-// <p>
-//   Made by{" "}
-//   <a
-//     href="mailto:marty@devmarty.com"
-//     target="_blank"
-//     rel="noopener noreferrer"
-//     className="hover:opacity-100"
-//   >
-//     devmarty
-//   </a>
-// </p>

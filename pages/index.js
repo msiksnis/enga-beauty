@@ -1,6 +1,6 @@
 import Head from "next/head";
 import AllTreatments from "../components/AllTreatments/AllTreatments";
-import Banner from "../components/Banner/Banner";
+import BannerTwo from "../components/Banner/BannerTwo";
 import InstagramFeed from "../components/widgets/InstagramFeed";
 
 export default function IndexPage() {
@@ -10,7 +10,7 @@ export default function IndexPage() {
         <title>Enga Beauty</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Banner />
+      <BannerTwo />
       <AllTreatments />
       <InstagramFeed />
     </>

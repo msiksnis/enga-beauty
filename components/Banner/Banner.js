@@ -4,11 +4,11 @@ import ToTop from "../ToTop";
 export default function Banner() {
   return (
     <div className="mt-28 md:mt-40 lg:px-20">
-      <ToTop />
+      {/* <ToTop /> */}
       <div className="hidden justify-center md:flex">
         <Image
           className="object-cover"
-          src="/images/Carousel1.jpg"
+          src="/images/pics/legs-water.jpeg"
           width={1920}
           height={950}
         />
@@ -16,7 +16,7 @@ export default function Banner() {
       <div className="flex justify-center md:hidden">
         <Image
           className="object-cover"
-          src="/images/Carousel1.jpg"
+          src="/images/pics/legs-water.jpeg"
           width={450}
           height={300}
         />

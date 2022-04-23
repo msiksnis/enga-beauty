@@ -11,6 +11,7 @@ module.exports = {
         babylonica: ["Babylonica"],
         alexbrush: ["Alex Brush"],
         lustria: ["Lustria"],
+        poiret: ["Poiret One"],
       },
     },
   },
