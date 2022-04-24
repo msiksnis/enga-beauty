@@ -8,7 +8,12 @@ export default function ContactForm() {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "template_031j0rg", form.current, "2QCMLfdwht-vieuwI")
+      .sendForm(
+        "gmail",
+        "template_a0wvx4s",
+        form.current,
+        "5C_d0B6yqd7363kP4NP6w"
+      )
       .then(
         () => {
           alert("Message successfuly sent!");
