@@ -7,7 +7,13 @@ export default function BannerTwo() {
     <div className="mt-24 overflow-scroll md:mt-44 xl:px-40">
       <div className="relative">
         <div className="flex justify-center bg-cover">
-          <video ref={videoRef} autoPlay loop muted>
+          <video
+            ref={videoRef}
+            poster="/images/video/wavesImage.png"
+            autoPlay
+            loop
+            muted
+          >
             <source src="/images/video/waves-hd.mp4" />
           </video>
           <div className="font-poiret absolute top-[2vh] md:top-[6vh] xl:top-[8vh]">
