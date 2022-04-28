@@ -16,9 +16,9 @@ export default function ContactUs() {
         </div>
         <div className="hidden md:block">
           <Image
-            src="/images/ba-10-1.jpeg"
+            src="/images/ba-101.jpeg"
             width={1440}
-            height={400}
+            height={600}
             className="object-cover object-bottom"
           />
         </div>
@@ -64,6 +64,23 @@ export default function ContactUs() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="font-lustria my-20 flex w-full flex-col">
+          <div className="flex w-full justify-center text-lg font-semibold text-gray-800">
+            Kommer du med bilen?
+          </div>
+          <div className="font-light tracking-wide text-gray-500">
+            <p className="pt-6">
+              Det er gateparkering i området etter gjeldende bestemmelser og det
+              enkleste er å benytte seg av EasyPark appen når man skal betale
+              for parkeringen.
+            </p>
+            <p className="pt-4">
+              Ønsker du å parkere på parkeringsplasser? Solli parkeringsplass er
+              en av de nærmeste, den ligger i Solligata 3. Bare 400 meter unna
+              salongen.
+            </p>
           </div>
         </div>
       </div>
