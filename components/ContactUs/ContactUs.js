@@ -57,10 +57,10 @@ export default function ContactUs() {
               <div className="pb-16">
                 <p className="font-semibold text-gray-800">Vår åpningstider:</p>
                 <p className="font-light tracking-wide text-gray-500">
-                  Man - Fre: 09:00 - 21:00
+                  Man - Fre: 09:00 - 17:00
                 </p>
                 <p className="font-light tracking-wide text-gray-500">
-                  Lørdag: 09:00 - 19:00
+                  Lørdag: 10:00 - 16:00
                 </p>
               </div>
             </div>

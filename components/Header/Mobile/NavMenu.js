@@ -252,7 +252,7 @@ export default function NavMenu({ toggle, isOpen }) {
                 }}
                 onClick={toggle}
               >
-                Kontak Oss
+                Kontakt Oss
               </motion.span>
             </a>
           </Link>

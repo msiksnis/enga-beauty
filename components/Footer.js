@@ -42,15 +42,15 @@ export default function Footer() {
         <div className="mb-14 ml-6 flex flex-col items-center">
           <div>
             <p className="mb-3 text-lg font-semibold">Åpningstider</p>
-            <p className="">Man - Fre: 09:00 - 21:00</p>
-            <p className="">Lørdag: 09:00 - 19:00</p>
+            <p className="">Man - Fre: 09:00 - 17:00</p>
+            <p className="">Lørdag: 10:00 - 16:00</p>
           </div>
         </div>
       </div>
 
       <div className="mt-6 flex w-full flex-col items-center">
         <div className="mt-20 flex flex-col items-center text-xs opacity-70">
-          <p>© 2021 ENGA BEAUTY</p>
+          <p>© 2022 ENGA BEAUTY</p>
         </div>
       </div>
     </div>
