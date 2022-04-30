@@ -11,7 +11,7 @@ export default function Microblading() {
         <div className="mb-2">
           <Image
             className="object-cover"
-            src="/images/pics/microblading.jpg"
+            src="/images/pics/tatovering.jpg"
             width={1000}
             height={600}
           />

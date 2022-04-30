@@ -28,7 +28,7 @@ export default function ContactForm() {
             className="mb-3 block w-full rounded border border-gray-100 bg-gray-100 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500  focus:bg-white focus:outline-none"
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Navnett Ditt"
             required
           />
         </div>
@@ -37,7 +37,7 @@ export default function ContactForm() {
             className="mb-3 block w-full rounded border border-gray-100 bg-gray-100 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500  focus:bg-white focus:outline-none"
             type="email"
             name="email"
-            placeholder="Your Email"
+            placeholder="Din Epost"
             required
           />
         </div>
@@ -48,7 +48,7 @@ export default function ContactForm() {
             className="mb-3 block w-full appearance-none rounded border border-gray-100 bg-gray-100 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
             type="text"
             name="subject"
-            placeholder="Subject"
+            placeholder="Emnet"
             required
           />
         </div>
@@ -59,7 +59,7 @@ export default function ContactForm() {
             className="mb-3 block h-48 w-full rounded border border-gray-100 bg-gray-100 py-3 px-4 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
             type="text"
             name="message"
-            placeholder="Your Message..."
+            placeholder="Din Beskjed..."
             required
           />
         </div>
