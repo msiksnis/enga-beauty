@@ -10,9 +10,11 @@ export default function InstaFeed() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex">
-              <p className="font-poppins font-extralight italic">#</p>
-              <p className="font-poppins font-normal italic">EngaBeauty</p>
+            <div className="flex flex-col items-center justify-center text-gray-700">
+              <h1 className="font-lustria relative z-10 flex text-2xl capitalize md:text-4xl">
+                <p className="font-poppins font-light">#</p>
+                <p className="font-poppins font-normal italic">EngaBeauty</p>
+              </h1>
             </div>
           </a>
         </h1>

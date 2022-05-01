@@ -25,15 +25,10 @@ export default function ContactUs() {
             className="object-cover object-bottom"
           />
         </div>
-        <div className="mt-20 mb-10 flex flex-col items-center justify-center text-gray-700">
+        <div className="mb-4 mt-10 flex flex-col items-center justify-center text-gray-700 md:mb-10 md:mt-20">
           <h1 className="font-lustria relative z-10 text-2xl capitalize md:text-4xl">
-            {/* Har du noen spørsmål? */}
             Bygdøy allé 10, 0262 Oslo
           </h1>
-          <p className="font-alexbrush mt-[-67px] text-6xl text-[#F4EEEC] opacity-60 md:mt-[-82px] md:text-7xl">
-            Kontakt Oss
-          </p>
-          <div className="mt-3 w-9/12 border-b border-gray-500" />
         </div>
         <h3 className="font-poppins mt-0 flex px-4 text-center font-light tracking-wide text-gray-500 md:text-lg lg:px-20 xl:px-40">
           {/* Du finner oss i Frogner. Vår adresse er Bygdøy allé 10. Velkommen! */}
