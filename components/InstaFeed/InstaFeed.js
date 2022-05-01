@@ -1,4 +1,5 @@
 import { InstagramGallery } from "instagram-gallery";
+import { useState } from "react";
 
 export default function InstaFeed() {
   return (
