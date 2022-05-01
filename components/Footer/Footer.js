@@ -8,7 +8,7 @@ export default function Footer() {
       <h1 className="mt-20 flex items-center justify-center">
         <SocialIcons />
       </h1>
-      <div className="my-10 grid w-full gap-4 px-4 lg:mx-0 lg:my-20 lg:grid-flow-col">
+      <div className="my-10 flex w-full flex-col space-y-6 px-4 md:flex-row md:justify-between md:space-y-0 lg:my-20 lg:px-20 xl:px-40">
         <div className="w-44">
           <p className="font-poppins text-lg font-semibold">
             Du finner oss her:
