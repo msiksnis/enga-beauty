@@ -1,6 +1,7 @@
 import GoogleMaps from "../components/GoogleMapsReact";
 import Link from "next/link";
 import SocialIcons from "./SocialIcons";
+import { workingHours } from "../lib/workingHours";
 
 export default function Footer() {
   return (
@@ -42,8 +43,15 @@ export default function Footer() {
         <div className="mb-14 ml-6 flex flex-col items-center">
           <div>
             <p className="mb-3 text-lg font-semibold">Åpningstider</p>
-            <p className="">Man - Fre: 09:00 - 17:00</p>
-            <p className="">Lørdag: 10:00 - 16:00</p>
+            {workingHours.map((workingHours) => (
+              <div
+                key={workingHours.id}
+                className="font-light tracking-wide text-gray-500"
+              >
+                <p>{workingHours.week}</p>
+                <p>{workingHours.weekend}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
