@@ -2,7 +2,7 @@ import { InstagramGallery } from "instagram-gallery";
 
 export default function InstaFeed() {
   return (
-    <div className="mx-0 mt-20 mb-32 flex justify-center lg:mx-20 lg:mt-40 lg:mb-80">
+    <div className="mt-20 mb-32 flex justify-center lg:mt-40 lg:mb-80">
       <div className="flex flex-col">
         <h1 className="font-poppins mb-10 flex justify-center text-xl md:text-2xl lg:mb-14">
           <a
@@ -19,15 +19,14 @@ export default function InstaFeed() {
         <div className="hidden md:flex">
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
-            accessToken="IGQVJWQ1VJUUdGLWduVmlIUWY1ZAjJfbzZA4UUJwNzNESTFuTEgzb3M0Nl9Ga0xHcVZA5cVU0c2ViT2pIX0R4NTNUNmltNGg2QmRIV2FlVjhHYWNHZAzhscGJuTHNtbjJzXzZA4c29lekZACNGpmYTF5VXlIZAwZDZD"
-            // accessToken="IGQVJVMllTblZAVVEpsMDZAhdmxlMzdMdXZAkY2xwR0JRMkdzSHJlMzliN09GOTdqVlRISzhDN1owYVphVmVBd3JDSVRzdlVsMXVsTGVOeHpQTHMwNkpNYklyUzJvcXEyTUtjY1JIektlTk1KTGx0TFIwQQZDZD"
+            accessToken="IGQVJXNHJjZATItUUJDbHNDUlBRaFBkZAVd3UHJTWGdaUzc4cndIbElMWVZA4Um5ZAeVBqLWxLbTVSNDg2WjkybHVOYlVULVNXQ29DaW5aSnRJYWI2WnlaTHhoRXY2TWhwdERTMnVQSUtielZA6YkJRX0tBNwZDZD"
             count={18}
           />
         </div>
         <div className="md:hidden">
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
-            accessToken="IGQVJWQ1VJUUdGLWduVmlIUWY1ZAjJfbzZA4UUJwNzNESTFuTEgzb3M0Nl9Ga0xHcVZA5cVU0c2ViT2pIX0R4NTNUNmltNGg2QmRIV2FlVjhHYWNHZAzhscGJuTHNtbjJzXzZA4c29lekZACNGpmYTF5VXlIZAwZDZD"
+            accessToken="IGQVJXNHJjZATItUUJDbHNDUlBRaFBkZAVd3UHJTWGdaUzc4cndIbElMWVZA4Um5ZAeVBqLWxLbTVSNDg2WjkybHVOYlVULVNXQ29DaW5aSnRJYWI2WnlaTHhoRXY2TWhwdERTMnVQSUtielZA6YkJRX0tBNwZDZD"
             count={16}
           />
         </div>

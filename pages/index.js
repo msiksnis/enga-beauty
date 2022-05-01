@@ -1,7 +1,7 @@
 import Head from "next/head";
 import AllTreatments from "../components/AllTreatments/AllTreatments";
 import BannerTwo from "../components/Banner/BannerTwo";
-import InstagramFeed from "../components/widgets/InstagramFeed";
+import InstaFeed from "../components/InstaFeed/InstaFeed";
 
 export default function IndexPage() {
   return (
@@ -12,7 +12,7 @@ export default function IndexPage() {
       </Head>
       <BannerTwo />
       <AllTreatments />
-      <InstagramFeed />
+      <InstaFeed />
     </>
   );
 }
