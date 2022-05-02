@@ -9,7 +9,7 @@ export default function BannerTwo() {
         <div className="flex justify-center bg-cover">
           <video
             ref={videoRef}
-            poster="/images/video/wavesImage.png"
+            poster="/images/video/bgWaves.jpg"
             autoPlay
             loop
             muted
