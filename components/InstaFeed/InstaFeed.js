@@ -1,9 +1,8 @@
 import { InstagramGallery } from "instagram-gallery";
-import { useState } from "react";
 
 export default function InstaFeed() {
   return (
-    <div className="mt-20 mb-32 flex justify-center lg:mt-40 lg:mb-80">
+    <div className="mt-20 mb-40 flex justify-center lg:mt-40">
       <div className="flex flex-col">
         <h1 className="font-poppins mb-10 flex justify-center text-xl md:text-2xl lg:mb-14">
           <a
@@ -24,6 +23,7 @@ export default function InstaFeed() {
             className="instagram-gallery instagram-item instagram-image"
             accessToken="IGQVJXNHJjZATItUUJDbHNDUlBRaFBkZAVd3UHJTWGdaUzc4cndIbElMWVZA4Um5ZAeVBqLWxLbTVSNDg2WjkybHVOYlVULVNXQ29DaW5aSnRJYWI2WnlaTHhoRXY2TWhwdERTMnVQSUtielZA6YkJRX0tBNwZDZD"
             count={18}
+            pagination={true}
           />
         </div>
         <div className="md:hidden">
@@ -31,6 +31,7 @@ export default function InstaFeed() {
             className="instagram-gallery instagram-item instagram-image"
             accessToken="IGQVJXNHJjZATItUUJDbHNDUlBRaFBkZAVd3UHJTWGdaUzc4cndIbElMWVZA4Um5ZAeVBqLWxLbTVSNDg2WjkybHVOYlVULVNXQ29DaW5aSnRJYWI2WnlaTHhoRXY2TWhwdERTMnVQSUtielZA6YkJRX0tBNwZDZD"
             count={16}
+            pagination={true}
           />
         </div>
       </div>

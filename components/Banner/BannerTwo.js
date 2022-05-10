@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import WordSwapper from "../WordSwapper/WordSwapper";
 
 export default function BannerTwo() {
   const videoRef = useRef();
@@ -10,17 +11,21 @@ export default function BannerTwo() {
           <video
             ref={videoRef}
             poster="/images/video/bgWaves.jpg"
+            src="/images/video/waves-hd.mp4"
             autoPlay
+            playsinline
+            data-keepplaying
             loop
             muted
           >
-            <source src="/images/video/waves-hd.mp4" />
+            <source type="video/mp4" src="/images/video/waves-hd.mp4" />
           </video>
           <div className="font-poiret absolute top-[2vh] md:top-[6vh] xl:top-[8vh]">
             <div className="flex flex-col items-center justify-center text-[13vw] font-bold leading-tight tracking-[0.25em] text-white md:text-[12vw] xl:text-[9vw]">
               <h1 className="uppercase">Love</h1>
               <h1 className="uppercase">Your</h1>
               <h1 className="uppercase">Feet</h1>
+              {/* <WordSwapper /> */}
             </div>
           </div>
         </div>

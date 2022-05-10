@@ -7,30 +7,6 @@
     @apply bg-[#fff] text-[#21222D] selection:bg-[gold];
   }
 
-  .montserrat {
-    font-family: "Montserrat", sans-serif;
-  }
-
-  .poppins {
-    font-family: "Poppins", sans-serif;
-  }
-
-  .josefin {
-    font-family: "Josefin Sans", sans-serif;
-  }
-
-  .lora {
-    font-family: "Lora", serif;
-  }
-
-  .cormorant {
-    font-family: "Cormorant Garamond", serif;
-  }
-
-  .playfair {
-    font-family: "Playfair Display", serif;
-  }
-
   .gold {
     color: #eac802;
   }
@@ -85,7 +61,7 @@
   }
 
   .instagram-gallery {
-    @apply grid grid-cols-2 flex-wrap justify-center gap-1 md:grid-cols-3 lg:grid-cols-4;
+    @apply relative grid grid-cols-2 flex-wrap justify-center gap-1 md:grid-cols-3 lg:grid-cols-4;
   }
 
   .instagram-item:first-child {
@@ -106,5 +82,12 @@
 
   .instagram-image {
     @apply block h-full w-full object-cover;
+  }
+  .pagination {
+    @apply font-poppins absolute -bottom-20 left-1/2 flex -translate-x-1/2 justify-center space-x-10 rounded border border-gray-800 bg-gray-800 px-10 py-2  uppercase text-white;
+  }
+
+  .pagination-btn {
+    @apply uppercase;
   }
 }
