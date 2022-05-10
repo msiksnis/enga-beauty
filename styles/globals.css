@@ -84,27 +84,23 @@
     @apply block h-full w-full object-cover;
   }
 
-  /* .pagination {
-    @apply font-poppins absolute -bottom-20 left-1/2 flex -translate-x-1/2 justify-center space-x-10 rounded border border-gray-800 bg-gray-800 px-10 py-2  uppercase text-white;
-  } */
-
   .pagination {
-    @apply font-poppins absolute -bottom-20 left-1/2 flex -translate-x-1/2 justify-center;
+    @apply font-poppins absolute -bottom-20 left-1/2 flex -translate-x-1/2 justify-center space-x-10 rounded border border-gray-800 bg-gray-800 px-10 py-2 text-white;
   }
 
-  .pagination-btn {
+  /* .pagination-btn {
     @apply uppercase;
   }
 
   .pagination-prev {
-    @apply !mr-10 !rounded !border !border-gray-800 !bg-gray-800 !py-2 !px-10 !text-white;
+    @apply !mr-10 !rounded !border !border-gray-800 !bg-gray-800 !py-2 !px-10 !text-left !uppercase !text-white hover:bg-white hover:!text-gray-800;
   }
 
   .pagination-next {
-    @apply !ml-10 !rounded !border !border-gray-800 !bg-gray-800 !py-2 !px-10 !text-white;
-  }
-
-  /* button {
-    text-transform: uppercase;
+    @apply !ml-10 !rounded !border !border-gray-800 !bg-gray-800 !py-2 !px-10 !text-left !uppercase !text-white hover:bg-white hover:!text-gray-800;
   } */
+
+  button {
+    text-transform: uppercase;
+  }
 }
