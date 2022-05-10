@@ -29,25 +29,10 @@ export default function BannerTwo() {
               <h1 className="uppercase">Love</h1>
               <h1 className="uppercase">Your</h1>
               <h1 className="uppercase">Feet</h1>
-              {/* <WordSwapper /> */}
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="bg-green-50 py-10">
-        <h1 className="text-center text-2xl uppercase">Fotpleie</h1>
-        <p className="font-poppins px-4 text-lg tracking-wide text-gray-700">
-          Alle de 5 forskjellige typer pedikyr inkluderer profesjonell
-          rengjøring av negl og neglebånd, og fotbad med LED og boblemassasje.
-          Du får en dyp rens av tørre, sprukne hæler, hard og død med skånsom
-          fotfiling teknikk. Føttene pakkes inn i UV-lys desinfiserte varme
-          håndklær, etterfulgt av terapioljemassasje for å lindre trette såre
-          føtter. De 3 forskjellige luksuriøse pedikyrene inneholder 2 ekstra
-          behandlinger som massasje med varme steiner og avslappende varm
-          parafinbehandling. Disse to beroligende varmebehandlingene øker
-          blodsirkulasjonen og reduserer leddstivheten.
-        </p>
-      </div> */}
     </div>
   );
 }
