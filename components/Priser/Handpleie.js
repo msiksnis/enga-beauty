@@ -16,7 +16,7 @@ export default function Handpleie() {
             height={600}
           />
         </div>
-        <div className="bg-[#FCFAFA] py-4 lg:px-2">
+        <div className="mb-20 bg-[#FCFAFA] py-4 lg:px-2">
           <h3 className="montserrat mb-6 ml-6 flex text-xl font-medium md:ml-10 lg:ml-0">
             Håndpleie Dame
           </h3>

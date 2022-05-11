@@ -16,7 +16,7 @@ export default function Microblading() {
             height={600}
           />
         </div>
-        <div className="bg-[#FCFAFA] pt-1 pb-4 lg:px-2 lg:pt-4">
+        <div className="mb-20 bg-[#FCFAFA] pt-1 pb-4 lg:px-2 lg:pt-4">
           <Table treatment="Microblading" price="4000" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table treatment="Powder brows" price="3500" />

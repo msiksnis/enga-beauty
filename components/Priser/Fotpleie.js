@@ -16,7 +16,7 @@ export default function Fotpleie() {
             height={600}
           />
         </div>
-        <div className="bg-[#FCFAFA] pt-1 pb-4 lg:px-2 lg:pt-4">
+        <div className="mb-20 bg-[#FCFAFA] pt-1 pb-4 lg:px-2 lg:pt-4">
           <h3 className="montserrat mb-6 ml-6 flex text-xl font-medium md:mx-10 lg:ml-0">
             Fotpleie Dame
           </h3>
