@@ -20,7 +20,7 @@ export default function PedicureBanner() {
             />
           </div>
           <div className="font-lustria absolute top-[8vh] sm:top-[12vh] md:top-[10vh] xl:top-[16vh]">
-            <div className="flex flex-col items-center justify-center space-y-2 text-[5vw] leading-tight tracking-[0.13em] text-gray-700 md:space-y-5 md:text-[5vw] xl:text-[4vw]">
+            <div className="flex flex-col items-center justify-center space-y-2 text-[5vw] leading-tight tracking-wider text-gray-700 md:space-y-5 md:text-[5vw] xl:text-[4vw]">
               <h1 className="uppercase">Spar 40% - Early bird</h1>
               <h1 className="uppercase">Spar 30% - Business hours</h1>
               <h1 className="uppercase">På alle fotpleie</h1>
