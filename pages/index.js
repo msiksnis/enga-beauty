@@ -12,7 +12,7 @@ export default function IndexPage() {
       </Head>
       <Banner />
       <AllTreatments />
-      <InstaFeed />
+      {/* <InstaFeed /> */}
     </>
   );
 }
