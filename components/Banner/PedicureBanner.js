@@ -24,7 +24,7 @@ export default function PedicureBanner() {
               <h1 className="uppercase">Spar 40% - Early bird</h1>
               <h1 className="uppercase">Spar 30% - Business hours</h1>
               <h1 className="uppercase">På alle fotpleie</h1>
-              <h1 className="uppercase">For dame og here</h1>
+              <h1 className="uppercase">For dame og herre</h1>
             </div>
           </div>
         </div>
