@@ -7,6 +7,7 @@ export default function PedicureBanner() {
         <div className="flex justify-center bg-cover">
           <div className="md:hidden">
             <Image
+              priority
               src="/images/banner/pedicure-banner.jpeg"
               width={770}
               height={500}
@@ -14,6 +15,7 @@ export default function PedicureBanner() {
           </div>
           <div className="hidden md:inline">
             <Image
+              priority
               src="/images/banner/pedicure-banner.jpeg"
               width={1240}
               height={620}
