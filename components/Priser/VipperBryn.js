@@ -11,7 +11,7 @@ export default function VipperBryn() {
         <div className="mb-2">
           <Image
             className="object-cover"
-            src="/images/pics/brows-lashes.jpg"
+            src="/images/pics/lash-lifting.jpeg"
             width={1000}
             height={600}
           />
