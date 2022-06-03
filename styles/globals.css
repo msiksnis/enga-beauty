@@ -103,4 +103,9 @@
   button {
     text-transform: uppercase;
   }
+
+  .swiper-pagination-bullet {
+    background-color: red!;
+    opacity: 1!;
+  }
 }

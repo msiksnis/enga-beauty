@@ -1,17 +1,32 @@
 export const TestimonialData = [
   {
-    id: "iuwbvravc7",
-    text: "Veldig fornøyd med godt resultat og meget god service, Enga er kjempehyggelig som gjør alt for at sine kunder skal føle velvære og slappe av",
-    name: "Ulrika.",
+    id: 1,
+    text: "Kan inte rekommendera nog! Uyanga har verkligen gjort underverk för mina fötter och jag är så glad och tacksam för att jag hittat hit! Hon är otroligt flink, varm och inte minst väldigt, väldigt hyggelig. Man blir gott tatt vara på och det är alltid så härligt att komma hit.",
+    name: "Hillevi Sjödén",
   },
   {
-    id: "ijnvr97c4e",
-    text: "Jeg anbefaler Enga på det sterkeste! Både pedikyr og voksing av legger gjør jeg jevnlig hos henne. Hun opptrer profesjonelt og serviceinnstilt, og har en veldig behagelig atmosfære i sin salong.",
-    name: "Linn Røymstad",
+    id: 2,
+    text: "Om du har behov for fotpleie - så er dette plassen! Behagelig og profesjonell behandling. Det er bare å prøve og ikke minst nyte! Du vil ikke angre på å ta en behandling på Enga Beaty!",
+    name: "Knut Aga",
   },
   {
-    id: "klmviomnv",
-    text: "Veldig fornøyd med godt resultat og meget god service, Enga er kjempehyggelig som gjør alt for at sine kunder skal føle velvære og slappe av",
-    name: "Ulrika.",
+    id: 3,
+    text: "Avslappet og privat atmosfære, i et koselig lokale. God plassering. Uyanga er profesjonell, flink og veldig hyggelig! Anbefales!",
+    name: "Aleksander Grinnbo Høyum",
+  },
+  {
+    id: 4,
+    text: "Veldig deilig atmosfære i lokalet og utrolig dyktig behandler. Anbefales på det varmeste.",
+    name: "Eirin Pauline Nærland",
+  },
+  {
+    id: 5,
+    text: "Hun er en dyktig og erfaren fotpleier som kommer med gode tiltak til forbedringer av foten. Jeg har blitt en stamkunde og er hos henne en gang i mnd. Anbefales på det sterkeste for de som ønsker glansfulle føtter.",
+    name: "Jenifan Thavaseelan",
+  },
+  {
+    id: 6,
+    text: "Veldig flott service, utrolig hyggelig og gir alltid det lille ekstra, har prøvd ut flere behandlinger, og er strålende fornøyd 😊",
+    name: "Ulrika Ihle",
   },
 ];
