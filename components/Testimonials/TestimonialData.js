@@ -6,7 +6,7 @@ export const TestimonialData = [
   },
   {
     id: 2,
-    text: "Om du har behov for fotpleie - så er dette plassen! Behagelig og profesjonell behandling. Det er bare å prøve og ikke minst nyte! Du vil ikke angre på å ta en behandling på Enga Beaty!",
+    text: "Om du har behov for fotpleie - så er dette plassen! Behagelig og profesjonell behandling. Det er bare å prøve og ikke minst nyte! Du vil ikke angre på å ta en behandling på Enga Beauty!",
     name: "Knut Aga",
   },
   {
