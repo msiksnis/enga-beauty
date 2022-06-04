@@ -88,35 +88,37 @@ export default function NavMenu({ toggle, isOpen }) {
               </motion.span>
             </a>
           </Link>
-          <Link href="/behandlinger-priser/harfjerning">
-            <a
-              className={`w-[100%] py-1.5 pl-2 text-center uppercase ${
-                router.pathname === "/behandlinger-priser/harfjerning"
-                  ? "bg-gray-100 pl-2"
-                  : ""
-              }`}
-              onClick={toggle}
-            >
-              <motion.span
-                className="font-medium tracking-[0.175em]"
-                initial={false}
-                animate={isOpen ? "show" : "hide"}
-                variants={{
-                  show: {
-                    ...variants.show,
-                    transition: { delay: 0.35, duration: 0.2 },
-                  },
-                  hide: {
-                    ...variants.hide,
-                    transition: { delay: 0.2, duration: 0.05 },
-                  },
-                }}
+          <div className="hidden">
+            <Link href="/behandlinger-priser/harfjerning">
+              <a
+                className={`w-[100%] py-1.5 pl-2 text-center uppercase ${
+                  router.pathname === "/behandlinger-priser/harfjerning"
+                    ? "bg-gray-100 pl-2"
+                    : ""
+                }`}
                 onClick={toggle}
               >
-                Hårfjerning
-              </motion.span>
-            </a>
-          </Link>
+                <motion.span
+                  className="font-medium tracking-[0.175em]"
+                  initial={false}
+                  animate={isOpen ? "show" : "hide"}
+                  variants={{
+                    show: {
+                      ...variants.show,
+                      transition: { delay: 0.35, duration: 0.2 },
+                    },
+                    hide: {
+                      ...variants.hide,
+                      transition: { delay: 0.2, duration: 0.05 },
+                    },
+                  }}
+                  onClick={toggle}
+                >
+                  Hårfjerning
+                </motion.span>
+              </a>
+            </Link>
+          </div>
           <Link href="/behandlinger-priser/microblading">
             <a
               className={`w-[100%] py-1.5 pl-2 text-center uppercase ${

@@ -2,7 +2,7 @@ import Table from "./Table";
 
 export default function Klippekort() {
   return (
-    <div className="montserrat mt-24 flex flex-col justify-center font-light lg:mx-20 lg:mt-60">
+    <div className="montserrat mb-20 mt-24 flex flex-col justify-center font-light lg:mx-20 lg:mt-60">
       <h1 className="mx-10 text-center text-xl font-medium lg:mx-40 lg:text-3xl">
         Vi har klippekort på alle våre behandlinger og varigheten på alle
         klippekortene er 1 år.
@@ -152,7 +152,7 @@ export default function Klippekort() {
             </p>
           </div>
         </div>
-        <div className="mb-20 bg-[#FCFAFA] pb-4 pt-2 lg:px-6 lg:py-0 lg:pb-6">
+        <div className="mb-20 hidden bg-[#FCFAFA] pb-4 pt-2 lg:px-6 lg:py-0 lg:pb-6">
           <h4 className="montserrat mt-6 ml-6 flex justify-center text-xl font-medium md:mx-10 lg:mx-0 lg:ml-0 lg:justify-start">
             Voksing
           </h4>

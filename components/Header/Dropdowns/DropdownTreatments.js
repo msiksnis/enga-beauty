@@ -29,7 +29,7 @@ export default function DropdownTreatments() {
           </li>
         </Link>
         <Link href="/behandlinger-priser/harfjerning">
-          <li className="px-5 py-1 opacity-70 hover:bg-gray-100 hover:opacity-100">
+          <li className="hidden px-5 py-1 opacity-70 hover:bg-gray-100 hover:opacity-100">
             Hårfjerning
           </li>
         </Link>

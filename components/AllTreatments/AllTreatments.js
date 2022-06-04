@@ -40,7 +40,8 @@ export default function AllTreatments({ image }) {
             />
           </div>
         </Link>
-        <Link href="/behandlinger-priser/harfjerning">
+        <Link href="">
+          {/* <Link href="/behandlinger-priser/harfjerning"> */}
           <div className="flex h-auto w-full cursor-pointer rounded-md bg-[#fcfcfc] shadow transition-all duration-300 hover:scale-[1.02] hover:shadow-lg xl:h-64 xl:w-64">
             <Image
               className="object-contain"
