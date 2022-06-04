@@ -1,10 +1,10 @@
-// import Banner from "./Banner";
-import BannerTwo from "./BannerTwo";
+
+import PedicureBanner from "./PedicureBanner";
 
 export default function Banner() {
   return (
     <>
-      <BannerTwo />
+      <PedicureBanner />
     </>
   );
 }
