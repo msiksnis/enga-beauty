@@ -21,7 +21,7 @@ export default function InstaFeed() {
         <div className="hidden md:flex">
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
-            accessToken="IGQVJXNHJjZATItUUJDbHNDUlBRaFBkZAVd3UHJTWGdaUzc4cndIbElMWVZA4Um5ZAeVBqLWxLbTVSNDg2WjkybHVOYlVULVNXQ29DaW5aSnRJYWI2WnlaTHhoRXY2TWhwdERTMnVQSUtielZA6YkJRX0tBNwZDZD"
+            accessToken="IGQVJWcGRDYlZAOOEN5dHdmSU9iVUVrUHBTZAjg1NDVGb01XMDJxNlBUQWtqNDR5T1B5UTdsanZAlbmRFTnJHZAnRObC02bjVrR0p2WWNpeUdNcEtCUWk2UHF6dExycUFmVWpYTEk0di1JdDdnSjZACMjdjcwZDZD"
             count={18}
             pagination={true}
           />
@@ -29,7 +29,7 @@ export default function InstaFeed() {
         <div className="md:hidden">
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
-            accessToken="IGQVJXNHJjZATItUUJDbHNDUlBRaFBkZAVd3UHJTWGdaUzc4cndIbElMWVZA4Um5ZAeVBqLWxLbTVSNDg2WjkybHVOYlVULVNXQ29DaW5aSnRJYWI2WnlaTHhoRXY2TWhwdERTMnVQSUtielZA6YkJRX0tBNwZDZD"
+            accessToken="IGQVJWcGRDYlZAOOEN5dHdmSU9iVUVrUHBTZAjg1NDVGb01XMDJxNlBUQWtqNDR5T1B5UTdsanZAlbmRFTnJHZAnRObC02bjVrR0p2WWNpeUdNcEtCUWk2UHF6dExycUFmVWpYTEk0di1JdDdnSjZACMjdjcwZDZD"
             count={16}
             pagination={true}
           />

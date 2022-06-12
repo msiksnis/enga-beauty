@@ -1,5 +1,10 @@
 export const TestimonialData = [
   {
+    id: 7,
+    text: "Flink og hyggelig! Anbefales.",
+    name: "Nora Paulsen",
+  },
+  {
     id: 1,
     text: "Kan inte rekommendera nog! Uyanga har verkligen gjort underverk för mina fötter och jag är så glad och tacksam för att jag hittat hit! Hon är otroligt flink, varm och inte minst väldigt, väldigt hyggelig. Man blir gott tatt vara på och det är alltid så härligt att komma hit.",
     name: "Hillevi Sjödén",
