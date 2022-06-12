@@ -13,8 +13,8 @@ export default function IndexPage() {
       </Head>
       <Banner />
       <AllTreatments />
-      <InstaFeed />
       <TestimonialSwiper />
+      <InstaFeed />
     </>
   );
 }
