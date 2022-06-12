@@ -1,5 +1,10 @@
 export const TestimonialData = [
   {
+    id: 8,
+    text: "Dette er virkelig den beste fotpleien du kan få. Jeg har vært hos mange forskjellige så jeg vet hva jeg snakker om. Uyanga er så nøye, og føttene blir så delikate. Behandlingen er veldig behagelig. Jeg anbefaler henne på det varmeste.",
+    name: "Toril Flåskjer",
+  },
+  {
     id: 7,
     text: "Flink og hyggelig! Anbefales.",
     name: "Nora Paulsen",
