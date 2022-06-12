@@ -6,7 +6,7 @@ export default function InstaFeed() {
       <div className="flex flex-col">
         <h1 className="font-poppins mb-10 flex justify-center text-xl md:text-2xl lg:mb-14">
           <a
-            href="https://www.instagram.com/enga_beauty_ba10/"
+            href="https://www.instagram.com/enga_health_beauty/"
             target="_blank"
             rel="noopener noreferrer"
           >
