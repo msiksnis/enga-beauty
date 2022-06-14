@@ -33,12 +33,12 @@ export default function Handpleie() {
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table treatment="Aklrylnegler påfyll" price="650" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
-          <Table treatment="PolyGele negler nytt sett" price="800" />
-          <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
-          <Table treatment="PolyGele negler påfyll" price="700" />
-          <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
-          <Table treatment="PolyGele negler på en neglebiter" price="850" />
-          <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
+          {/* <Table treatment="PolyGele negler nytt sett" price="800" /> */}
+          {/* <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p> */}
+          {/* <Table treatment="PolyGele negler påfyll" price="700" /> */}
+          {/* <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p> */}
+          {/* <Table treatment="PolyGele negler på en neglebiter" price="850" /> */}
+          {/* <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p> */}
           <Table treatment="Shellack / Gellack med mini manikyr" price="500" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table
