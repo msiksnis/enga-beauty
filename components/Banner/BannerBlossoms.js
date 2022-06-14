@@ -20,8 +20,8 @@ export default function BannerBlossoms() {
           ></div>
           <div className="font-lustria absolute top-[6vh] md:top-[15vh] xl:top-[16vh]">
             <div className="flex flex-col items-center justify-center space-y-2 text-[5vw] leading-tight tracking-[0.13em] text-white md:space-y-5 md:text-[5vw] xl:text-[4vw]">
-              <div className="uppercase">Spar 40% - Early bird</div>
-              <div className="uppercase">Spar 30% - Business hours</div>
+              <div className="uppercase">Spar 30% - Early bird</div>
+              <div className="uppercase">Spar 20% - Business hours</div>
               <div className="uppercase">På alle fotpleie</div>
               <div className="uppercase">For dame og here</div>
             </div>
