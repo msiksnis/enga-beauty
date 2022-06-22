@@ -21,6 +21,7 @@ export default function InstaFeed() {
         <div className="hidden md:flex">
           <InstagramGallery
             className="instagram-gallery instagram-item instagram-image"
+            // accessToken={process.env.ACCESS_TOKEN}
             accessToken="IGQVJWcGRDYlZAOOEN5dHdmSU9iVUVrUHBTZAjg1NDVGb01XMDJxNlBUQWtqNDR5T1B5UTdsanZAlbmRFTnJHZAnRObC02bjVrR0p2WWNpeUdNcEtCUWk2UHF6dExycUFmVWpYTEk0di1JdDdnSjZACMjdjcwZDZD"
             count={18}
             pagination={true}

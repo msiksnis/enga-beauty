@@ -83,21 +83,21 @@ export default function Klippekort() {
             FOTPLEIE DAME
           </h4>
           <div className="text-lg">
-            <Table treatment="Mini pedikyr 6 klipp" price="2400" />
+            {/* <Table treatment="Mini pedikyr 6 klipp" price="2400" />
             <p className="montserrat text-md mx-6 border-b border-gray-200 pb-2 opacity-60 md:mx-10 lg:mx-0">
               (du sparer 1200kr)
             </p>
             <Table treatment="SPA pedikyr 6 klipp" price="3200" />
             <p className="montserrat text-md mx-6 border-b border-gray-200 pb-2 opacity-60 md:mx-10 lg:mx-0">
               (du sparer 1600kr)
-            </p>
-            <Table treatment="Helt pedikyr 6 klipp" price="4000" />
+            </p> */}
+            <Table treatment="Helt pedikyr 6 klipp" price="4800" />
             <p className="montserrat text-md mx-6 border-b border-gray-200 pb-2 opacity-60 md:mx-10 lg:mx-0">
               (du sparer 2000kr)
             </p>
             <Table
               treatment="Dyp fuktighetsgivende pedikyr 6 klipp"
-              price="4800"
+              price="4000"
             />
             <p className="montserrat text-md mx-6 border-b border-gray-200 pb-2 opacity-60 md:mx-10 lg:mx-0">
               (du sparer 2400kr)
@@ -120,14 +120,14 @@ export default function Klippekort() {
             FOTPLEIE HERRE
           </h4>
           <div className="text-lg">
-            <Table treatment="Mini pedikyr 6 klipp" price="2800" />
+            {/* <Table treatment="Mini pedikyr 6 klipp" price="2800" />
             <p className="montserrat text-md mx-6 border-b border-gray-200 pb-2 opacity-60 md:mx-10 lg:mx-0">
               (du sparer 1400kr)
             </p>
             <Table treatment="SPA pedikyr 6 klipp" price="3600" />
             <p className="montserrat text-md mx-6 border-b border-gray-200 pb-2 opacity-60 md:mx-10 lg:mx-0">
               (du sparer 1800kr)
-            </p>
+            </p> */}
             <Table treatment="Helt deluxe pedikyr 6 klipp" price="4400" />
             <p className="montserrat text-md mx-6 border-b border-gray-200 pb-2 opacity-60 md:mx-10 lg:mx-0">
               (du sparer 2200kr)
