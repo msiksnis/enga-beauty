@@ -24,13 +24,15 @@ export default function Fotpleie() {
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p> */}
           {/* <Table treatment="SPA pedikyr" price="800" /> */}
           {/* <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p> */}
+          <Table treatment="Spa pedikyr med shellac fransk" price="950" />
+          <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table treatment="Dypt fuktighetsgivende pedikyr" price="1000" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table treatment="Helt deluxe pedikyr" price="1200" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table treatment="Luksuriøs signatur pedikyr" price="1400" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
-          <Table treatment="Ensfarget shellack / gellack tær" price="500" />
+          <Table treatment="Ensfarget shellac / gellack tær" price="500" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table treatment="Reparasjon av en tær negl" price="50" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
@@ -41,7 +43,7 @@ export default function Fotpleie() {
             price="250"
           />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
-          <Table treatment="Fjerning av shellack / gellack" price="200" />
+          <Table treatment="Fjerning av shellac / gellack" price="200" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           {/* <Table treatment="Parafinbehandling" price="300" /> */}
           {/* <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p> */}

@@ -39,14 +39,14 @@ export default function Handpleie() {
           {/* <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p> */}
           {/* <Table treatment="PolyGele negler på en neglebiter" price="850" /> */}
           {/* <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p> */}
-          <Table treatment="Shellack / Gellack med mini manikyr" price="500" />
+          <Table treatment="Shellac / Gellac med mini manikyr" price="500" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table
-            treatment="Shellack / Gellack med mini manikyr og design"
+            treatment="Shellac / Gellac med mini manikyr og design"
             price="700"
           />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
-          <Table treatment="Fjerning av shellack / gellack" price="150" />
+          <Table treatment="Fjerning av shellac / gellac" price="150" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
           <Table treatment="Fjerning av gelenegler" price="250" />
           <p className="montserrat mx-6 border-b border-gray-200 py-1 text-sm opacity-60 md:mx-10 lg:mx-0"></p>
