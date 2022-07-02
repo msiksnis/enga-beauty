@@ -9,12 +9,12 @@ import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
 export default function TestPage() {
   return (
     <div className="mt-28 md:mt-44">
-      <BannerTwo />
-      <AllTreatments />
-      <TestimonialSwiper />
+      {/* <BannerTwo /> */}
+      {/* <AllTreatments /> */}
+      {/* <TestimonialSwiper /> */}
       {/* <InstaFeed /> */}
-      <WordSwapper />
-      <Footer />
+      {/* <WordSwapper /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
