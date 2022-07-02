@@ -1,10 +1,12 @@
+import { gql } from "@apollo/client";
 import Head from "next/head";
+import client from "../appoloClient";
 import AllTreatments from "../components/AllTreatments/AllTreatments";
 import Banner from "../components/Banner/Banner";
 import InstaFeed from "../components/InstaFeed/InstaFeed";
 import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
 
-export default function IndexPage() {
+export default function IndexPage({ testimonials }) {
   return (
     <>
       <Head>
@@ -13,8 +15,27 @@ export default function IndexPage() {
       </Head>
       <Banner />
       <AllTreatments />
-      <TestimonialSwiper />
+      <TestimonialSwiper testimonials={testimonials} />
       <InstaFeed />
     </>
   );
+}
+
+export async function getStaticProps() {
+  const { data } = await client.query({
+    query: gql`
+      query {
+        testimonials {
+          name
+          text
+        }
+      }
+    `,
+  });
+  const { testimonials } = data;
+  return {
+    props: {
+      testimonials,
+    },
+  };
 }

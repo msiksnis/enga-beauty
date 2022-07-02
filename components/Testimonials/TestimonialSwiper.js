@@ -1,6 +1,6 @@
 import SwiperMobile from "./SwiperMobile";
 
-export default function TestimonialSwiper() {
+export default function TestimonialSwiper({ testimonials }) {
   return (
     <div className="pt-6">
       <div className="my-10 flex flex-col items-center justify-center text-gray-700 md:mb-14 md:mt-0">
@@ -10,7 +10,7 @@ export default function TestimonialSwiper() {
       </div>
       <div className=""></div>
       <div className="">
-        <SwiperMobile />
+        <SwiperMobile testimonials={testimonials} />
       </div>
     </div>
   );
