@@ -26,8 +26,10 @@ export async function getStaticProps() {
     query: gql`
       query {
         testimonials {
+          id
           name
           text
+          rating
         }
       }
     `,

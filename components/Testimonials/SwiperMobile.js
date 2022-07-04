@@ -27,7 +27,7 @@ export default function SwiperMobile({ testimonials }) {
         .reverse()
         .map((testimonial) => (
           <SwiperSlide
-            key={testimonial.name}
+            key={testimonial.id}
             className="flex justify-center bg-white px-6 py-6 md:px-20 xl:px-40"
           >
             <div className="font-lustria relative z-10 font-light tracking-wider text-gray-500">
