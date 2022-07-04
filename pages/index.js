@@ -16,7 +16,7 @@ export default function IndexPage({ testimonials }) {
       <Banner />
       <AllTreatments />
       <TestimonialSwiper testimonials={testimonials} />
-      <InstaFeed />
+      {/* <InstaFeed /> */}
     </>
   );
 }
