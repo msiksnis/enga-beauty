@@ -62,7 +62,7 @@ export default function InstagramFeed({ token }) {
               </div>
             </a>
           </h1>
-          <div className="m-auto grid grid-cols-2 flex-wrap justify-center gap-1 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 justify-center gap-1 md:grid-cols-3 lg:grid-cols-4">
             {feeds.map((feed) => (
               <Feed key={feed.id} feed={feed} />
             ))}
@@ -75,7 +75,7 @@ export default function InstagramFeed({ token }) {
           text-white shadow transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 lg:text-sm"
           onClick={showMorePosts}
         >
-          Show More
+          Se Mer
         </button>
       </div>
     </div>
