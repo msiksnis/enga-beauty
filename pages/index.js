@@ -34,6 +34,7 @@ export async function getStaticProps() {
       }
     `,
   });
+
   const { testimonials } = data;
   return {
     props: {
