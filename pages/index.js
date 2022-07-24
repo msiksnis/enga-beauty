@@ -8,7 +8,7 @@ import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
 
 export default function IndexPage({ testimonials }) {
   return (
-    <>
+    <div>
       <Head>
         <title>Enga Beauty</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +17,7 @@ export default function IndexPage({ testimonials }) {
       <AllTreatments />
       <TestimonialSwiper testimonials={testimonials} />
       <InstagramPosts />
-    </>
+    </div>
   );
 }
 
