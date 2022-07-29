@@ -2,7 +2,7 @@ export default function Feed({ feed }) {
   const { id, caption, media_type, media_url } = feed;
   let post;
 
-  console.log({ id });
+  // console.log({ id });
 
   switch (media_type) {
     case "VIDEO":

@@ -1,12 +1,23 @@
-import { gql } from "@apollo/client";
+import { useQuery } from "@apollo/client";
 import Head from "next/head";
-import client from "../appoloClient";
 import AllTreatments from "../components/AllTreatments/AllTreatments";
 import Banner from "../components/Banner/Banner";
 import InstagramPosts from "../components/InstagramFeed/InstagramPosts";
 import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
+import { Testimonials } from "../graphql/queries";
 
-export default function IndexPage({ testimonials }) {
+export default function IndexPage() {
+  const { data, loading, error } = useQuery(Testimonials);
+
+  if (loading) return <p>Loading...</p>;
+
+  if (error) {
+    console.error(error);
+    return <p>Something went wrong...</p>;
+  }
+
+  const { testimonials } = data;
+
   return (
     <div>
       <Head>
@@ -19,26 +30,4 @@ export default function IndexPage({ testimonials }) {
       <InstagramPosts />
     </div>
   );
-}
-
-export async function getStaticProps() {
-  const { data } = await client.query({
-    query: gql`
-      query {
-        testimonials {
-          id
-          name
-          text
-          rating
-        }
-      }
-    `,
-  });
-
-  const { testimonials } = data;
-  return {
-    props: {
-      testimonials,
-    },
-  };
 }
