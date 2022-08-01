@@ -2,12 +2,13 @@ import { useQuery } from "@apollo/client";
 import Head from "next/head";
 import AllTreatments from "../components/AllTreatments/AllTreatments";
 import Banner from "../components/Banner/Banner";
+import Info from "../components/Info";
 import InstagramPosts from "../components/InstagramFeed/InstagramPosts";
 import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
-import { Testimonials } from "../graphql/queries";
+import { TESTIMONIALS } from "../graphql/queries";
 
 export default function IndexPage() {
-  const { data, loading, error } = useQuery(Testimonials);
+  const { data, loading, error } = useQuery(TESTIMONIALS);
 
   if (loading) return <p>Loading...</p>;
 
@@ -24,6 +25,7 @@ export default function IndexPage() {
         <title>Enga Beauty</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Info />
       <Banner />
       <AllTreatments />
       <TestimonialSwiper testimonials={testimonials} />

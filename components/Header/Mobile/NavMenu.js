@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import useLockBodyScroll from "../../../lib/ScrollLock";
 
 const variants = {
   show: {
@@ -28,6 +27,7 @@ export default function NavMenu({ toggle, isOpen }) {
 
   return (
     <div className="flex flex-col">
+      <div className="mx-auto mt-10 -mb-6 w-2/3 items-center border border-gray-800/80" />
       <div className="grid grid-rows-2">
         <div className="flex w-full flex-col items-center space-y-1 pt-20 text-xl text-gray-700">
           <Link href="/behandlinger-priser/handpleie">
