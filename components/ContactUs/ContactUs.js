@@ -11,7 +11,7 @@ export default function ContactUs() {
       <div className="mt-24 flex w-full flex-col items-center justify-center md:mt-44">
         <div className="md:hidden">
           <Image
-            src="/images/ba-10-1.jpeg"
+            src="/images/Niels Juls.jpg"
             width={770}
             height={500}
             className="object-cover object-bottom"
@@ -19,7 +19,7 @@ export default function ContactUs() {
         </div>
         <div className="hidden md:block">
           <Image
-            src="/images/ba-101.jpeg"
+            src="/images/Niels Juls.jpg"
             width={1440}
             height={600}
             className="object-cover object-bottom"
@@ -27,16 +27,15 @@ export default function ContactUs() {
         </div>
         <div className="mb-4 mt-10 flex flex-col items-center justify-center text-gray-700 md:mb-10 md:mt-20">
           <h1 className="font-lustria relative z-10 text-2xl capitalize md:text-4xl">
-            Bygdøy allé 10, 0262 Oslo
+            Niels Juels gate 43A, 0257 Oslo
           </h1>
         </div>
         <h3 className="font-poppins mt-0 flex px-4 text-center font-light tracking-wide text-gray-500 md:text-lg lg:px-20 xl:px-40">
-          {/* Du finner oss i Frogner. Vår adresse er Bygdøy allé 10. Velkommen! */}
           Beliggenhet i hjertet av Frogner omgitt av eksklusive butikker, kjent
           for sine førsteklasses restauranter og luksuriøse boliger. Salongen er
           lett tilgjengelig med beliggenhet koblet til sentrum med trikk og
           buss. Den er nabo med Solli plass så det passer perfekt for en
-          hyggelig gå- eller sykkeltur på solfylte dager.
+          hyggelig gå eller sykkeltur på solfylte dager.
         </h3>
       </div>
       <div className="px-4 lg:px-20 xl:px-40">
@@ -83,7 +82,7 @@ export default function ContactUs() {
               enkleste er å benytte seg av EasyPark appen når man skal betale
               for parkeringen. Ønsker du å parkere på parkeringsplasser? Solli
               parkeringsplass er en av de nærmeste, den ligger i Solligata 3.
-              Bare 400 meter unna salongen.
+              Bare 700 meter unna salongen.
             </p>
           </div>
         </div>

@@ -13,8 +13,8 @@ export default function Footer() {
           <p className="font-poppins text-lg font-semibold">
             Du finner oss her:
           </p>
-          <p className="">Bygdøy allé 10</p>
-          <p className="">0262 Oslo</p>
+          <p className="">Niels Juels gate 43A</p>
+          <p className="">0257 Oslo</p>
         </div>
         <div className="w-64">
           <div className="font-poppins flex flex-col lg:flex-row ">
