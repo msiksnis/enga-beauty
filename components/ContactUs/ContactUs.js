@@ -11,7 +11,7 @@ export default function ContactUs() {
       <div className="mt-24 flex w-full flex-col items-center justify-center md:mt-44">
         <div className="md:hidden">
           <Image
-            src="/images/Niels Juls.jpg"
+            src="/images/Niels_Juls.jpg"
             width={770}
             height={500}
             className="object-cover object-bottom"
@@ -19,7 +19,7 @@ export default function ContactUs() {
         </div>
         <div className="hidden md:block">
           <Image
-            src="/images/Niels Juls.jpg"
+            src="/images/Niels_Juls.jpg"
             width={1440}
             height={600}
             className="object-cover object-bottom"
