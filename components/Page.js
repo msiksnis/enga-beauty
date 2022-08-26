@@ -10,7 +10,9 @@ export default function Page({ children }) {
   return (
     <>
       <ToTop />
-      <Header />
+      <div className={`${router.pathname === "/dashboard" ? "hidden" : ""}`}>
+        <Header />
+      </div>
       {children}
       <div className={`${router.pathname === "/contact" ? "hidden" : ""}`}>
         <Footer />

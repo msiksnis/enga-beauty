@@ -25,7 +25,7 @@ export default function IndexPage() {
         <title>Enga Beauty</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Info />
+      {/* <Info /> */}
       <Banner />
       <AllTreatments />
       <TestimonialSwiper testimonials={testimonials} />

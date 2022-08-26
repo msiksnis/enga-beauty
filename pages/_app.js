@@ -6,19 +6,24 @@ import Page from "../components/Page";
 import { AppStateProvider } from "../contexts/LocalState";
 import { ApolloProvider } from "@apollo/client";
 import withData from "../lib/withData";
+import { Toaster } from "react-hot-toast";
+import { SessionProvider } from "next-auth/react";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
 Router.events.on("routeChangeError", () => NProgress.done());
 
-function MyApp({ Component, pageProps, apollo }) {
+function MyApp({ Component, pageProps: { session, ...pageProps }, apollo }) {
   return (
     <ApolloProvider client={apollo}>
-      <AppStateProvider>
-        <Page>
-          <Component {...pageProps} />
-        </Page>
-      </AppStateProvider>
+      <SessionProvider session={session}>
+        <AppStateProvider>
+          <Page>
+            <Component {...pageProps} />
+            <Toaster position="top-center" reverseOrder={true} />
+          </Page>
+        </AppStateProvider>
+      </SessionProvider>
     </ApolloProvider>
   );
 }
