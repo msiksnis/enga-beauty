@@ -6,7 +6,7 @@ import {
   Marker,
 } from "react-google-maps";
 
-const defaultCenter = { lat: 59.91857727088452, lng: 10.717404668480674 };
+const defaultCenter = { lat: 59.91592093601156, lng: 10.712914127167227 };
 
 const defaultOptions = { scrollwheel: false };
 
@@ -23,7 +23,7 @@ const RegularMap = withScriptjs(
 );
 
 const loadingElementStyle = { height: "100%" };
-const containerElementStyle = { height: "300px" };
+const containerElementStyle = { height: "350px" };
 const mapElementStyle = { height: "100%" };
 
 export default function GoogleMaps() {

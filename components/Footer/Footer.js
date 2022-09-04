@@ -1,6 +1,6 @@
 import { workingHours } from "../../lib/workingHours";
+import GoogleMaps from "../GoogleMaps";
 import SocialIcons from "../SocialIcons";
-import GoogleMaps from "./GoogleMaps";
 
 export default function Footer() {
   return (
@@ -13,8 +13,8 @@ export default function Footer() {
           <p className="font-poppins text-lg font-semibold">
             Du finner oss her:
           </p>
-          <p className="">Niels Juels gate 43A</p>
-          <p className="">0257 Oslo</p>
+          <p className="">Bygdøy Allé 10</p>
+          <p className="">0262 Oslo</p>
         </div>
         <div className="w-64">
           <div className="font-poppins flex flex-col lg:flex-row ">

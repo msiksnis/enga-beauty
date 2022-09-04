@@ -7,7 +7,7 @@ import { fetchReviews } from "../utils/fetchReviews";
 
 export default function IndexPage({ reviews }) {
   return (
-    <div className="">
+    <div>
       <Head>
         <title>Enga Beauty</title>
         <link rel="icon" href="/favicon.ico" />
