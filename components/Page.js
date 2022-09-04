@@ -1,4 +1,3 @@
-// import Footer from "./Footer";
 import Header from "./Header/Header";
 import { useRouter } from "next/router";
 import ToTop from "./ToTop";
@@ -14,11 +13,7 @@ export default function Page({ children }) {
         <Header />
       </div>
       {children}
-      <div
-        className={`${
-          router.pathname === "/contact" || "/dashboard" ? "hidden" : ""
-        }`}
-      >
+      <div className={`${router.pathname === "/contact" ? "hidden" : ""}`}>
         <Footer />
       </div>
     </>
