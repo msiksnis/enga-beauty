@@ -1,28 +1,11 @@
-import { useSession, signIn, signOut } from "next-auth/react";
-import Link from "next/link";
+import AllControls from "../components/Dashboard/AllControls/AllControls";
+import Sidebar from "../components/Dashboard/Sidebar/Sidebar";
 
 export default function DashboardPage() {
-  const { data: session, status } = useSession();
-
-  const loading = status === "loading";
-
-  if (loading) return null;
-
   return (
-    <div className="mt-44 min-h-screen">
-      {session ? (
-        <p>
-          <span>Signed in as {session?.user?.email}</span>
-          <Link href="/account">
-            <a>My Account</a>
-          </Link>
-          <button onClick={signOut}>Sign out</button>
-        </p>
-      ) : (
-        <>
-          <button onClick={signIn}>Sign in</button>
-        </>
-      )}
+    <div className="flex max-h-screen overflow-hidden">
+      <Sidebar />
+      <AllControls />
     </div>
   );
 }

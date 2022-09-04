@@ -14,7 +14,11 @@ export default function Page({ children }) {
         <Header />
       </div>
       {children}
-      <div className={`${router.pathname === "/contact" ? "hidden" : ""}`}>
+      <div
+        className={`${
+          router.pathname === "/contact" || "/dashboard" ? "hidden" : ""
+        }`}
+      >
         <Footer />
       </div>
     </>

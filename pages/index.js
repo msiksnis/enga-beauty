@@ -1,35 +1,31 @@
-import { useQuery } from "@apollo/client";
 import Head from "next/head";
 import AllTreatments from "../components/AllTreatments/AllTreatments";
 import Banner from "../components/Banner/Banner";
-import Info from "../components/Info";
 import InstagramPosts from "../components/InstagramFeed/InstagramPosts";
 import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
-import { TESTIMONIALS } from "../graphql/queries";
+import { fetchReviews } from "../utils/fetchReviews";
 
-export default function IndexPage() {
-  const { data, loading, error } = useQuery(TESTIMONIALS);
-
-  if (loading) return <p>Loading...</p>;
-
-  if (error) {
-    console.error(error);
-    return <p>Something went wrong...</p>;
-  }
-
-  const { testimonials } = data;
-
+export default function IndexPage({ reviews }) {
   return (
     <div>
       <Head>
         <title>Enga Beauty</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Info /> */}
       <Banner />
       <AllTreatments />
-      <TestimonialSwiper testimonials={testimonials} />
+      <TestimonialSwiper reviews={reviews} />
       <InstagramPosts />
     </div>
   );
 }
+
+export const getServerSideProps = async (context) => {
+  const reviews = await fetchReviews();
+
+  return {
+    props: {
+      reviews,
+    },
+  };
+};
