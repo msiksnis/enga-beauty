@@ -1,13 +1,29 @@
 import Head from "next/head";
 import Handpleie from "../../components/Priser/Handpleie";
+import {
+  fetchManicureFemale,
+  fetchManicureMale,
+} from "../../utils/fetchManicureTreatments";
 
-export default function HandpleiePage() {
+export default function HandpleiePage({ manicureFemale, manicureMale }) {
   return (
     <>
       <Head>
         <title>Enga Beauty | Håndpleie</title>
       </Head>
-      <Handpleie />
+      <Handpleie manicureFemale={manicureFemale} manicureMale={manicureMale} />
     </>
   );
+}
+
+export async function getStaticProps(context) {
+  const manicureFemale = await fetchManicureFemale();
+  const manicureMale = await fetchManicureMale();
+
+  return {
+    props: {
+      manicureFemale,
+      manicureMale,
+    },
+  };
 }

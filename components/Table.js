@@ -1,12 +1,12 @@
 export default function Table({ treatment, price }) {
   return (
-    <table className="w-full mt-2">
-      <tbody>
-        <tr className="md:mx-10 lg:mx-0 flex justify-between mx-6">
-          <td className="poppins font-normal">{treatment}</td>
-          <td className="poppins flex items-end ml-2 font-normal">{price}kr</td>
+    <table className="mt-2 w-full">
+      <div className="border-b border-gray-200/60 py-1">
+        <tr className="font-poppins mx-6 flex justify-between md:mx-10 lg:mx-0">
+          <td className="font-light">{treatment}</td>
+          <td className="ml-2 flex items-end">{price}kr</td>
         </tr>
-      </tbody>
+      </div>
     </table>
   );
 }
