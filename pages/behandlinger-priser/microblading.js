@@ -13,7 +13,7 @@ export default function MicrobladingPage({ microblading }) {
   );
 }
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   const microblading = await fetchMicroblading();
 
   return {

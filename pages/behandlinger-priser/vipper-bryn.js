@@ -14,7 +14,7 @@ export default function VipperBrynPage({ lashes, brows }) {
   );
 }
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   const lashes = await fetchLashes();
   const brows = await fetchBrows();
 

@@ -39,7 +39,7 @@ export default function BehandlingerPage({
   );
 }
 
-export async function getStaticProps(ctx) {
+export async function getServerSideProps(ctx) {
   const pedicureFemale = await fetchPedicureFemale();
   const pedicureMale = await fetchPedicureMale();
   const manicureFemale = await fetchManicureFemale();
