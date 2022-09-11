@@ -22,7 +22,7 @@ export default function Klippekort({
               ({ title, price, _id, shortDescription }) => (
                 <div
                   key={_id}
-                  className="font-poppins mx-6 border-b border-gray-200 py-1 md:mx-10 lg:mx-0"
+                  className="font-poppins mx-6 border-b border-gray-200 pt-3 pb-1 md:mx-10 lg:mx-0"
                 >
                   <div className="flex justify-between">
                     <h1>{title}</h1>
@@ -47,7 +47,7 @@ export default function Klippekort({
               ({ title, price, _id, shortDescription }) => (
                 <div
                   key={_id}
-                  className="font-poppins mx-6 border-b border-gray-200 py-1 md:mx-10 lg:mx-0"
+                  className="font-poppins mx-6 border-b border-gray-200 pt-3 pb-1 md:mx-10 lg:mx-0"
                 >
                   <div className="flex justify-between">
                     <h1>{title}</h1>
@@ -74,7 +74,7 @@ export default function Klippekort({
               ({ title, price, _id, shortDescription }) => (
                 <div
                   key={_id}
-                  className="font-poppins mx-6 border-b border-gray-200 py-1 md:mx-10 lg:mx-0"
+                  className="font-poppins mx-6 border-b border-gray-200 pt-3 pb-1 md:mx-10 lg:mx-0"
                 >
                   <div className="flex justify-between">
                     <h1>{title}</h1>
@@ -99,7 +99,7 @@ export default function Klippekort({
               ({ title, price, _id, shortDescription }) => (
                 <div
                   key={_id}
-                  className="font-poppins mx-6 border-b border-gray-200 py-1 md:mx-10 lg:mx-0"
+                  className="font-poppins mx-6 border-b border-gray-200 pt-3 pb-1 md:mx-10 lg:mx-0"
                 >
                   <div className="flex justify-between">
                     <h1>{title}</h1>
