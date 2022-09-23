@@ -16,18 +16,28 @@ export default function VipperBryn({ lashes, brows }) {
             height={600}
           />
         </div>
-        <div className="mb-20 bg-[#FCFAFA] pt-1 pb-4 lg:px-2 lg:pt-4">
+        <div className="mb-20 bg-[#FCFAFA] pt-4 pb-10 lg:px-2">
           <h3 className="font-poppins mb-6 ml-6 flex text-xl font-medium md:mx-10 lg:ml-0">
             Vippe
           </h3>
-          {lashes.map(({ title, price, _id }) => (
-            <Table key={_id} treatment={title} price={price} />
+          {lashes.map(({ title, price, _id, shortDescription }) => (
+            <Table
+              key={_id}
+              treatment={title}
+              price={price}
+              description={shortDescription}
+            />
           ))}
           <h3 className="font-poppins mt-12 mb-6 ml-6 flex text-xl font-medium md:mx-10 lg:ml-0">
             Brynsløft
           </h3>
-          {brows.map(({ title, price, _id }) => (
-            <Table key={_id} treatment={title} price={price} />
+          {brows.map(({ title, price, _id, shortDescription }) => (
+            <Table
+              key={_id}
+              treatment={title}
+              price={price}
+              description={shortDescription}
+            />
           ))}
         </div>
       </div>

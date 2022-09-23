@@ -16,9 +16,14 @@ export default function Microblading({ microblading }) {
             height={600}
           />
         </div>
-        <div className="mb-20 bg-[#FCFAFA] pt-1 pb-4 lg:px-2 lg:pt-4">
-          {microblading.map(({ title, price, _id }) => (
-            <Table key={_id} treatment={title} price={price} />
+        <div className="mb-20 bg-[#FCFAFA] pt-4 pb-10 lg:px-2">
+          {microblading.map(({ title, price, _id, shortDescription }) => (
+            <Table
+              key={_id}
+              treatment={title}
+              price={price}
+              description={shortDescription}
+            />
           ))}
         </div>
       </div>
