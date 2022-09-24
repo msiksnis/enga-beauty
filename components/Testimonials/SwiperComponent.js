@@ -4,6 +4,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper";
 import { FaQuoteLeft } from "react-icons/fa";
 import { AiOutlineMinus } from "react-icons/ai";
+import ReactStars from "react-rating-stars-component";
 
 export default function SwiperComponent({ reviews }) {
   return (
@@ -28,11 +29,19 @@ export default function SwiperComponent({ reviews }) {
             <div className="absolute -top-6 left-1/2 z-[-99] -translate-x-1/2 text-5xl text-gray-100">
               <FaQuoteLeft />
             </div>
-            <div className="pb-10 text-center text-lg leading-8">
+            <div className="pb-3 text-center text-lg leading-8">
               {review.comment}
+              <div className="flex justify-center pt-4 text-lg">
+                <ReactStars
+                  edit={false}
+                  count={review.rating}
+                  size={22}
+                  color="#eac802"
+                />
+              </div>
             </div>
             <div className="flex w-full items-center justify-center space-x-1 pb-10 italic">
-              <AiOutlineMinus />
+              {/* <AiOutlineMinus /> */}
               <div className="text-xl">{review.reviewAuthor}</div>
             </div>
           </div>
