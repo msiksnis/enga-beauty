@@ -1,5 +1,6 @@
 import { workingHours } from "../../lib/workingHours";
 import GoogleMaps from "../GoogleMaps";
+// import GoogleMaps from "../GoogleMaps/GoogleMaps";
 import SocialIcons from "../SocialIcons";
 
 export default function Footer() {

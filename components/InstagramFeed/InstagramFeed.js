@@ -46,7 +46,7 @@ export default function InstagramFeed({ token }) {
 
   return (
     <div className="">
-      <div className="mt-20 mb-20 lg:mt-40">
+      <div className="mb-20 mt-10">
         <div className="flex flex-col">
           <h1 className="font-poppins mb-10 flex justify-center text-xl md:text-2xl lg:mb-14">
             <a

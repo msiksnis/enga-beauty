@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { workingHours } from "../../lib/workingHours";
+// import GoogleMaps from "../GoogleMaps/GoogleMaps";
 import GoogleMaps from "../GoogleMaps";
 import ContactForm from "./ContactForm";
 

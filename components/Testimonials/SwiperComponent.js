@@ -36,7 +36,7 @@ export default function SwiperComponent({ reviews }) {
                   edit={false}
                   count={review.rating}
                   size={22}
-                  color="#eac802"
+                  color="#ffe54f"
                 />
               </div>
             </div>
