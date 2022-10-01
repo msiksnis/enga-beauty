@@ -38,7 +38,7 @@ export default function Header() {
           className={
             headerSize
               ? "hidden"
-              : "fixed top-0 z-50 mt-20 w-full bg-white shadow-md"
+              : "fixed top-0 z-50 mt-[5.5rem] w-full bg-white shadow-md lg:mt-24"
           }
         >
           <BottomOfHeader />

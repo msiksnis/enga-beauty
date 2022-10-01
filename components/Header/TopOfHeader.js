@@ -1,4 +1,3 @@
-// import styled from "styled-components";
 import Link from "next/link";
 import Image from "next/image";
 import InstagramIcon from "../Icons/InstagramIcon";
@@ -6,19 +5,19 @@ import FacebookIcon from "../Icons/FacebookIcon";
 
 export default function TopOfHeader() {
   return (
-    <div className="flex w-full items-center justify-between px-8 pt-1.5 md:px-10">
-      <div className="flex w-44 space-x-2 text-xl">
+    <div className="flex w-full items-center justify-between px-8 pt-0 md:px-10">
+      <div className="-mt-5 flex w-44 space-x-2 text-xl">
         <InstagramIcon />
         <FacebookIcon />
       </div>
-      <div className="scale-90 transform cursor-pointer md:scale-100">
+      <div className="md:scale-90 lg:scale-100">
         <Link href="/">
           <a>
             <Image
               className="object-contain"
-              src="/LOGO-ONE.png"
-              width={280}
-              height={80}
+              src="/logo/main_logo_black.png"
+              width={350}
+              height={100}
             />
           </a>
         </Link>

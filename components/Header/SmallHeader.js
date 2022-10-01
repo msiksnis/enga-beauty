@@ -5,15 +5,15 @@ import DropdownGifts from "./Dropdowns/DropdownGifts";
 
 export default function SmallHeader() {
   return (
-    <div className="flex w-full items-center justify-between px-4 pt-2 pb-3 shadow-md">
-      <div className="-mb-3 flex w-40 cursor-pointer items-center justify-start lg:w-52">
+    <div className="flex w-full items-center justify-between px-4 shadow-md">
+      <div className="flex w-40 items-center justify-start lg:w-56">
         <Link href="/">
           <a>
             <Image
               className="object-contain"
-              src="/LOGO-ONE.png"
-              width={180}
-              height={44}
+              src="/logo/main_logo_black.png"
+              width={200}
+              height={70}
             />
           </a>
         </Link>
@@ -22,22 +22,14 @@ export default function SmallHeader() {
       <div className="font-poppins mt-3.5 flex justify-center space-x-3 lg:space-x-5">
         <DropdownTreatments />
         <DropdownGifts />
-        <span className="cursor-pointer  uppercase opacity-70 hover:opacity-100">
-          {/* <a
-            href="mailto:info@engabeauty.no"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pb-3 lg:pb-1"
-          >
-            KONTAKT OSS
-          </a> */}
+        <span className="uppercase opacity-70 hover:opacity-100">
           <Link href="/contact">
-            <span>KONTAKT OSS</span>
+            <a>KONTAKT OSS</a>
           </Link>
         </span>
       </div>
 
-      <div className="-mb-2 flex w-48 justify-end lg:w-52">
+      <div className="flex w-48 justify-end lg:w-52">
         <button
           className="font-poppins rounded border border-gray-900 bg-gray-900 px-9 py-2 text-xs uppercase text-white
           transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 lg:text-sm"
