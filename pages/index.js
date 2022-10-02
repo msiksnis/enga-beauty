@@ -9,7 +9,7 @@ export default function IndexPage({ reviews }) {
   return (
     <div>
       <Head>
-        <title>Atelier Beauté</title>
+        <title>Atelier Beauté | Oslo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
