@@ -6,7 +6,7 @@ export default function GiftcardPage({ giftcards }) {
   return (
     <div>
       <Head>
-        <title>Enga Beauty | Gavekort</title>
+        <title>Atelier Beauté | Gavekort</title>
       </Head>
 
       <Gavekort giftcards={giftcards} />

@@ -5,7 +5,7 @@ export default function HarfjerningPage() {
   return (
     <>
       <Head>
-        <title>Enga Beauty | Hårfjerning</title>
+        <title>Atelier Beauté | Hårfjerning</title>
       </Head>
       <Harfjerning />
     </>

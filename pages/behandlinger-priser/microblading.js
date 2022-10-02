@@ -6,7 +6,7 @@ export default function MicrobladingPage({ microblading }) {
   return (
     <>
       <Head>
-        <title>Enga Beauty | Microblading</title>
+        <title>Atelier Beauté | Microblading</title>
       </Head>
       <Microblading microblading={microblading} />
     </>

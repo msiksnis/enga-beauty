@@ -9,7 +9,7 @@ export default function FotpleiePage({ pedicureFemale, pedicureMale }) {
   return (
     <>
       <Head>
-        <title>Enga Beauty | Fotpleie</title>
+        <title>Atelier Beauté | Fotpleie</title>
       </Head>
       <Fotpleie pedicureFemale={pedicureFemale} pedicureMale={pedicureMale} />
     </>

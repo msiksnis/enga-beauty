@@ -9,7 +9,7 @@ export default function IndexPage({ reviews }) {
   return (
     <div>
       <Head>
-        <title>Enga Beauty</title>
+        <title>Atelier Beauté</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />

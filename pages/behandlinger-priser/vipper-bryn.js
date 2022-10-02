@@ -7,7 +7,7 @@ export default function VipperBrynPage({ lashes, brows }) {
   return (
     <>
       <Head>
-        <title>Enga Beauty | Vipper & Bryn</title>
+        <title>Atelier Beauté | Vipper & Bryn</title>
       </Head>
       <VipperBryn lashes={lashes} brows={brows} />
     </>

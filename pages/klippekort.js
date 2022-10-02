@@ -16,7 +16,7 @@ export default function KlippekortPage({
   return (
     <>
       <Head>
-        <title>Enga Beauty | Klippekort</title>
+        <title>Atelier Beauté | Klippekort</title>
       </Head>
       <Klippekort
         klippekortPedicureFemale={klippekortPedicureFemale}

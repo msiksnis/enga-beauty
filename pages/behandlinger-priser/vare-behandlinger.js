@@ -24,7 +24,7 @@ export default function BehandlingerPage({
   return (
     <>
       <Head>
-        <title>Enga Beauty | Våre Behandlinger</title>
+        <title>Atelier Beauté | Våre Behandlinger</title>
       </Head>
       <VareBehandlinger
         pedicureFemale={pedicureFemale}
