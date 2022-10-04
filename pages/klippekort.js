@@ -28,7 +28,7 @@ export default function KlippekortPage({
   );
 }
 
-export const getServerSideProps = async (context) => {
+export async function getStaticProps() {
   const klippekortPedicureFemale = await fetchKlippekortPedicureFemale();
   const klippekortPedicureMale = await fetchKlippekortPedicureMale();
   const klippekortManicureFemale = await fetchKlippekortManicureFemale();
@@ -41,5 +41,6 @@ export const getServerSideProps = async (context) => {
       klippekortManicureFemale,
       klippekortManicureMale,
     },
+    revalidate: 10,
   };
-};
+}
