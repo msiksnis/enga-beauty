@@ -39,7 +39,7 @@ export default function BehandlingerPage({
   );
 }
 
-export async function getServerSideProps(ctx) {
+export async function getStaticProps() {
   const pedicureFemale = await fetchPedicureFemale();
   const pedicureMale = await fetchPedicureMale();
   const manicureFemale = await fetchManicureFemale();
@@ -58,5 +58,6 @@ export async function getServerSideProps(ctx) {
       lashes,
       brows,
     },
+    revalidate: 10,
   };
 }

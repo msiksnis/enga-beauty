@@ -16,7 +16,7 @@ export default function HandpleiePage({ manicureFemale, manicureMale }) {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
   const manicureFemale = await fetchManicureFemale();
   const manicureMale = await fetchManicureMale();
 
@@ -25,5 +25,6 @@ export async function getServerSideProps(context) {
       manicureFemale,
       manicureMale,
     },
+    revalidate: 10,
   };
 }

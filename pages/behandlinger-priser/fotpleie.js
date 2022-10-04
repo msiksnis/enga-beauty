@@ -16,7 +16,7 @@ export default function FotpleiePage({ pedicureFemale, pedicureMale }) {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
   const pedicureFemale = await fetchPedicureFemale();
   const pedicureMale = await fetchPedicureMale();
 
@@ -25,5 +25,6 @@ export async function getServerSideProps(context) {
       pedicureFemale,
       pedicureMale,
     },
+    revalidate: 10,
   };
 }

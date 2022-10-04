@@ -14,12 +14,13 @@ export default function GiftcardPage({ giftcards }) {
   );
 }
 
-export async function getServerSideProps(ctx) {
+export async function getStaticProps() {
   const giftcards = await fetchGiftcards();
 
   return {
     props: {
       giftcards,
     },
+    revalidate: 10,
   };
 }
