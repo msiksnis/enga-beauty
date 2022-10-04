@@ -25,11 +25,11 @@ export default function Footer() {
           <div className="font-poppins flex flex-col lg:flex-row ">
             <p className="font-semibold lg:mr-2">Email:</p>
             <a
-              href="mailto:info@engabeauty.no"
+              href="mailto:post@atelierbeaute.no"
               target="_blank"
               rel="noopener noreferrer"
             >
-              info@engabeauty.no
+              post@atelierbeaute.no
             </a>
           </div>
         </div>

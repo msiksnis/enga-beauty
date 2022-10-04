@@ -53,7 +53,7 @@ export default function ContactUs() {
               <div className="flex flex-col pb-6 lg:flex-row">
                 <p className="font-semibold text-gray-800">Email:</p>
                 <p className="font-light tracking-wide text-gray-500 md:ml-2">
-                  info@engabeauty.no
+                  post@atelierbeaute.no
                 </p>
               </div>
               <div className="pb-16">
