@@ -20,12 +20,13 @@ export default function IndexPage({ reviews }) {
   );
 }
 
-export const getServerSideProps = async (context) => {
+export async function getStaticProps() {
   const reviews = await fetchReviews();
 
   return {
     props: {
       reviews,
     },
+    revalidate: 10,
   };
-};
+}
