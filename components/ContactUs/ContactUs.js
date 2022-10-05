@@ -44,12 +44,6 @@ export default function ContactUs() {
           </div>
           <div className="col-span-5 md:pl-20">
             <div className="font-lustria flex flex-col justify-center md:text-lg">
-              {/* <div className="flex flex-col pb-6 lg:flex-row">
-                <p className="font-semibold text-gray-800">Telefon:</p>
-                <p className="font-light tracking-wide text-gray-500 md:ml-2">
-                  +47 45 84 50 04
-                </p>
-              </div> */}
               <div className="flex flex-col pb-6 lg:flex-row">
                 <p className="font-semibold text-gray-800">Email:</p>
                 <p className="font-light tracking-wide text-gray-500 md:ml-2">
