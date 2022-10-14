@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Loader from "../Loaders/Loader";
 import Table from "../Table";
 
 export default function Handpleie({ manicureFemale, manicureMale }) {
@@ -12,7 +13,6 @@ export default function Handpleie({ manicureFemale, manicureMale }) {
           <Image
             className="object-cover"
             src="/images/pics/handpleie.webp"
-            priority
             width={1000}
             height={600}
           />
