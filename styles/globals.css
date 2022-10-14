@@ -11,6 +11,22 @@
     color: #eac802;
   }
 
+  .spinnerOne {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border-top: 3px solid gold;
+    border-left: 3px solid gold;
+    border-right: 3px solid white;
+    animation: spin 0.575s infinite linear;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
   .effect {
     position: relative;
     padding-bottom: 3px;

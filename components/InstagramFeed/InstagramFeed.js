@@ -50,14 +50,16 @@ export default function InstagramFeed({ token }) {
         <div className="flex flex-col">
           <h1 className="font-poppins mb-10 flex justify-center text-xl md:text-2xl lg:mb-14">
             <a
-              href="https://www.instagram.com/enga_health_beauty/"
+              href="https://www.instagram.com/atelier_beaute_oslo/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="flex flex-col items-center justify-center text-gray-700">
-                <h1 className="font-lustria relative z-10 flex text-2xl capitalize md:text-4xl">
+                <h1 className="font-lustria relative z-10 flex text-2xl md:text-4xl">
                   <p className="font-poppins font-light">#</p>
-                  <p className="font-poppins font-normal italic">EngaBeauty</p>
+                  <p className="font-poppins font-normal italic">
+                    atelierbeaute_engabeauty
+                  </p>
                 </h1>
               </div>
             </a>

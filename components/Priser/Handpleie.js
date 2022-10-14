@@ -11,7 +11,8 @@ export default function Handpleie({ manicureFemale, manicureMale }) {
         <div className="mb-2">
           <Image
             className="object-cover"
-            src="/images/pics/manicure1.png"
+            src="/images/pics/handpleie.webp"
+            priority
             width={1000}
             height={600}
           />

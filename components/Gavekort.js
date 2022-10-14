@@ -12,7 +12,6 @@ export default function Gavekort({ giftcards }) {
           <div key={giftcard._id} className="flex justify-center lg:mx-2">
             <Image
               className="object-contain"
-              // src="/images/gavekort/gavekort1.jpg"
               src={giftcard.imageUrl}
               width={300}
               height={250}
