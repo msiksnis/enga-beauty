@@ -6,7 +6,7 @@ export default function DropdownGifts() {
     <div className="group inline-block opacity-70 hover:opacity-100">
       <button className="flex items-center">
         <span className="font-poppins flex-1 pr-1 pb-0.5 uppercase">Gaver</span>
-        <span className="mb-0.5 transform transition duration-150 ease-in-out group-hover:-rotate-180">
+        <span className="mb-0.5 transform transition duration-300 ease-in-out group-hover:-rotate-180">
           <FiChevronDown />
         </span>
       </button>
