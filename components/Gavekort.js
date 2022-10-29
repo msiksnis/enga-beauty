@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Gavekort({ giftcards }) {
   return (
     <div className="mx-6 mt-32 flex flex-col items-center md:mx-20 md:mt-44 lg:mt-52 lg:min-h-screen">
-      <h2 className="font-poppins flex justify-center pb-10 pt-6 text-center text-lg font-light text-gray-700 lg:pt-6 lg:text-3xl">
+      <h2 className="font-poppins flex justify-center pb-10 pt-6 text-center text-lg font-light text-gray-700 lg:pt-6 lg:text-2xl">
         Velg og kjøp favorit behandlingen din med gavekort. Vi sender digitalt
         til din e-post. Ring hos oss på 45 84 50 04 eller send en mail til
         post@atelierbeaute.no for å booke gavekort timen din.
