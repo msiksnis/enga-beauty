@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins"],
+        rubik: ["Rubik"],
         inconsolata: ["Inconsolata"],
         quicksand: ["Quicksand"],
         babylonica: ["Babylonica"],

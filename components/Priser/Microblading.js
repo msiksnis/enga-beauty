@@ -3,7 +3,7 @@ import Table from "../Table";
 
 export default function Microblading({ microblading }) {
   return (
-    <div className="mt-24 flex flex-col items-center md:mt-44">
+    <div className="font-rubik mt-24 flex flex-col items-center md:mt-44">
       <div className=" md:w-3/5">
         <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Tatovering
