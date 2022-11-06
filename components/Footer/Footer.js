@@ -18,7 +18,11 @@ export default function Footer() {
           <p className="">0262 Oslo</p>
         </div>
         <div className="w-64">
-          <div className="font-poppins flex flex-col lg:flex-row ">
+          <div className="flex flex-col lg:flex-row">
+            <p className="font-semibold">Telefon:</p>
+            <p className="pb-3 lg:ml-2 lg:pb-0">+47 45 84 50 04</p>
+          </div>
+          <div className="font-poppins flex flex-col lg:flex-row">
             <p className="font-semibold lg:mr-2">Email:</p>
             <a
               href="mailto:post@atelierbeaute.no"
