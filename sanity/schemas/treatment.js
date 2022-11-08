@@ -64,6 +64,7 @@ export default {
           { title: "Fotpleie", value: "fotpleie" },
           { title: "Håndpleie", value: "håndpleie" },
           { title: "Microblading", value: "microblading" },
+          { title: "Voksing", value: "voksing" },
           { title: "Vippe", value: "vippe" },
           { title: "Bryn", value: "bryn" },
         ], // <-- predefined values
