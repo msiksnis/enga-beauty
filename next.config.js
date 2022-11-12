@@ -5,6 +5,7 @@ module.exports = {
       "3.bp.blogspot.com",
       "lh3.googleusercontent.com",
       "cdn.sanity.io",
+      "scontent.cdninstagram.com",
     ],
   },
   experimental: {
