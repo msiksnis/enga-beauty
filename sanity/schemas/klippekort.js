@@ -26,6 +26,11 @@ export default {
       validation: (Rule) => Rule.required().warning("Required field"),
     },
     {
+      name: "directLink",
+      title: "Direct Purchase Link",
+      type: "string",
+    },
+    {
       name: "shortDescription",
       title: "Short description",
       type: "string",

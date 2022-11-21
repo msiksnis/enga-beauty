@@ -43,12 +43,10 @@ export default async function handler(req, res) {
     manicureKlippekortMaleQuery
   );
 
-  res
-    .status(200)
-    .json({
-      pedicureKlippekortFemale,
-      pedicureKlippekortMale,
-      manicureKlippekortFemale,
-      manicureKlippekortMale,
-    });
+  res.status(200).json({
+    pedicureKlippekortFemale,
+    pedicureKlippekortMale,
+    manicureKlippekortFemale,
+    manicureKlippekortMale,
+  });
 }

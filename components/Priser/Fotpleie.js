@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Table from "../Table";
+import TestTable from "../TestTable";
 
 export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
   return (
@@ -16,7 +17,7 @@ export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
             height={600}
           />
         </div>
-        <div className="mb-20 bg-[#FCFAFA] pt-4 pb-10 lg:px-2">
+        <div className="mb-20 bg-[#FCFAFA] pt-4 pb-10 lg:px-0">
           <h3 className=" mb-6 ml-6 flex text-xl md:mx-10 lg:ml-0">
             Fotpleie Dame
           </h3>
@@ -32,14 +33,17 @@ export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
             Fotpleie Herre
           </h3>
 
-          {pedicureMale.map(({ title, price, _id, shortDescription }) => (
-            <Table
-              key={_id}
-              treatment={title}
-              price={price}
-              description={shortDescription}
-            />
-          ))}
+          {pedicureMale.map(
+            ({ title, price, _id, shortDescription, directLink }) => (
+              <Table
+                key={_id}
+                treatment={title}
+                price={price}
+                description={shortDescription}
+                directLink={directLink}
+              />
+            )
+          )}
         </div>
       </div>
     </div>

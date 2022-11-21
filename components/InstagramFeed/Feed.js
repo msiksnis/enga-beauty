@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Feed({ feed }) {
   const { id, caption, media_type, media_url } = feed;
   let post;
@@ -18,6 +20,14 @@ export default function Feed({ feed }) {
   } else {
     post = (
       <div className="feed-item">
+        {/* <Image
+          id={id}
+          src={media_url}
+          alt={caption}
+          width={300}
+          height={300}
+          className="object-cover"
+        /> */}
         <img id={id} src={media_url} alt={caption} />
       </div>
     );
