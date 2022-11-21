@@ -278,7 +278,7 @@ export default function NavMenu({ toggle, isOpen }) {
             onClick={toggle}
           >
             <a
-              href="https://no.fresha.com/providers/enga-beauty-y0pknew1?pId=494654"
+              href="https://atelierbeaute.as.me/schedule.php?location=Bygd%C3%B8y+All%C3%A9+10%2C+0262"
               target="_blank"
               rel="noopener noreferrer"
             >
