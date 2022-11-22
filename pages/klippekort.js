@@ -3,13 +3,13 @@ import Klippekort from "../components/Klippekort";
 import {
   fetchKlippekortPedicureFemale,
   fetchKlippekortPedicureMale,
-  fetchKlippekortVipperOgBryn,
+  // fetchKlippekortVipperOgBryn,
 } from "../utils/fetchKlippekort";
 
 export default function KlippekortPage({
   klippekortPedicureFemale,
   klippekortPedicureMale,
-  klippekortVipperOgBryn,
+  // klippekortVipperOgBryn,
 }) {
   return (
     <>
@@ -19,7 +19,7 @@ export default function KlippekortPage({
       <Klippekort
         klippekortPedicureFemale={klippekortPedicureFemale}
         klippekortPedicureMale={klippekortPedicureMale}
-        klippekortVipperOgBryn={klippekortVipperOgBryn}
+        // klippekortVipperOgBryn={klippekortVipperOgBryn}
       />
     </>
   );
@@ -28,13 +28,13 @@ export default function KlippekortPage({
 export async function getStaticProps() {
   const klippekortPedicureFemale = await fetchKlippekortPedicureFemale();
   const klippekortPedicureMale = await fetchKlippekortPedicureMale();
-  const klippekortVipperOgBryn = await fetchKlippekortVipperOgBryn();
+  // const klippekortVipperOgBryn = await fetchKlippekortVipperOgBryn();
 
   return {
     props: {
       klippekortPedicureFemale,
       klippekortPedicureMale,
-      klippekortVipperOgBryn,
+      // klippekortVipperOgBryn,
     },
     revalidate: 10,
   };
