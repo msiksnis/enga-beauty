@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Gavekort from "../components/Gavekort";
+import Giftcards from "../components/Giftcards/Giftcards";
 import { fetchGiftcards } from "../utils/fetchGiftcards";
 
 export default function GiftcardPage({ giftcards }) {
@@ -9,7 +9,7 @@ export default function GiftcardPage({ giftcards }) {
         <title>Atelier Beauté | Gavekort</title>
       </Head>
 
-      <Gavekort giftcards={giftcards} />
+      <Giftcards giftcards={giftcards} />
     </div>
   );
 }

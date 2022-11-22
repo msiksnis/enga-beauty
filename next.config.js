@@ -6,6 +6,7 @@ module.exports = {
       "lh3.googleusercontent.com",
       "cdn.sanity.io",
       "scontent.cdninstagram.com",
+      "cdn-s.acuityscheduling.com",
     ],
   },
   experimental: {

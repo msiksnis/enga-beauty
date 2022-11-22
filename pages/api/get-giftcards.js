@@ -4,8 +4,13 @@ import { groq } from "next-sanity";
 const giftcardsQuery = groq`
 *[_type == "giftcard"] {
     _id,
+    title,
+    slug,
+    price,
+    directLink,
+    _createdAt,
     "imageUrl": giftcardImage.asset->url
-  } | order(_createdAt desc)
+  } | order(_createdAt asc)
 `;
 
 export default async function handler(req, res) {
