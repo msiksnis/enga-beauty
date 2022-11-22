@@ -68,6 +68,7 @@ export default {
         list: [
           { title: "Fotpleie", value: "fotpleie" },
           { title: "Håndpleie", value: "håndpleie" },
+          { title: "Vipper og Bryn", value: "vipperOgBryn" },
         ], // <-- predefined values
         layout: "radio", // <-- defaults to 'dropdown'
       },

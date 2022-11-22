@@ -41,3 +41,14 @@ export const fetchKlippekortManicureMale = async () => {
 
   return klippekortManicureMale;
 };
+
+export const fetchKlippekortVipperOgBryn = async () => {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/get-klippekort`
+  );
+
+  const data = await res.json();
+  const klippekortVipperOgBryn = data.vipperOgBrynKlippekort;
+
+  return klippekortVipperOgBryn;
+};

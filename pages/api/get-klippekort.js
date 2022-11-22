@@ -29,6 +29,13 @@ const manicureKlippekortMaleQuery = groq`
   } | order(_createdAt asc)
 `;
 
+const vipperOgBrynKlippekortQuery = groq`
+*[_type == "klippekort" && category == "vipperOgBryn" && gender == "dame"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
 export default async function handler(req, res) {
   const pedicureKlippekortFemale = await sanityClient.fetch(
     pedicureKlippekortFemaleQuery
@@ -42,11 +49,15 @@ export default async function handler(req, res) {
   const manicureKlippekortMale = await sanityClient.fetch(
     manicureKlippekortMaleQuery
   );
+  const vipperOgBrynKlippekort = await sanityClient.fetch(
+    vipperOgBrynKlippekortQuery
+  );
 
   res.status(200).json({
     pedicureKlippekortFemale,
     pedicureKlippekortMale,
     manicureKlippekortFemale,
     manicureKlippekortMale,
+    vipperOgBrynKlippekort,
   });
 }
