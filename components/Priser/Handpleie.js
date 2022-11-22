@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Loader from "../Loaders/Loader";
 import Table from "../Table";
 
 export default function Handpleie({ manicureFemale, manicureMale }) {

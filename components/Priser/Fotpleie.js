@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Table from "../Table";
-import TestTable from "../TestTable";
 
 export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
   return (
