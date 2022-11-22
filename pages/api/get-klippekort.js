@@ -30,7 +30,7 @@ const manicureKlippekortMaleQuery = groq`
 `;
 
 const vipperOgBrynKlippekortQuery = groq`
-*[_type == "klippekort" && category == "vipperOgBryn"] {
+*[_type == "klippekort" && category == "vipperOgBryn" && gender == "dame"] {
     _id,
     ...
   } | order(_createdAt asc)
