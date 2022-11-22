@@ -11,7 +11,6 @@ export default function KlippekortPage({
   klippekortPedicureMale,
   klippekortVipperOgBryn,
 }) {
-  console.log(klippekortPedicureFemale);
   return (
     <>
       <Head>
