@@ -4,8 +4,8 @@ import Table from "../Table";
 export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
   return (
     <div className="font-rubik mt-24 flex flex-col items-center md:mt-44">
-      <div className=" md:w-3/5">
-        <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
+      <div className="">
+        <h2 className="font-poppins mb-4 text-center text-2xl text-gray-700 md:text-3xl">
           Fotpleie
         </h2>
         <div className="mb-2">

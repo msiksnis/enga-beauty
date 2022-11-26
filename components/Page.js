@@ -7,7 +7,7 @@ export default function Page({ children }) {
   const router = useRouter();
 
   return (
-    <>
+    <div className="mx-auto">
       <ToTop />
       <div className={`${router.pathname === "/dashboard" ? "hidden" : ""}`}>
         <Header />
@@ -16,6 +16,6 @@ export default function Page({ children }) {
       <div className={`${router.pathname === "/contact" ? "hidden" : ""}`}>
         <Footer />
       </div>
-    </>
+    </div>
   );
 }

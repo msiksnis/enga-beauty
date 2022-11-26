@@ -10,7 +10,7 @@ export default function Klippekort({
       <h1 className="mx-10 mb-10 text-center text-xl lg:mx-40 lg:mb-10 lg:text-3xl">
         Utløps datoer på klippekortene avhengig av klippekort summen.
       </h1>
-      <div className="grid-cols-2 justify-center gap-10 lg:mt-10 lg:grid">
+      <div className="mx-auto grid-cols-2 justify-center gap-10 lg:mt-10 lg:grid">
         <div className="mb-10 bg-[#FCFAFA] pb-6 pt-2">
           <h4 className="font-rubik mx-4 flex justify-center border-b border-gray-200 pt-7 pb-4 text-xl font-normal md:mx-10 lg:mx-6 lg:justify-start">
             FOTPLEIE DAME

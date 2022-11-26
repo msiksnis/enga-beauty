@@ -3,7 +3,7 @@ import DropdownTreatments from "./Dropdowns/DropdownTreatments";
 
 export default function BottomOfHeader() {
   return (
-    <div className="font-poppins flex h-12 w-full items-center justify-center px-8 pt-2 text-sm md:px-10 lg:text-base">
+    <div className="font-poppins flex h-12 items-center justify-center pt-2 text-sm lg:text-base">
       <div className="mt-0.5 space-x-10">
         <DropdownTreatments />
         <span className="uppercase opacity-70 hover:opacity-100">

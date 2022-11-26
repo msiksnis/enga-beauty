@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#fff] text-[#21222D] selection:bg-[gold];
+    @apply mx-auto bg-[#fff] text-[#21222D] selection:bg-[gold];
   }
 
   .gold {

@@ -5,7 +5,7 @@ import FacebookIcon from "../Icons/FacebookIcon";
 
 export default function TopOfHeader() {
   return (
-    <div className="flex w-full items-center justify-between px-8 pt-0 md:px-10">
+    <div className="mx-8 flex w-full items-center justify-between pt-0 md:mx-10">
       <div className="-mt-5 flex w-44 space-x-2 text-xl">
         <InstagramIcon />
         <FacebookIcon />

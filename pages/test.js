@@ -1,22 +1,28 @@
-import Giftcards from "../components/Giftcards/Giftcards";
-import { fetchGiftcards } from "../utils/fetchGiftcards";
+import TestHandpleie from "../components/Priser/TestHanpleie";
+import {
+  fetchManicureFemale,
+  fetchManicureMale,
+} from "../utils/fetchManicureTreatments";
 
-export default function TestPage({ giftcards }) {
+export default function TestPage({ manicureFemale, manicureMale }) {
   return (
-    <div className="font-rubik mt-44 flex w-full justify-center px-4 lg:px-40">
-      <div className="grid grid-cols-3 gap-5">
-        <Giftcards giftcards={giftcards} />
-      </div>
+    <div className="">
+      <TestHandpleie
+        manicureFemale={manicureFemale}
+        manicureMale={manicureMale}
+      />
     </div>
   );
 }
 
 export async function getStaticProps() {
-  const giftcards = await fetchGiftcards();
+  const manicureFemale = await fetchManicureFemale();
+  const manicureMale = await fetchManicureMale();
 
   return {
     props: {
-      giftcards,
+      manicureFemale,
+      manicureMale,
     },
     revalidate: 10,
   };
