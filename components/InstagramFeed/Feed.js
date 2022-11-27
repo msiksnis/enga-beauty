@@ -20,15 +20,15 @@ export default function Feed({ feed }) {
   } else {
     post = (
       <div className="feed-item">
-        <Image
+        {/* <Image
           id={id}
           src={media_url}
           alt={caption}
           width={300}
           height={300}
           className="object-cover"
-        />
-        {/* <img id={id} src={media_url} alt={caption} /> */}
+        /> */}
+        <img id={id} src={media_url} alt={caption} />
       </div>
     );
   }
