@@ -4,6 +4,7 @@ import "../components/styles/nprogress.css";
 import Router from "next/router";
 import Page from "../components/Page";
 import { AppStateProvider } from "../contexts/LocalState";
+import { Analytics } from "@vercel/analytics/react";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
@@ -14,6 +15,7 @@ export default function MyApp({ Component, pageProps }) {
     <AppStateProvider>
       <Page>
         <Component {...pageProps} />
+        <Analytics />
       </Page>
     </AppStateProvider>
   );
