@@ -12,7 +12,7 @@ export default function BottomOfHeader() {
           </Link>
         </span>
         <span className="uppercase opacity-70 hover:opacity-100">
-          <Link href="klippekort">
+          <Link href="/klippekort">
             <a>KLIPPEKORT</a>
           </Link>
         </span>
