@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { workingHours } from "../../lib/workingHours";
-// import GoogleMaps from "../GoogleMaps/GoogleMaps";
-import GoogleMaps from "../GoogleMaps";
+import GoogleMaps from "../GoogleMaps/GoogleMaps";
 import ContactForm from "./ContactForm";
 
 export default function ContactUs() {
