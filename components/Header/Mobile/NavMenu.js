@@ -322,7 +322,7 @@ export default function NavMenu({ toggle, isOpen }) {
               }}
               onClick={toggle}
             >
-              info@engabeauty.no
+              post@atelierbeaute.no
             </motion.a>
           </div>
         </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Card({ image, title, price, directLink }) {
   return (
     <div>
-      <div className="flex flex-col border border-black p-5 ">
+      <div className="flex flex-col border border-black p-5">
         <Image
           src={image}
           alt={title}
