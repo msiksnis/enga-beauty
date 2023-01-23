@@ -10,7 +10,7 @@ const giftcardsQuery = groq`
     directLink,
     _createdAt,
     "imageUrl": giftcardImage.asset->url
-  } | order(_createdAt asc)
+  } | order(_createdAt desc)
 `;
 
 export default async function handler(req, res) {

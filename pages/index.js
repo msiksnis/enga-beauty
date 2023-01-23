@@ -1,5 +1,5 @@
 import Head from "next/head";
-import AllTreatments from "../components/AllTreatments/AllTreatments";
+// import AllTreatments from "../components/AllTreatments/AllTreatments";
 import Banner from "../components/Banner/Banner";
 import InstagramPosts from "../components/InstagramFeed/InstagramPosts";
 import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
@@ -13,7 +13,7 @@ export default function IndexPage({ reviews }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
-      <AllTreatments />
+      {/* <AllTreatments /> */}
       <TestimonialSwiper reviews={reviews} />
       <InstagramPosts />
     </div>

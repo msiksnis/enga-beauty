@@ -1,10 +1,11 @@
 import BannerNovember from "./BannerNovember";
-import PedicureBanner from "./PedicureBanner";
+import BannerSix from "./BannerSix";
 
 export default function Banner() {
   return (
     <>
-      <BannerNovember />
+      {/* <BannerNovember /> */}
+      <BannerSix />
     </>
   );
 }
