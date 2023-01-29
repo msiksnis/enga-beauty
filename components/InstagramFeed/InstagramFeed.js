@@ -58,7 +58,7 @@ export default function InstagramFeed({ token }) {
                 <h1 className="font-lustria relative z-10 flex text-2xl md:text-4xl">
                   <p className="font-poppins font-light">#</p>
                   <p className="font-poppins font-normal italic">
-                    atelierbeaute_engabeauty
+                    atelierbeaute
                   </p>
                 </h1>
               </div>
