@@ -25,9 +25,9 @@ export default function BannerTwo() {
           ></div>
           <div className="font-poiret absolute top-[2vh] md:top-[6vh] xl:top-[8vh]">
             <div className="flex flex-col items-center justify-center text-[13vw] font-bold leading-tight tracking-[0.25em] text-white md:text-[12vw] xl:text-[9vw]">
-              <p className="uppercase">Love</p>
-              <p className="uppercase">Your</p>
-              <p className="uppercase">Feet</p>
+              <p className="bannerTwoText uppercase">Love</p>
+              <p className="bannerTwoText uppercase">Your</p>
+              <p className="bannerTwoText uppercase">Feet</p>
             </div>
           </div>
         </div>

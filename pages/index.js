@@ -9,7 +9,11 @@ export default function IndexPage({ reviews }) {
   return (
     <div>
       <Head>
-        <title>Atelier Beauté | Oslo</title>
+        <title>Atelier Beauté Oslo</title>
+        <meta
+          name="description"
+          content="Offesiell Atelier Beaute Oslo nettside. Manikyr, Pedikyr, Håndpleie, Fotpleie, Vipper, Bryn, Massasje, Spa behandlinger."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
