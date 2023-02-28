@@ -119,10 +119,10 @@ export default function NavMenu({ toggle, isOpen }) {
               </a>
             </Link>
           </div>
-          <Link href="/behandlinger-priser/microblading">
+          <Link href="/behandlinger-priser/hudpleie">
             <a
               className={`w-[100%] py-1.5 pl-2 text-center uppercase ${
-                router.pathname === "/behandlinger-priser/microblading"
+                router.pathname === "/behandlinger-priser/hudpleie"
                   ? "bg-gray-100 pl-2"
                   : ""
               }`}
@@ -144,7 +144,7 @@ export default function NavMenu({ toggle, isOpen }) {
                 }}
                 onClick={toggle}
               >
-                Microblading
+                Hudpleie
               </motion.span>
             </a>
           </Link>

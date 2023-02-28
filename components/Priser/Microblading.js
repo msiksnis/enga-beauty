@@ -6,9 +6,9 @@ export default function Microblading({ microblading }) {
     <div className="font-poppins mt-24 flex flex-col items-center md:mt-44">
       <div className="">
         <h2 className="font-poppins mb-4 text-center text-2xl text-gray-700 md:text-3xl">
-          Tatovering
+          Hudpleie
         </h2>
-        <div className="mb-2">
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
             src="/images/pics/tatovering.jpg"

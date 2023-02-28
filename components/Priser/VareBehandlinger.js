@@ -16,7 +16,7 @@ export default function VareBehandlinger({
         <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Fotpleie
         </h2>
-        <div className="mb-2">
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
             src="/images/pics/pedicure.png"
@@ -54,7 +54,7 @@ export default function VareBehandlinger({
         <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Håndpleie
         </h2>
-        <div className="mb-2">
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
             src="/images/pics/handpleie.webp"
@@ -92,7 +92,7 @@ export default function VareBehandlinger({
         <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Tatovering
         </h2>
-        <div className="mb-2">
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
             src="/images/pics/tatovering.jpg"
@@ -116,7 +116,7 @@ export default function VareBehandlinger({
         <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Vipper & Bryn
         </h2>
-        <div className="mb-2">
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
             src="/images/pics/brows-lashes.jpg"

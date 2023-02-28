@@ -8,7 +8,7 @@ export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
         <h2 className="font-poppins mb-4 text-center text-2xl text-gray-700 md:text-3xl">
           Fotpleie
         </h2>
-        <div className="mb-2">
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
             src="/images/pics/pedicure.png"

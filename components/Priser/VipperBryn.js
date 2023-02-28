@@ -8,7 +8,7 @@ export default function VipperBryn({ lashes, brows }) {
         <h2 className="font-poppins mb-4 text-center text-2xl text-gray-700 md:text-3xl">
           Vipper og Bryn
         </h2>
-        <div className="mb-2">
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
             src="/images/pics/lash-lifting.jpeg"

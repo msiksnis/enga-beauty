@@ -30,9 +30,9 @@ export default function DropdownTreatments() {
             Hårfjerning
           </li>
         </Link>
-        <Link href="/behandlinger-priser/microblading">
+        <Link href="/behandlinger-priser/hudpleie">
           <li className="py-1 pl-6 pr-16 opacity-70 hover:bg-gray-100 hover:opacity-100">
-            Microblading
+            Hudpleie
           </li>
         </Link>
         <Link href="/behandlinger-priser/vipper-bryn">

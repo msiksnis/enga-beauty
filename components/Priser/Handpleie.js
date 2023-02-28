@@ -8,7 +8,7 @@ export default function Handpleie({ manicureFemale, manicureMale }) {
         <h2 className="font-poppins mb-4 text-center text-2xl text-gray-700 md:text-3xl">
           Håndpleie
         </h2>
-        <div className="mb-2">
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
             src="/images/pics/handpleie.webp"
