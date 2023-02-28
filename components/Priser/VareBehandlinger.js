@@ -90,7 +90,7 @@ export default function VareBehandlinger({
 
       <div>
         <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
-          Tatovering
+          Hudpleie
         </h2>
         <div className="mb-2 hidden">
           <Image
