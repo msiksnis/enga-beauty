@@ -15,6 +15,7 @@ module.exports = {
         alexbrush: ["Alex Brush"],
         lustria: ["Lustria"],
         poiret: ["Poiret One"],
+        arsenal: ["Arsenal"],
       },
     },
   },
