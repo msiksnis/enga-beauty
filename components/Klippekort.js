@@ -79,7 +79,7 @@ export default function Klippekort({
             )}
           </div>
         </div>
-        <div className="mb-10 bg-[#FCFAFA] pb-6 pt-2">
+        {/* <div className="mb-10 bg-[#FCFAFA] pb-6 pt-2">
           <h4 className="font-rubik mx-4 flex justify-center border-b border-gray-200 pt-7 pb-4 text-xl font-normal md:mx-10 lg:mx-6 lg:justify-start">
             VIPPER OG BRYN
           </h4>
@@ -112,7 +112,7 @@ export default function Klippekort({
               )
             )}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
