@@ -26,7 +26,13 @@ export default function BannerMarch() {
           Europeisk Skulpturell Ansiktsmassasje
         </div>
         <button className="font-poppins absolute bottom-16 left-6 rounded border border-gray-900 bg-gray-900 px-8 py-1.5 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:left-28 sm:bottom-24 sm:px-14 sm:py-2.5 sm:text-base md:bottom-24 md:px-20 md:text-lg lg:bottom-28 lg:px-24">
-          Bestill time
+          <a
+            href="https://atelierbeaute.as.me/?appointmentType=42284662"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bestill time
+          </a>
         </button>
       </div>
     </div>
