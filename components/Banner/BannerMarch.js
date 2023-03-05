@@ -1,16 +1,15 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
+import "swiper/swiper-bundle.css";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 export default function BannerMarch() {
   return (
     <div className="relative mt-24 w-full md:mt-44 xl:px-20">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 6000 }}
         speed={800}
         spaceBetween={50}
         slidesPerView={1}
