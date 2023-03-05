@@ -23,18 +23,20 @@ export default function BannerMarch() {
             />
           </div>
         </div>
-        <div className="font-arsenal absolute left-6 top-12 w-44 text-left text-xl uppercase tracking-wide text-gray-700 sm:left-28 sm:top-20 sm:leading-tight md:top-24 md:text-[3.3vw] lg:top-32">
-          Europeisk Skulpturell Ansiktsmassasje
+        <div className="absolute left-6 top-1/2 -translate-y-1/2 space-y-10 sm:left-10 md:left-[10%]">
+          <div className="font-arsenal w-36 text-left text-[4vw] uppercase text-gray-700 sm:w-44 sm:leading-tight sm:tracking-wide md:pb-16 md:text-[3.3vw] lg:pb-24">
+            Europeisk Skulpturell Ansiktsmassasje
+          </div>
+          <button className="font-poppins rounded border border-gray-900 bg-gray-900 px-6 py-1 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:px-14 sm:py-2 sm:text-base md:px-16  md:text-lg lg:px-24">
+            <a
+              href="https://atelierbeaute.as.me/?appointmentType=42284662"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Bestill time
+            </a>
+          </button>
         </div>
-        <button className="font-poppins absolute bottom-16 left-6 rounded border border-gray-900 bg-gray-900 px-8 py-1.5 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:left-28 sm:bottom-24 sm:px-14 sm:py-2.5 sm:text-base md:bottom-24 md:px-20 md:text-lg lg:bottom-28 lg:px-24">
-          <a
-            href="https://atelierbeaute.as.me/?appointmentType=42284662"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Bestill time
-          </a>
-        </button>
       </div>
     </div>
   );
