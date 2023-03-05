@@ -8,15 +8,16 @@ export default function BannerMarch() {
           <div className="md:hidden">
             <Image
               priority
-              src="/images/banner/mobile-banner-march-one.webp"
-              width={800}
-              height={553}
+              src="/images/banner/mobile-banner-march-one.png"
+              width={900}
+              height={580}
+              objectFit="cover"
             />
           </div>
           <div className="hidden md:inline">
             <Image
               priority
-              src="/images/banner/banner-march-one.webp"
+              src="/images/banner/banner-march-one.png"
               width={1920}
               height={904}
             />
