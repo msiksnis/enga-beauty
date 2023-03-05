@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --swiper-navigation-size: 20px;
+}
+
 @layer base {
   body {
     @apply mx-auto bg-[#fff] text-[#21222D] selection:bg-[gold];
@@ -65,36 +69,30 @@
     transform: scale(1.08);
   }
 
-  /* .instagram-gallery {
-    @apply relative grid grid-cols-2 flex-wrap justify-center gap-1 md:grid-cols-3 lg:grid-cols-4;
-  }
-
-  .instagram-item:first-child {
-    @apply lg:col-span-2 lg:row-span-2 lg:h-[420px] lg:w-[420px] xl:h-[516px] xl:w-[516px];
-  }
-
-  .instagram-item:nth-child(12) {
-    @apply lg:col-span-2 lg:row-span-2 lg:h-[420px] lg:w-[420px] xl:h-[516px] xl:w-[516px];
-  }
-
-  .instagram-item {
-    @apply relative block sm:h-60 sm:w-60 lg:h-52 lg:w-52 xl:h-64 xl:w-64;
-  }
-
-  .instagram-item:hover {
-    @apply opacity-60;
-  }
-
-  .instagram-image {
-    @apply block h-full w-full object-cover;
-  }
-
-  .pagination {
-    @apply font-poppins absolute -bottom-20 left-1/2 flex -translate-x-1/2 justify-center space-x-10 rounded border border-gray-800 bg-gray-800 px-10 py-2 text-white;
-  } */
-
   .feed-item {
     @apply flex h-52 w-52 items-center justify-center overflow-hidden hover:opacity-60 sm:h-60 sm:w-60 lg:h-52 lg:w-52 xl:h-64 xl:w-64;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+  }
+
+  .swiper-button-next::after {
+    content: "" !important;
+    /* border: 1px solid red; */
+    padding: 1em;
+    margin-right: 50px;
+  }
+
+  .swiper-button-prev::after {
+    content: "" !important;
+    /* border: 1px solid red; */
+    padding: 1em;
+    margin-left: 50px;
+  }
+
+  .swiper-pagination-bullet {
+    @apply !mx-1.5 !h-1 !w-5 !rounded-none !bg-gray-900;
   }
 
   /* .custom {
