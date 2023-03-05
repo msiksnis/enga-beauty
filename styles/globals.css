@@ -75,42 +75,24 @@
 
   .swiper-button-next {
     background-image: url("/images/icons/chevron-right.png");
-    margin-right: 20px;
   }
 
   .swiper-button-prev {
     background-image: url("/images/icons/chevron-left.png");
-    margin-left: 20px;
   }
 
   .swiper-button-prev,
   .swiper-button-next {
-    @apply !hidden bg-no-repeat md:!block;
+    @apply mx-4 !hidden bg-center bg-no-repeat opacity-0 group-hover:opacity-40 md:!block;
     background-size: 100% auto;
-    background-position: center;
-    opacity: 0.1;
     transition: all 0.2s ease-in-out;
     transform: scale(0.8);
   }
 
-  .swiper-button-next:hover,
-  .swiper-button-prev:hover {
-    opacity: 0.4;
-    transition: all 0.2s ease-in-out;
-  }
-
   .swiper-button-prev::after,
   .swiper-button-next::after {
-    opacity: 0;
+    display: none;
   }
-
-  /* .swiper-button-next::after {
-    content: "" !important;
-  }
-
-  .swiper-button-prev::after {
-    content: "" !important;
-  } */
 
   .swiper-pagination-bullet {
     @apply !mx-1.5 !h-1 !w-5 !rounded-none !bg-gray-900;

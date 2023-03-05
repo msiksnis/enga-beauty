@@ -1,9 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/swiper-bundle.css";
 import { Autoplay, Pagination } from "swiper";
 import { FaQuoteLeft } from "react-icons/fa";
-import { AiOutlineMinus } from "react-icons/ai";
 import ReactStars from "react-rating-stars-component";
 
 export default function SwiperComponent({ reviews }) {
@@ -14,11 +12,12 @@ export default function SwiperComponent({ reviews }) {
         delay: 8000,
         disableOnInteraction: false,
       }}
-      // pagination={{
-      //   clickable: true,
-      // }}
       modules={[Pagination, Autoplay]}
-      className="mySwiper"
+      className={[
+        ".swiper-pagination-bullet",
+        ".swiper-button-prev",
+        ".swiper-button-next",
+      ]}
     >
       {reviews.map((review) => (
         <SwiperSlide
@@ -41,7 +40,6 @@ export default function SwiperComponent({ reviews }) {
               </div>
             </div>
             <div className="flex w-full items-center justify-center space-x-1 pb-10 italic">
-              {/* <AiOutlineMinus /> */}
               <div className="text-xl">{review.reviewAuthor}</div>
             </div>
           </div>

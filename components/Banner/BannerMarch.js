@@ -6,7 +6,7 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 export default function BannerMarch() {
   return (
-    <div className="relative mt-24 w-full md:mt-44 xl:px-20">
+    <div className="group relative mt-24 w-full md:mt-44 xl:px-20">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         autoplay={{ delay: 6000 }}
