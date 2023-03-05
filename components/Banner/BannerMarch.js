@@ -17,8 +17,6 @@ export default function BannerMarch() {
         loop
         navigation
         pagination={{ clickable: true }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
         className={[
           ".swiper-pagination-bullet",
           ".swiper-button-prev",
