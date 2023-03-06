@@ -99,12 +99,7 @@
   }
 
   .custom-preloader {
-    @apply flex h-full w-full animate-spin items-center justify-center;
-    border: 4px solid #f3f3f3;
-    border-top: 4px solid #3490dc;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    @apply flex h-20 w-20 animate-spin items-center justify-center rounded-full border-[6px] border-t-[6px] border-[gold]/40 border-t-gray-700;
   }
 
   /* .custom {
