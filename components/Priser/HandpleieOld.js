@@ -3,23 +3,23 @@ import Table from "../Table";
 
 export default function Handpleie({ manicureFemale, manicureMale }) {
   return (
-    <div className="font-poppins my-24 md:mt-44 md:px-0 xl:px-40">
-      <h1 className="font-poppins my-10 text-center text-2xl text-gray-700 md:text-4xl">
-        Håndpleie
-      </h1>
-      <div className="flex">
-        <div className="hidden md:flex md:w-1/3">
+    <div className="font-poppins mt-24 flex flex-col items-center md:mt-44">
+      <div className="">
+        <h2 className="font-poppins mb-4 text-center text-2xl text-gray-700 md:text-3xl">
+          Håndpleie
+        </h2>
+        <div className="mb-2 hidden">
           <Image
             className="object-cover"
-            src="/images/handpleie/handpleie.jpeg"
-            width={400}
-            height={800}
+            src="/images/pics/handpleie.webp"
+            width={1000}
+            height={600}
           />
         </div>
-        <div className="mb-20 w-full bg-gradient-to-tr from-[#ffeaeabc] to-[#f2ecec43] pt-4 pb-10 md:w-2/3">
-          <h2 className="p-4 text-center text-xl md:px-10 md:text-2xl">
+        <div className="mb-20 bg-[#FCFAFA] pt-4 pb-10">
+          <h3 className="mb-6 flex px-4 text-xl md:px-10 lg:px-2">
             Håndpleie Dame
-          </h2>
+          </h3>
           {manicureFemale.map(
             ({ title, price, _id, shortDescription, directLink }) => (
               <div key={_id} className="transition-all hover:bg-[#f2ecec]">
@@ -29,7 +29,7 @@ export default function Handpleie({ manicureFemale, manicureMale }) {
                   target="_blank"
                   className="cursor-pointer"
                 >
-                  <div className="border-b border-gray-200 px-4 pt-5 pb-2 md:px-10">
+                  <div className="font-poppins border-b border-gray-200 px-4 pt-3 pb-1 md:mx-10 md:px-10 lg:mx-0 lg:px-2">
                     <div className="flex justify-between">
                       {title}
                       <h3 className="font-rubik whitespace-nowrap pl-6 font-normal opacity-75">
@@ -45,9 +45,9 @@ export default function Handpleie({ manicureFemale, manicureMale }) {
             )
           )}
 
-          <h2 className="mt-20 mb-6 px-4 text-center text-xl md:px-10 md:text-2xl">
+          <h3 className="mt-12 mb-6 flex px-4 text-xl md:px-10 lg:px-2">
             Håndpleie Herre
-          </h2>
+          </h3>
           {manicureMale.map(
             ({ title, price, _id, shortDescription, directLink }) => (
               <div key={_id} className="transition-all hover:bg-[#f2ecec]">
@@ -57,7 +57,7 @@ export default function Handpleie({ manicureFemale, manicureMale }) {
                   target="_blank"
                   className="cursor-pointer"
                 >
-                  <div className="border-b border-gray-200 px-4 pt-5 pb-2 md:px-10">
+                  <div className="font-poppins border-b border-gray-200 px-4 pt-3 pb-1 md:mx-10 md:px-10 lg:mx-0 lg:px-2">
                     <div className="flex justify-between">
                       {title}
                       <h3 className="font-rubik whitespace-nowrap pl-6 font-normal opacity-75">
