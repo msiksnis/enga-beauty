@@ -98,6 +98,23 @@
     @apply !mx-1.5 !h-1 !w-5 !rounded-none !bg-gray-900;
   }
 
+  .custom-preloader {
+    content: "Loading...";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .custom-preloader__spinner {
+      @apply animate-spin;
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #3490dc;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
   /* .custom {
     @apply [&>*:first-child]:lg:col-span-2 [&>*:first-child]:lg:row-span-2 [&>*:first-child]:lg:h-[420px] [&>*:first-child]:lg:w-[420px] [&>*:first-child]:xl:h-[516px] [&>*:first-child]:xl:w-[516px];
   } */

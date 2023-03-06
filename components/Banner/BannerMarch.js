@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
@@ -5,17 +6,21 @@ import "swiper/swiper-bundle.css";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 export default function BannerMarch() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
     <div className="group relative mt-24 w-full md:mt-44 xl:px-20">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         autoplay={{ delay: 6000 }}
         speed={800}
+        lazy
         spaceBetween={50}
         slidesPerView={1}
         loop
         navigation
         pagination={{ clickable: true }}
+        preloaderClass="custom-preloader"
         className={[
           ".swiper-pagination-bullet",
           ".swiper-button-prev",
@@ -32,6 +37,7 @@ export default function BannerMarch() {
                   width={900}
                   height={580}
                   objectFit="cover"
+                  data-src="/images/banner/mobile-banner-march-three.png"
                 />
               </div>
               <div className="hidden md:inline">
@@ -40,6 +46,7 @@ export default function BannerMarch() {
                   src="/images/banner/banner-march-three.png"
                   width={1920}
                   height={904}
+                  data-src="/images/banner/banner-march-three.png"
                 />
               </div>
             </div>
@@ -69,6 +76,7 @@ export default function BannerMarch() {
                   width={900}
                   height={580}
                   objectFit="cover"
+                  data-src="/images/banner/mobile-banner-march-one.png"
                 />
               </div>
               <div className="hidden md:inline">
@@ -77,6 +85,7 @@ export default function BannerMarch() {
                   src="/images/banner/banner-march-one.png"
                   width={1920}
                   height={904}
+                  sdata-srcrc="/images/banner/banner-march-one.png"
                 />
               </div>
             </div>
@@ -106,6 +115,7 @@ export default function BannerMarch() {
                   width={900}
                   height={580}
                   objectFit="cover"
+                  data-src="/images/banner/mobile-banner-march-two.png"
                 />
               </div>
               <div className="hidden md:inline">
@@ -114,6 +124,7 @@ export default function BannerMarch() {
                   src="/images/banner/banner-march-two.png"
                   width={1920}
                   height={904}
+                  data-src="/images/banner/banner-march-two.png"
                 />
               </div>
             </div>
