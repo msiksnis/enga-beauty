@@ -9,6 +9,7 @@ import {
   fetchManicureMale,
 } from "../../utils/fetchManicureTreatments";
 import { fetchMicroblading } from "../../utils/fetchMicroblading";
+import { fetchHudpleie } from "../../utils/fetchHudpleie";
 import { fetchLashes } from "../../utils/fetchLashes";
 import { fetchBrows } from "../../utils/fetchBrows";
 
@@ -18,6 +19,7 @@ export default function BehandlingerPage({
   manicureFemale,
   manicureMale,
   microblading,
+  hudpleie,
   lashes,
   brows,
 }) {
@@ -32,6 +34,7 @@ export default function BehandlingerPage({
         manicureFemale={manicureFemale}
         manicureMale={manicureMale}
         microblading={microblading}
+        hudpleie={hudpleie}
         lashes={lashes}
         brows={brows}
       />
@@ -45,6 +48,7 @@ export async function getStaticProps() {
   const manicureFemale = await fetchManicureFemale();
   const manicureMale = await fetchManicureMale();
   const microblading = await fetchMicroblading();
+  const hudpleie = await fetchHudpleie();
   const lashes = await fetchLashes();
   const brows = await fetchBrows();
 
@@ -55,6 +59,7 @@ export async function getStaticProps() {
       manicureFemale,
       manicureMale,
       microblading,
+      hudpleie,
       lashes,
       brows,
     },

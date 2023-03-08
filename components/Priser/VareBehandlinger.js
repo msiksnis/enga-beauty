@@ -7,6 +7,7 @@ export default function VareBehandlinger({
   manicureFemale,
   manicureMale,
   microblading,
+  hudpleie,
   lashes,
   brows,
 }) {
@@ -101,7 +102,7 @@ export default function VareBehandlinger({
           />
         </div>
         <div className="bg-[#FCFAFA] pt-4 pb-10 lg:px-2">
-          {microblading.map(({ title, price, _id, shortDescription }) => (
+          {hudpleie.map(({ title, price, _id, shortDescription }) => (
             <Table
               key={_id}
               treatment={title}
