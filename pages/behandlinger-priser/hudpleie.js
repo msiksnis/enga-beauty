@@ -1,24 +1,24 @@
 import Head from "next/head";
-import Microblading from "../../components/Priser/Microblading";
-import { fetchMicroblading } from "../../utils/fetchMicroblading";
+import Hudpleie from "../../components/Priser/Hudpleie";
+import { fetchHudpleie } from "../../utils/fetchHudpleie";
 
-export default function MicrobladingPage({ microblading }) {
+export default function HudpleiePage({ hudpleie }) {
   return (
     <>
       <Head>
         <title>Atelier Beauté | Hudpleie</title>
       </Head>
-      <Microblading microblading={microblading} />
+      <Hudpleie hudpleie={hudpleie} />
     </>
   );
 }
 
 export async function getStaticProps() {
-  const microblading = await fetchMicroblading();
+  const hudpleie = await fetchHudpleie();
 
   return {
     props: {
-      microblading,
+      hudpleie,
     },
     revalidate: 10,
   };

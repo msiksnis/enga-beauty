@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Handpleie({ manicureFemale, manicureMale }) {
   return (
     <div className="font-poppins my-24 md:mt-44 md:px-0 xl:px-40">
-      <h1 className="font-poppins my-10 text-center text-2xl text-gray-700 md:text-4xl">
+      <h1 className="my-10 text-center text-2xl text-gray-700 md:text-4xl">
         Håndpleie
       </h1>
       <div className="flex">
@@ -15,7 +15,7 @@ export default function Handpleie({ manicureFemale, manicureMale }) {
             height={800}
           />
         </div>
-        <div className="mb-20 w-full bg-gradient-to-tr from-[#ffeaeabc] to-[#f2ecec43] pt-4 pb-10 md:w-2/3">
+        <div className="w-full bg-gradient-to-tr from-[#ffeaeabc] to-[#f2ecec43] pt-4 pb-10 md:w-2/3">
           <h2 className="p-4 text-center text-xl md:px-10 md:text-2xl">
             Håndpleie Dame
           </h2>

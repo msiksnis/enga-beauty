@@ -1,25 +1,24 @@
 import Image from "next/image";
-import Table from "../Table";
 
 export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
   return (
-    <div className="font-poppins mt-24 flex flex-col items-center md:mt-44">
-      <div className="">
-        <h2 className="font-poppins mb-4 text-center text-2xl text-gray-700 md:text-3xl">
-          Fotpleie
-        </h2>
-        <div className="mb-2 hidden">
+    <div className="font-poppins my-24 md:mt-44 md:px-0 xl:px-40">
+      <h1 className="my-10 text-center text-2xl text-gray-700 md:text-4xl">
+        Fotpleie
+      </h1>
+      <div className="flex">
+        <div className="hidden md:flex md:w-1/3">
           <Image
-            className="object-cover"
-            src="/images/pics/pedicure.png"
-            width={1000}
-            height={600}
+            className="object-cover object-left"
+            src="/images/fotpleie/fotpleie.jpeg"
+            width={400}
+            height={800}
           />
         </div>
-        <div className="mb-20 bg-[#FCFAFA] pt-4 pb-10">
-          <h3 className="mb-6 flex px-4 text-xl md:px-10 lg:px-2">
+        <div className="w-full bg-gradient-to-tr from-[#ffeaeabc] to-[#f2ecec43] pt-4 pb-10 md:w-2/3">
+          <h2 className="p-4 text-center text-xl md:px-10 md:text-2xl">
             Fotpleie Dame
-          </h3>
+          </h2>
           {pedicureFemale.map(
             ({ title, price, _id, shortDescription, directLink }) => (
               <div key={_id} className="transition-all hover:bg-[#f2ecec]">
@@ -29,14 +28,14 @@ export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
                   target="_blank"
                   className="cursor-pointer"
                 >
-                  <div className="font-poppins border-b border-gray-200 px-4 pt-3 pb-1 md:mx-10 md:px-10 lg:mx-0 lg:px-2">
+                  <div className="border-b border-gray-200 px-4 pt-5 pb-2 md:px-10">
                     <div className="flex justify-between">
                       {title}
                       <h3 className="font-rubik whitespace-nowrap pl-6 font-normal opacity-75">
                         {price} kr
                       </h3>
                     </div>
-                    <p className="pb-1 text-sm opacity-60">
+                    <p className="py-1 text-sm opacity-60">
                       {shortDescription}
                     </p>
                   </div>
@@ -44,9 +43,10 @@ export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
               </div>
             )
           )}
-          <h3 className="mt-12 mb-6 flex px-4 text-xl md:px-10 lg:px-2">
+
+          <h2 className="mt-20 mb-6 px-4 text-center text-xl md:px-10 md:text-2xl">
             Fotpleie Herre
-          </h3>
+          </h2>
           {pedicureMale.map(
             ({ title, price, _id, shortDescription, directLink }) => (
               <div key={_id} className="transition-all hover:bg-[#f2ecec]">
@@ -56,7 +56,7 @@ export default function TestFotpleie({ pedicureFemale, pedicureMale }) {
                   target="_blank"
                   className="cursor-pointer"
                 >
-                  <div className="font-poppins border-b border-gray-200 px-4 pt-3 pb-1 md:mx-10 md:px-10 lg:mx-0 lg:px-2">
+                  <div className="border-b border-gray-200 px-4 pt-5 pb-2 md:px-10">
                     <div className="flex justify-between">
                       {title}
                       <h3 className="font-rubik whitespace-nowrap pl-6 font-normal opacity-75">
