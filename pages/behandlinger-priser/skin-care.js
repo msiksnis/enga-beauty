@@ -1,29 +1,25 @@
-export default function SkinCare() {
-  return <div>test test</div>;
+import Head from "next/head";
+import { fetchHudpleie } from "../../utils/fetchHudpleie";
+import Hudpleie from "../../components/Priser/Hudpleie";
+
+export default function HudpleiePage({ hudpleie }) {
+  return (
+    <>
+      <Head>
+        <title>Atelier Beauté | Hudpleie</title>
+      </Head>
+      <Hudpleie hudpleie={hudpleie} />
+    </>
+  );
 }
 
-// import Head from "next/head";
-// import Hudpleie from "../../components/Priser/Hudpleie";
-// import { fetchHudpleie } from "../../utils/fetchHudpleie";
+export async function getStaticProps() {
+  const hudpleie = await fetchHudpleie();
 
-// export default function HudpleiePage({ hudpleie }) {
-//   return (
-//     <>
-//       <Head>
-//         <title>Atelier Beauté | Hudpleie</title>
-//       </Head>
-//       <Hudpleie hudpleie={hudpleie} />
-//     </>
-//   );
-// }
-
-// export async function getStaticProps() {
-//   const hudpleie = await fetchHudpleie();
-
-//   return {
-//     props: {
-//       hudpleie,
-//     },
-//     revalidate: 10,
-//   };
-// }
+  return {
+    props: {
+      hudpleie,
+    },
+    revalidate: 10,
+  };
+}
