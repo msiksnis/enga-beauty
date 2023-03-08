@@ -1,3 +1,7 @@
+export default function SkinCare() {
+  return <div>test test</div>;
+}
+
 // import Head from "next/head";
 // import Hudpleie from "../../components/Priser/Hudpleie";
 // import { fetchHudpleie } from "../../utils/fetchHudpleie";

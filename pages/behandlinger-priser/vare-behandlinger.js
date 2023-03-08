@@ -1,3 +1,7 @@
+export default function VareBehandlinger() {
+  return <div>test</div>;
+}
+
 // import Head from "next/head";
 // import VareBehandlinger from "../../components/Priser/VareBehandlinger";
 // import {
