@@ -55,6 +55,12 @@ export default {
       validation: (Rule) => Rule.required().warning("Required field"),
     },
     {
+      name: "promotedTreatment",
+      title: "Promoted Treatment",
+      description: "Toggle to promote this treatment",
+      type: "boolean",
+    },
+    {
       name: "category",
       title: "Category",
       type: "string",
@@ -66,8 +72,8 @@ export default {
           { title: "Voksing", value: "voksing" },
           { title: "Vippe", value: "vippe" },
           { title: "Bryn", value: "bryn" },
-        ],
-        layout: "radio",
+        ], // <-- predefined values
+        layout: "radio", // <-- defaults to 'dropdown'
       },
       validation: (Rule) => Rule.required().warning("Required field"),
     },

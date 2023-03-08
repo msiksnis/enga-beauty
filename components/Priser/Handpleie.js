@@ -35,7 +35,7 @@ export default function Handpleie({ manicureFemale, manicureMale }) {
                         {price} kr
                       </h3>
                     </div>
-                    <p className="pb-1 text-sm opacity-60">
+                    <p className="py-1 text-sm opacity-60">
                       {shortDescription}
                     </p>
                   </div>

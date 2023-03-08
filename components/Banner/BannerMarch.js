@@ -9,7 +9,7 @@ export default function BannerMarch() {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
-    <div className="group relative mt-24 w-full md:mt-44 xl:px-20">
+    <div className="font-poppins group relative mt-24 w-full md:mt-44 xl:px-20">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         autoplay={{ delay: 6000 }}
@@ -51,10 +51,10 @@ export default function BannerMarch() {
               </div>
             </div>
             <div className="absolute left-6 top-1/2 -translate-y-1/2 space-y-10 sm:left-10 md:left-[10%]">
-              <div className="font-arsenal w-36 text-left text-[4vw] uppercase text-gray-700 sm:w-44 sm:leading-tight sm:tracking-wide md:pb-16 md:text-[3.3vw] lg:pb-24">
-                Lymfedrenasje massasje
+              <div className="w-36 text-left text-[4vw] font-extralight uppercase text-gray-700 sm:w-44 sm:leading-tight sm:tracking-wide md:pb-16 md:text-[3vw] lg:pb-24">
+                Ansiktsforyngelse lymfemassasje
               </div>
-              <button className="font-poppins rounded border border-gray-900 bg-gray-900 px-6 py-1 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:px-14 sm:py-2 sm:text-base md:px-16  md:text-lg lg:px-24">
+              <button className="rounded border border-gray-900 bg-gray-900 px-6 py-1 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:px-14 sm:py-2 sm:text-base md:px-16  md:text-lg lg:px-24">
                 <a
                   href="https://atelierbeaute.as.me/schedule.php?appointmentType=42285068"
                   target="_blank"
@@ -90,10 +90,10 @@ export default function BannerMarch() {
               </div>
             </div>
             <div className="absolute left-6 top-1/2 -translate-y-1/2 space-y-10 sm:left-10 md:left-[10%]">
-              <div className="font-arsenal w-36 text-left text-[4vw] uppercase text-gray-700 sm:w-44 sm:leading-tight sm:tracking-wide md:pb-16 md:text-[3.3vw] lg:pb-24">
-                Europeisk Skulpturell Ansiktsmassasje
+              <div className="w-36 text-left text-[4vw] font-extralight uppercase text-gray-700 sm:w-44 sm:leading-tight sm:tracking-wide md:pb-16 md:text-[3vw] lg:pb-24">
+                Europeisk skulpturell ansiktsmassasje
               </div>
-              <button className="font-poppins rounded border border-gray-900 bg-gray-900 px-6 py-1 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:px-14 sm:py-2 sm:text-base md:px-16  md:text-lg lg:px-24">
+              <button className="rounded border border-gray-900 bg-gray-900 px-6 py-1 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:px-14 sm:py-2 sm:text-base md:px-16  md:text-lg lg:px-24">
                 <a
                   href="https://atelierbeaute.as.me/?appointmentType=42284662"
                   target="_blank"
@@ -129,11 +129,12 @@ export default function BannerMarch() {
               </div>
             </div>
             <div className="absolute left-6 top-1/2 -translate-y-1/2 space-y-10 sm:left-10 md:left-[10%]">
-              <div className="font-arsenal w-36 text-left text-[4vw] uppercase text-gray-700 sm:w-44 sm:leading-tight sm:tracking-wide md:pb-16 md:text-[3.3vw] lg:pb-24">
-                <p className="whitespace-nowrap">Gua Sha og</p> Hotstone
-                ansiktsmassasje
+              <div className="w-36 text-left text-[4vw] font-extralight uppercase text-gray-700 sm:w-44 sm:leading-tight sm:tracking-wide md:pb-16 md:text-[3vw] lg:pb-24">
+                <p className="whitespace-nowrap">Gua Sha</p>
+                <p className="whitespace-nowrap">massasje for</p>
+                <p className="whitespace-nowrap">ansikt og hodebunn</p>
               </div>
-              <button className="font-poppins rounded border border-gray-900 bg-gray-900 px-6 py-1 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:px-14 sm:py-2 sm:text-base md:px-16  md:text-lg lg:px-24">
+              <button className="rounded border border-gray-900 bg-gray-900 px-6 py-1 text-sm uppercase text-white shadow-sm shadow-gray-400 transition duration-300 ease-in-out hover:bg-white hover:text-gray-900 sm:px-14 sm:py-2 sm:text-base md:px-16  md:text-lg lg:px-24">
                 <a
                   href="https://atelierbeaute.as.me/schedule.php?appointmentType=42284893"
                   target="_blank"
