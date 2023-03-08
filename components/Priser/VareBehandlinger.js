@@ -7,7 +7,7 @@ export default function VareBehandlinger({
   manicureFemale,
   manicureMale,
   microblading,
-  hudpleie,
+  // hudpleie,
   lashes,
   brows,
 }) {
@@ -89,7 +89,7 @@ export default function VareBehandlinger({
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
           Hudpleie
         </h2>
@@ -111,7 +111,7 @@ export default function VareBehandlinger({
             />
           ))}
         </div>
-      </div>
+      </div> */}
 
       <div>
         <h2 className="font-poppins mb-4 flex justify-center text-2xl text-gray-700 md:mx-10 md:text-3xl">
