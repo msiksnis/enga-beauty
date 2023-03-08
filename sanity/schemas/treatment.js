@@ -49,16 +49,10 @@ export default {
           { title: "Dame", value: "dame" },
           { title: "Herre", value: "herre" },
           { title: "Unisex", value: "unisex" },
-        ], // <-- predefined values
-        layout: "radio", // <-- defaults to 'dropdown'
+        ],
+        layout: "radio",
       },
       validation: (Rule) => Rule.required().warning("Required field"),
-    },
-    {
-      name: "promotedTreatment",
-      title: "Promoted Treatment",
-      description: "Toggle to promote this treatment",
-      type: "boolean",
     },
     {
       name: "category",
@@ -72,15 +66,10 @@ export default {
           { title: "Voksing", value: "voksing" },
           { title: "Vippe", value: "vippe" },
           { title: "Bryn", value: "bryn" },
-        ], // <-- predefined values
-        layout: "radio", // <-- defaults to 'dropdown'
+        ],
+        layout: "radio",
       },
       validation: (Rule) => Rule.required().warning("Required field"),
-    },
-    {
-      name: "author",
-      title: "Author",
-      type: "string",
     },
   ],
 };
