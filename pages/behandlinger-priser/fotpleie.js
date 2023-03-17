@@ -10,6 +10,11 @@ export default function FotpleiePage({ pedicureFemale, pedicureMale }) {
     <>
       <Head>
         <title>Atelier Beauté | Fotpleie</title>
+        <meta
+          name="description"
+          content="Atelier Beauté Oslo. Pedikyr, fotpleie"
+        />
+        <meta name="keywords" content="pedikyr, fotpleie" />
       </Head>
       <Fotpleie pedicureFemale={pedicureFemale} pedicureMale={pedicureMale} />
     </>

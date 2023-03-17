@@ -10,11 +10,19 @@ import review from "./review";
 import treatment from "./treatment";
 import klippekort from "./klippekort";
 import giftcard from "./giftcard";
+import category from "./category";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
   name: "default",
 
-  types: schemaTypes.concat([author, review, treatment, klippekort, giftcard]),
+  types: schemaTypes.concat([
+    author,
+    review,
+    treatment,
+    klippekort,
+    giftcard,
+    category,
+  ]),
 });

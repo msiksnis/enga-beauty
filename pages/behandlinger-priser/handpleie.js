@@ -10,6 +10,11 @@ export default function HandpleiePage({ manicureFemale, manicureMale }) {
     <>
       <Head>
         <title>Atelier Beauté | Håndpleie</title>
+        <meta
+          name="description"
+          content="Atelier Beauté Oslo. Håndpleie, manikyr"
+        />
+        <meta name="keywords" content="håndpleie, manikyr" />
       </Head>
       <Handpleie manicureFemale={manicureFemale} manicureMale={manicureMale} />
     </>

@@ -8,6 +8,11 @@ export default function VipperBrynPage({ lashes, brows }) {
     <>
       <Head>
         <title>Atelier Beauté | Vipper & Bryn</title>
+        <meta
+          name="description"
+          content="Atelier Beauté Oslo. Vippebøy, brynsløft"
+        />
+        <meta name="keywords" content="vippebøy, brynsløft" />
       </Head>
       <VipperBryn lashes={lashes} brows={brows} />
     </>

@@ -1,5 +1,4 @@
 import Head from "next/head";
-// import AllTreatments from "../components/AllTreatments/AllTreatments";
 import Banner from "../components/Banner/Banner";
 import InstagramPosts from "../components/InstagramFeed/InstagramPosts";
 import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
@@ -12,12 +11,15 @@ export default function IndexPage({ reviews }) {
         <title>Atelier Beauté Oslo</title>
         <meta
           name="description"
-          content="Offesiell Atelier Beaute Oslo nettside. Manikyr, Pedikyr, Håndpleie, Fotpleie, Vipper, Bryn, Massasje, Spa behandlinger."
+          content="Den offisielle nettsiden til Atelier Beauté Oslo. Vi tilbyr behandlinger som hudpleie, manikyr, håndpleie, pedikyr, fotpleie, vippebøy, brynsløft, parafinbehandlinger"
+        />
+        <meta
+          name="keywords"
+          content="hudpleie, manikyr, håndpleie, pedikyr, fotpleie, vippebøy, brynsløft, parafinbehandlinger"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
-      {/* <AllTreatments /> */}
       <TestimonialSwiper reviews={reviews} />
       <InstagramPosts />
     </div>

@@ -14,13 +14,12 @@ export default function BannerMarch() {
         modules={[Navigation, Pagination, Autoplay]}
         autoplay={{ delay: 6000 }}
         speed={800}
-        lazy
         spaceBetween={50}
         slidesPerView={1}
         loop
         navigation
         pagination={{ clickable: true }}
-        preloaderClass="custom-preloader"
+        preloaderclass="custom-preloader"
         className={[
           ".swiper-pagination-bullet",
           ".swiper-button-prev",

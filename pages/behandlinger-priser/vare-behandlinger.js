@@ -27,6 +27,14 @@ export default function BehandlingerPage({
     <>
       <Head>
         <title>Atelier Beauté | Våre Behandlinger</title>
+        <meta
+          name="description"
+          content="Den offisielle nettsiden til Atelier Beauté Oslo. Vi tilbyr behandlinger som hudpleie, manikyr, håndpleie, pedikyr, fotpleie, vippebøy, brynsløft, parafinbehandlinger"
+        />
+        <meta
+          name="keywords"
+          content="hudpleie, manikyr, håndpleie, pedikyr, fotpleie, vippebøy, brynsløft, parafinbehandlinger"
+        />
       </Head>
       <VareBehandlinger
         pedicureFemale={pedicureFemale}

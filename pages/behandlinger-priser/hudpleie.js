@@ -7,6 +7,8 @@ export default function HudpleiePage({ hudpleie }) {
     <>
       <Head>
         <title>Atelier Beauté | Hudpleie</title>
+        <meta name="description" content="Atelier Beauté Oslo. Hudpleie" />
+        <meta name="keywords" content="hudpleie" />
       </Head>
       <Hudpleie hudpleie={hudpleie} />
     </>
