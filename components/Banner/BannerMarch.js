@@ -9,7 +9,7 @@ export default function BannerMarch() {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
-    <div className="font-poppins group relative mt-24 w-full md:mt-44 xl:px-20">
+    <div className="font-poppins group relative mt-24 w-full md:mt-48 xl:px-20">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         autoplay={{ delay: 6000 }}
