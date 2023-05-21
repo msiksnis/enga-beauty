@@ -102,7 +102,37 @@
     @apply flex h-20 w-20 animate-spin items-center justify-center rounded-full border-[6px] border-t-[6px] border-[gold]/40 border-t-gray-700;
   }
 
-  /* .custom {
-    @apply [&>*:first-child]:lg:col-span-2 [&>*:first-child]:lg:row-span-2 [&>*:first-child]:lg:h-[420px] [&>*:first-child]:lg:w-[420px] [&>*:first-child]:xl:h-[516px] [&>*:first-child]:xl:w-[516px];
-  } */
+  .video-banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-bottom: 47.08%;
+  }
+
+  .video-banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .mobile-video-banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-bottom: 64.44%;
+  }
+
+  .mobile-video-banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
