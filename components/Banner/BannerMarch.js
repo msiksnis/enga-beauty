@@ -42,7 +42,7 @@ export default function BannerMarch() {
                   sommerferie stengt
                 </div>
                 <div className="bannerTwoText font-poiret whitespace-nowrap text-white md:text-[2.5rem] lg:text-6xl">
-                  26 06 2023 - 10 07 2023
+                  26.06.2023 - 10.07.2023
                 </div>
                 <p className="font-poiret mt-4 text-3xl text-white">
                   UKE 26 - UKE 27
