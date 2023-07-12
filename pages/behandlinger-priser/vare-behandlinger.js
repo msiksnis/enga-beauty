@@ -1,17 +1,7 @@
 import Head from "next/head";
 import VareBehandlinger from "../../components/Priser/VareBehandlinger";
-import {
-  fetchPedicureFemale,
-  fetchPedicureMale,
-} from "../../utils/fetchPedicureTreatments";
-import {
-  fetchManicureFemale,
-  fetchManicureMale,
-} from "../../utils/fetchManicureTreatments";
-import { fetchMicroblading } from "../../utils/fetchMicroblading";
-import { fetchHudpleie } from "../../utils/fetchHudpleie";
-import { fetchLashes } from "../../utils/fetchLashes";
-import { fetchBrows } from "../../utils/fetchBrows";
+import { sanityClient } from "../../sanity";
+import { groq } from "next-sanity";
 
 export default function BehandlingerPage({
   pedicureFemale,
@@ -50,15 +40,75 @@ export default function BehandlingerPage({
   );
 }
 
+const pedicureTreatmentsFemaleQuery = groq`
+*[_type == "treatment" && category == "fotpleie" && gender == "dame"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
+const pedicureTreatmentsMaleQuery = groq`
+*[_type == "treatment" && category == "fotpleie" && gender == "herre"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
+const manicureTreatmentsFemaleQuery = groq`
+*[_type == "treatment" && category == "handpleie" && gender == "dame"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
+const manicureTreatmentsMaleQuery = groq`
+*[_type == "treatment" && category == "handpleie" && gender == "herre"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
+const microbladingQuery = groq`
+*[_type == "treatment" && category == "microblading"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
+const hudpleieQuery = groq`
+*[_type == "treatment" && category == "hudpleie"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
+const browsQuery = groq`
+*[_type == "treatment" && category == "bryn"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
+const lashesQuery = groq`
+*[_type == "treatment" && category == "vippe"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
 export async function getStaticProps() {
-  const pedicureFemale = await fetchPedicureFemale();
-  const pedicureMale = await fetchPedicureMale();
-  const manicureFemale = await fetchManicureFemale();
-  const manicureMale = await fetchManicureMale();
-  const microblading = await fetchMicroblading();
-  const hudpleie = await fetchHudpleie();
-  const lashes = await fetchLashes();
-  const brows = await fetchBrows();
+  const pedicureFemale = await sanityClient.fetch(
+    pedicureTreatmentsFemaleQuery
+  );
+  const pedicureMale = await sanityClient.fetch(pedicureTreatmentsMaleQuery);
+  const manicureFemale = await sanityClient.fetch(
+    manicureTreatmentsFemaleQuery
+  );
+  const manicureMale = await sanityClient.fetch(manicureTreatmentsMaleQuery);
+  const microblading = await sanityClient.fetch(microbladingQuery);
+  const hudpleie = await sanityClient.fetch(hudpleieQuery);
+  const brows = await sanityClient.fetch(browsQuery);
+  const lashes = await sanityClient.fetch(lashesQuery);
 
   return {
     props: {
@@ -68,8 +118,8 @@ export async function getStaticProps() {
       manicureMale,
       microblading,
       hudpleie,
-      lashes,
       brows,
+      lashes,
     },
     revalidate: 10,
   };

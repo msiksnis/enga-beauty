@@ -1,6 +1,8 @@
 import Head from "next/head";
-import Microblading from "../../components/Priser/Microblading";
+// import Microblading from "../../components/Priser/Microblading";
 import { fetchMicroblading } from "../../utils/fetchMicroblading";
+import { sanityClient } from "../../sanity";
+import { groq } from "next-sanity";
 
 export default function MicrobladingPage({ microblading }) {
   return (
@@ -13,8 +15,15 @@ export default function MicrobladingPage({ microblading }) {
   );
 }
 
+const microbladingQuery = groq`
+*[_type == "treatment" && category == "microblading"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
 export async function getStaticProps() {
-  const microblading = await fetchMicroblading();
+  const microblading = await sanityClient.fetch(microbladingQuery);
 
   return {
     props: {

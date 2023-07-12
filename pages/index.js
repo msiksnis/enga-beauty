@@ -2,7 +2,9 @@ import Head from "next/head";
 import Banner from "../components/Banner/Banner";
 import InstagramPosts from "../components/InstagramFeed/InstagramPosts";
 import TestimonialSwiper from "../components/Testimonials/TestimonialSwiper";
-import { fetchReviews } from "../utils/fetchReviews";
+// import { fetchReviews } from "../utils/fetchReviews";
+import { sanityClient } from "../sanity";
+import { groq } from "next-sanity";
 
 export default function IndexPage({ reviews }) {
   return (
@@ -26,8 +28,15 @@ export default function IndexPage({ reviews }) {
   );
 }
 
+const reviewsQuery = groq`
+*[_type == "review"] {
+    _id,
+    ...
+  } | order(_createdAt desc)
+`;
+
 export async function getStaticProps() {
-  const reviews = await fetchReviews();
+  const reviews = await sanityClient.fetch(reviewsQuery);
 
   return {
     props: {

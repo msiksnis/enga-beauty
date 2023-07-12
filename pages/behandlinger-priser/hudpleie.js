@@ -1,5 +1,7 @@
 import Head from "next/head";
-import { fetchHudpleie } from "../../utils/fetchHudpleie";
+// import { fetchHudpleie } from "../../utils/fetchHudpleie";
+import { sanityClient } from "../../sanity";
+import { groq } from "next-sanity";
 import Hudpleie from "../../components/Priser/Hudpleie";
 
 export default function HudpleiePage({ hudpleie }) {
@@ -15,8 +17,15 @@ export default function HudpleiePage({ hudpleie }) {
   );
 }
 
+const hudpleieQuery = groq`
+*[_type == "treatment" && category == "hudpleie"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
 export async function getStaticProps() {
-  const hudpleie = await fetchHudpleie();
+  const hudpleie = await sanityClient.fetch(hudpleieQuery);
 
   return {
     props: {
