@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Microblading from "../../components/Priser/Microblading";
-// import { fetchMicroblading } from "../../utils/fetchMicroblading";
 import { sanityClient } from "../../sanity";
 import { groq } from "next-sanity";
 
