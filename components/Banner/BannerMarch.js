@@ -27,54 +27,6 @@ export default function BannerMarch() {
         ]}
       >
         <SwiperSlide>
-          <div className="hidden justify-center bg-cover md:flex">
-            <div className="video-banner">
-              <video playsInline autoPlay muted loop>
-                <source
-                  src="/images/banner/waves_banner.mp4"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
-            <div className="absolute left-1/2 -translate-x-1/2 md:top-8 lg:top-20">
-              <div className="relative">
-                <div className="bannerTwoText font-poiret whitespace-nowrap uppercase text-white md:text-[3.65rem] lg:text-[5.45rem]">
-                  sommerferie stengt
-                </div>
-                <div className="bannerTwoText font-poiret whitespace-nowrap text-white md:text-[2.5rem] lg:text-6xl">
-                  26.06.2023 - 10.07.2023
-                </div>
-                <p className="font-poiret mt-4 text-3xl text-white">
-                  UKE 26 - UKE 27
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex justify-center bg-cover md:hidden">
-            <div className="mobile-video-banner">
-              <video playsInline autoPlay muted loop>
-                <source
-                  src="/images/banner/waves_banner.mp4"
-                  type="video/mp4"
-                />
-              </video>
-            </div>
-            <div className="absolute left-1/2 top-4 -translate-x-1/2">
-              <div className="relative">
-                <div className="font-poiret mt-4 whitespace-nowrap text-[2.2rem] uppercase text-white sm:mt-14 sm:text-[3.4rem]">
-                  sommerferie stengt
-                </div>
-                <div className="font-poiret whitespace-nowrap text-2xl text-white sm:mt-3 sm:text-[2.35rem]">
-                  26 06 2023 - 10 07 2023
-                </div>
-                <p className="font-poiret text-md text-white sm:mt-2 sm:text-lg">
-                  UKE 26 - UKE 27
-                </p>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
           <div className="relative">
             <div className="flex justify-center bg-cover">
               <div className="md:hidden">
