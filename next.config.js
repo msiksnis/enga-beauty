@@ -10,9 +10,6 @@ module.exports = {
     ],
   },
   experimental: {
-    experimental: {
-      appDir: false,
-    },
     urlImports: [
       "https://framer.com/m/",
       "https://framerusercontent.com/",

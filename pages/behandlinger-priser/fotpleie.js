@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Fotpleie from "../../components/Priser/Fotpleie";
-import {
-  fetchPedicureFemale,
-  fetchPedicureMale,
-} from "../../utils/fetchPedicureTreatments";
+// import {
+//   fetchPedicureFemale,
+//   fetchPedicureMale,
+// } from "../../utils/fetchPedicureTreatments";
+import { sanityClient } from "../../sanity";
+import { groq } from "next-sanity";
 
 export default function FotpleiePage({ pedicureFemale, pedicureMale }) {
   return (
@@ -21,9 +23,25 @@ export default function FotpleiePage({ pedicureFemale, pedicureMale }) {
   );
 }
 
+const pedicureTreatmentsFemaleQuery = groq`
+*[_type == "treatment" && category == "fotpleie" && gender == "dame"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
+const pedicureTreatmentsMaleQuery = groq`
+*[_type == "treatment" && category == "fotpleie" && gender == "herre"] {
+    _id,
+    ...
+  } | order(_createdAt asc)
+`;
+
 export async function getStaticProps() {
-  const pedicureFemale = await fetchPedicureFemale();
-  const pedicureMale = await fetchPedicureMale();
+  const pedicureFemale = await sanityClient.fetch(
+    pedicureTreatmentsFemaleQuery
+  );
+  const pedicureMale = await sanityClient.fetch(pedicureTreatmentsMaleQuery);
 
   return {
     props: {
