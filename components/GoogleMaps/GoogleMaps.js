@@ -12,14 +12,14 @@ export default function GoogleMaps() {
 
 function Map() {
   const center = useMemo(
-    () => ({ lat: 59.91592093601156, lng: 10.712914127167227 }),
+    () => ({ lat: 59.927469950984765, lng: 10.713428955452217 }),
     []
   );
 
   return (
     <GoogleMap
       zoom={16}
-      center={{ lat: 59.91592093601156, lng: 10.712914127167227 }}
+      center={{ lat: 59.927469950984765, lng: 10.713428955452217 }}
       mapContainerClassName="w-full h-96"
     >
       <Marker position={center} />
