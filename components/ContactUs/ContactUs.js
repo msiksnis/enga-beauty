@@ -25,7 +25,7 @@ export default function ContactUs() {
         </div>
         <div className="mb-4 mt-10 flex flex-col items-center justify-center text-gray-700 md:mb-10 md:mt-20">
           <h1 className="font-lustria relative z-10 text-2xl capitalize md:text-4xl">
-            Bygdøy allé 10, 0262 Oslo
+            Kirkeveien 47, 0368 Oslo
           </h1>
         </div>
         <h3 className="font-poppins mt-0 flex px-4 text-center font-light tracking-wide text-gray-500 md:text-lg lg:px-20 xl:px-40">
