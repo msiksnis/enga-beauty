@@ -29,11 +29,11 @@ export default function ContactUs() {
           </h1>
         </div>
         <h3 className="font-poppins mt-0 flex px-4 text-center font-light tracking-wide text-gray-500 md:text-lg lg:px-20 xl:px-40">
-          Beliggenhet i hjertet av Frogner omgitt av eksklusive butikker, kjent
-          for sine førsteklasses restauranter og luksuriøse boliger. Salongen er
-          lett tilgjengelig med beliggenhet koblet til sentrum med trikk og
-          buss. Den er nabo med Solli plass så det passer perfekt for en
-          hyggelig gå eller sykkeltur på solfylte dager.
+          Salongen er nabo med Frogner parken og her starter Bogstadveien som er
+          kjent for mange eksklusive butikker, kaffebutikker og restauranter.
+          Salongen er bare 5 min gange fra Majorstuen t-bane og lett
+          tilgjengelig med kun 1 min gange til buss og trikk. Parkering er lett
+          tilgjengelig med kommunal parkering.
         </h3>
       </div>
       <div className="px-4 lg:px-20 xl:px-40">
