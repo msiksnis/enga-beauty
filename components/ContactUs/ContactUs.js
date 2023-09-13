@@ -37,7 +37,7 @@ export default function ContactUs() {
         </h3>
       </div>
       <div className="px-4 lg:px-20 xl:px-40">
-        <div className="mt-20 flex grid-cols-12 flex-col-reverse md:grid">
+        <div className="my-20 flex grid-cols-12 flex-col-reverse md:grid">
           <div className="col-span-7">
             <ContactForm />
           </div>
@@ -70,7 +70,7 @@ export default function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="font-lustria my-20 flex w-full flex-col">
+        {/* <div className="font-lustria my-20 flex w-full flex-col">
           <div className="flex w-full justify-center text-lg font-semibold text-gray-800">
             Kommer du med bilen?
           </div>
@@ -83,7 +83,7 @@ export default function ContactUs() {
               Bare 700 meter unna salongen.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="mt-20">
         <GoogleMaps />
