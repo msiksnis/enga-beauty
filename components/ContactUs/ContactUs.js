@@ -9,7 +9,7 @@ export default function ContactUs() {
       <div className="mt-24 flex w-full flex-col items-center justify-center md:mt-44">
         <div className="md:hidden">
           <Image
-            src="/images/contacts/contacts-photo.jpeg"
+            src="/images/contacts/contacts-photo.jpg"
             width={770}
             height={500}
             className="object-cover object-bottom"
@@ -17,9 +17,9 @@ export default function ContactUs() {
         </div>
         <div className="hidden md:block lg:mx-20 xl:mx-40">
           <Image
-            src="/images/contacts/contacts-photo.jpeg"
+            src="/images/contacts/contacts-photo.jpg"
             width={1440}
-            height={650}
+            height={850}
             className="object-cover"
           />
         </div>
