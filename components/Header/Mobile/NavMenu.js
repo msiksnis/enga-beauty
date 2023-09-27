@@ -278,7 +278,7 @@ export default function NavMenu({ toggle, isOpen }) {
             onClick={toggle}
           >
             <a
-              href="https://atelierbeaute.as.me/schedule.php?location=Bygd%C3%B8y+All%C3%A9+10%2C+0262"
+              href="https://atelierbeaute.as.me/"
               target="_blank"
               rel="noopener noreferrer"
             >
