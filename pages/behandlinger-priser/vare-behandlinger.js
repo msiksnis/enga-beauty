@@ -26,16 +26,18 @@ export default function BehandlingerPage({
           content="hudpleie, manikyr, håndpleie, pedikyr, fotpleie, vippebøy, brynsløft, parafinbehandlinger"
         />
       </Head>
-      <VareBehandlinger
-        pedicureFemale={pedicureFemale}
-        pedicureMale={pedicureMale}
-        manicureFemale={manicureFemale}
-        manicureMale={manicureMale}
-        microblading={microblading}
-        hudpleie={hudpleie}
-        lashes={lashes}
-        brows={brows}
-      />
+      <div className="mx-auto max-w-[150rem]">
+        <VareBehandlinger
+          pedicureFemale={pedicureFemale}
+          pedicureMale={pedicureMale}
+          manicureFemale={manicureFemale}
+          manicureMale={manicureMale}
+          microblading={microblading}
+          hudpleie={hudpleie}
+          lashes={lashes}
+          brows={brows}
+        />
+      </div>
     </>
   );
 }

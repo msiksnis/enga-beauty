@@ -16,7 +16,9 @@ export default function VipperBrynPage({ lashes, brows }) {
         />
         <meta name="keywords" content="vippebøy, brynsløft" />
       </Head>
-      <VipperBryn lashes={lashes} brows={brows} />
+      <div className="mx-auto max-w-[100rem]">
+        <VipperBryn lashes={lashes} brows={brows} />
+      </div>
     </>
   );
 }

@@ -21,10 +21,11 @@ export default function IndexPage({ reviews }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Banner />
-      <TestimonialSwiper reviews={reviews} />
-      <InstagramPosts />
+      <div className="mx-auto max-w-[100rem]">
+        <Banner />
+        <TestimonialSwiper reviews={reviews} />
+        <InstagramPosts />
+      </div>
     </div>
   );
 }

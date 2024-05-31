@@ -18,7 +18,9 @@ export default function FotpleiePage({ pedicureFemale, pedicureMale }) {
         />
         <meta name="keywords" content="pedikyr, fotpleie" />
       </Head>
-      <Fotpleie pedicureFemale={pedicureFemale} pedicureMale={pedicureMale} />
+      <div className="mx-auto max-w-[100rem]">
+        <Fotpleie pedicureFemale={pedicureFemale} pedicureMale={pedicureMale} />
+      </div>
     </>
   );
 }

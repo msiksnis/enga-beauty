@@ -9,7 +9,9 @@ export default function MicrobladingPage({ microblading }) {
       <Head>
         <title>Atelier Beauté | Microblading</title>
       </Head>
-      <Microblading microblading={microblading} />
+      <div className="mx-auto max-w-[100rem]">
+        <Microblading microblading={microblading} />
+      </div>
     </>
   );
 }

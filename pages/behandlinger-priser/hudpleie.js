@@ -12,7 +12,9 @@ export default function HudpleiePage({ hudpleie }) {
         <meta name="description" content="Atelier Beauté Oslo. Hudpleie" />
         <meta name="keywords" content="hudpleie" />
       </Head>
-      <Hudpleie hudpleie={hudpleie} />
+      <div className="mx-auto max-w-[100rem]">
+        <Hudpleie hudpleie={hudpleie} />
+      </div>
     </>
   );
 }

@@ -18,7 +18,12 @@ export default function HandpleiePage({ manicureFemale, manicureMale }) {
         />
         <meta name="keywords" content="håndpleie, manikyr" />
       </Head>
-      <Handpleie manicureFemale={manicureFemale} manicureMale={manicureMale} />
+      <div className="mx-auto max-w-[100rem]">
+        <Handpleie
+          manicureFemale={manicureFemale}
+          manicureMale={manicureMale}
+        />
+      </div>
     </>
   );
 }

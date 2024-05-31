@@ -18,11 +18,13 @@ export default function KlippekortPage({
       <Head>
         <title>Atelier Beauté | Klippekort</title>
       </Head>
-      <Klippekort
-        klippekortPedicureFemale={klippekortPedicureFemale}
-        klippekortPedicureMale={klippekortPedicureMale}
-        klippekortVipperOgBryn={klippekortVipperOgBryn}
-      />
+      <div className="mx-auto max-w-[100rem]">
+        <Klippekort
+          klippekortPedicureFemale={klippekortPedicureFemale}
+          klippekortPedicureMale={klippekortPedicureMale}
+          klippekortVipperOgBryn={klippekortVipperOgBryn}
+        />
+      </div>
     </>
   );
 }
