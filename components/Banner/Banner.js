@@ -1,9 +1,9 @@
-import BannerMarch from "./BannerMarch";
+import BannerSummer from "./BannerSummer";
 
 export default function Banner() {
   return (
     <>
-      <BannerMarch />
+      <BannerSummer />
     </>
   );
 }
