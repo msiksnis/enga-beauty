@@ -27,7 +27,9 @@ export default function BannerTwo() {
             <div className="flex flex-col items-center justify-center text-[13vw] font-bold leading-tight tracking-widest text-white md:text-[12vw] xl:text-[9vw]">
               <p className="bannerTwoText uppercase">Sommerferie</p>
               <p className="bannerTwoText uppercase">Stengt</p>
-              <p className="bannerTwoText pt-12 text-6xl">(01 - 22. juli)</p>
+              <p className="bannerTwoText pt-6 text-2xl md:pt-12 md:text-6xl">
+                (01 - 22. juli)
+              </p>
             </div>
           </div>
         </div>
