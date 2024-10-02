@@ -26,16 +26,16 @@ export default function ContactUs() {
           </div>
           <div className="mb-4 mt-10 flex flex-col items-center justify-center text-gray-700 md:mb-10 md:mt-20">
             <h1 className="font-lustria relative z-10 text-2xl capitalize md:text-4xl">
-              Schønings gate 2B, 0356 Oslo
+              Bygdøy allé 10
             </h1>
           </div>
-          <h3 className="font-poppins mt-0 flex px-4 text-center font-light tracking-wide text-gray-500 md:text-lg lg:px-20 xl:px-40">
+          {/* <h3 className="font-poppins mt-0 flex px-4 text-center font-light tracking-wide text-gray-500 md:text-lg lg:px-20 xl:px-40">
             Salongen er nabo med Frogner parken og her starter Bogstadveien som
             er kjent for mange eksklusive butikker, kaffebutikker og
             restauranter. Salongen er bare 5 min gange fra Majorstuen t-bane og
             lett tilgjengelig med kun 1 min gange til buss og trikk. Parkering
             er lett tilgjengelig med kommunal parkering.
-          </h3>
+          </h3> */}
         </div>
         <div className="px-4 lg:px-20 xl:px-40">
           <div className="my-20 flex grid-cols-12 flex-col-reverse md:grid">
